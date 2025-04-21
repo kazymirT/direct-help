@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-text2: #2e2c2c;
+  --color-cus1: blue;
+  --color-black-30:  #0d1415;
+  --color-black-20: #2f2d2d;
+  --color-white: #d9d9d9;
+  --color-fon: #fdf9f0;
+  --color-text: #1b1a1a;
+  --color-partners-gradient: linear-gradient(90deg, rgba(204, 225, 251, 0.8) 0%, rgba(61, 105, 216, 0.8) 63.94%, rgba(34, 132, 255, 0.8) 100%);
+  --font-family: "Roboto", sans-serif;
+  --font-second: "Inter", sans-serif;
+  --font-third: "Oswald", sans-serif;
+  --font-font3: "Georgia Pro", sans-serif;
+  --font-font4: "Georgia", sans-serif;
+  --font-font5: "Roboto Mono", sans-serif;
+  --shadow-button-basic: 0 12px 25px 0 rgba(0, 0, 0, 0.25);
+  --shadow-button-second: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  scrollbar-width: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.banner {
+  @apply px-20 pb-[43px] bg-size-[100vw_788px] bg-no-repeat bg-center w-full h-[788px] bg-[url('/banner.png')] ;
+}
+
+.container {
+  @apply px-20 w-full;
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(90deg, rgba(204, 225, 251, 0.8) 0%, rgba(61, 105, 216, 0.8) 63.94%, rgba(34, 132, 255, 0.8) 100%);
+}

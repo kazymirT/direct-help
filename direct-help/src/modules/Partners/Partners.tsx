@@ -5,7 +5,7 @@ import Image from "next/image";
 const Partners = () => {
   return (
     <div className="flex flex-col gap-[65px]">
-      <section className="mt-[72px] pb-[85px] px-20 bg-gradient-custom flex flex-col gap-[49px]">
+      <section className="mt-[72px] pb-[85px] px-20 bg-gradient-partners flex flex-col gap-[49px]">
         <h2 className="font-family text-[40px] leading-[47px] text-text2">Наші партнери</h2>
         <div className="flex gap-[93px] justify-around">
           {PARTNERS_DATA && PARTNERS_DATA.map(({ alt, id, img }) => (

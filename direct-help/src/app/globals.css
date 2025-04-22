@@ -37,6 +37,9 @@ html {
   @apply px-20 w-full;
 }
 
-.bg-gradient-custom {
+.bg-gradient-partners {
   background: linear-gradient(90deg, rgba(204, 225, 251, 0.8) 0%, rgba(61, 105, 216, 0.8) 63.94%, rgba(34, 132, 255, 0.8) 100%);
+}
+.bg-gradient-quality {
+  background: linear-gradient(32deg, #ffb00f 0%, #d5a034 24.09%, #cfb276 55.95%, #5785fa 100%);
 }

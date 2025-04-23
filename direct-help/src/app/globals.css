@@ -43,3 +43,23 @@ html {
 .bg-gradient-quality {
   background: linear-gradient(32deg, #ffb00f 0%, #d5a034 24.09%, #cfb276 55.95%, #5785fa 100%);
 }
+
+.embla {
+  max-width: 1336px;
+  margin: auto;
+  --slide-height: 830px;
+  --slide-spacing: 0rem;
+  --slide-size: 100%;
+}
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+.embla__slide {
+  transform: translate3d(0, 0, 0);
+  flex: 0 0 var(--slide-size);
+}

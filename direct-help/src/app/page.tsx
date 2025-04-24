@@ -1,5 +1,6 @@
 import About from "@/modules/About/About";
 import Attainment from "@/modules/Attainment/Attainment";
+import Awards from "@/modules/Awards/Awards";
 import Banner from "@/modules/Banner/Banner";
 import Donate from "@/modules/Donate/Donate";
 import Partners from "@/modules/Partners/Partners";
@@ -16,6 +17,7 @@ export default function Home() {
       <Donate />
       <Quality />
       <Volunteers />
+      <Awards />
     </div>
   );
 }

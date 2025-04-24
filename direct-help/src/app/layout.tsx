@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto, Oswald } from "next/font/google";
 import "./globals.css";
+import Footer from "@/modules/Footer/Footer";
 
 const oswald = Oswald({
   variable: "--font-oswald-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({
         <main>
         {children}
         </main>
+        <Footer />
       </body>
     </html>
   );

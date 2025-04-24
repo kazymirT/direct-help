@@ -4,7 +4,7 @@ import { SlidesData } from "../Volunteers/Volunteers";
 
 const Slide: FC<SlidesData> = ({ one, two }) => {
   return (
-    <section className="embla__slide relative text-black-20 w-full flex pt-10 pb-5 justify-between pl-[146px] pr-[135px]">
+    <section className="embla__slide transform translate-z-0 flex-none  relative text-black-20 w-full flex pt-10 pb-5 justify-between pl-[146px] pr-[135px]">
       <article className="pt-[96px] flex flex-col gap-[36px] z-20">
         <Image alt={one.name} src={one.image} width={346} height={500} />
         <div>

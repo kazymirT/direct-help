@@ -1,5 +1,5 @@
 import { EmblaOptionsType } from 'embla-carousel'
-import Slider from '../Slider/Slider';
+import Slider from '../SliderVolunteers/Slider';
 import { SLIDES_DATA } from './data';
 
 const OPTIONS: EmblaOptionsType = { loop: true }
@@ -16,7 +16,6 @@ export interface SlidesData {
   one: Slide;
   two: Slide;
 }
-
 
 const Volunteers = () => {
   return (

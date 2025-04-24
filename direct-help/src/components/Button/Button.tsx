@@ -1,6 +1,7 @@
 import type { FC } from "react";
 import { ButtonProps } from "./types";
 import clsx from "clsx";
+import Link from "next/link";
 
 const Button: FC<ButtonProps> = ({
   variant,
@@ -8,6 +9,7 @@ const Button: FC<ButtonProps> = ({
   className,
   text,
   isActive = false,
+  link,
   ...props
 }) => {
   const baseStyles = `transition-all duration-300 hover:cursor-pointer`;
@@ -32,9 +34,17 @@ const Button: FC<ButtonProps> = ({
   );
 
   return (
-    <button className={buttonClasses} {...props}>
-        {text}
-    </button>
+    <>
+    {link ? (<Link href={link} className="flex w-full">
+      <button className={buttonClasses} {...props}>
+          {text}
+      </button>
+    </Link>) : (
+      <button className={buttonClasses} {...props}>
+          {text}
+      </button>
+    )}
+    </>
   );
 };
 

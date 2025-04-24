@@ -15,7 +15,7 @@ const Banner = () => {
         </section>
         <div className="w-full max-w-[848px] flex gap-[18px]">
           <Button size="full" variant="basic" text="Підтримати" />
-          <Button size="full" variant="second" text="Запит на допомогу" />
+          <Button size="full" variant="second" text="Запит на допомогу" link="/form" />
         </div>
         </div>
       </div>

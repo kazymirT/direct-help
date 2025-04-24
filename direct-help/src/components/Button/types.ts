@@ -19,4 +19,5 @@ export interface ButtonProps
   iconPosition?: IconPosition;
   textPosition?: TextPosition;
   rounded?: string;
+  link?: string;
 }

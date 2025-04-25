@@ -4,7 +4,7 @@ import clsx from "clsx";
 
 const Textarea: FC<TextareaProps> = ({ errorMessage, ...props }) => {
   const inputClassName = clsx(
-    "w-full outline-none max-w-[808px] rounded-md bg-[#f5f1f1] px-[33px] py-[10px] text-[24px] text-[#2f2d2d] leading-[29px] border border-[#838688] transition-all duration-300",
+    "w-full resize-none outline-none max-w-[808px] rounded-md bg-[#f5f1f1] px-[33px] py-[10px] text-[24px] text-[#2f2d2d] leading-[27.5px] border border-[#838688] transition-all duration-300",
     "focus:border-[#525455] focus:bg-[#eae8e8]",
     "disabled:border-[#c5c8c9] disabled:bg-[#eae8e8]",
     "hover:border-[#525455] hover:bg-[#eae8e8] hover:text-grey-002",

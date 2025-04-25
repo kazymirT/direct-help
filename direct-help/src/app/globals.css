@@ -57,3 +57,13 @@ html {
   /* transform: translate3d(0, 0, 0); */
   /* flex: 0 0 20%; */
 }
+
+.loader {
+  width: 127px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 15px solid black;
+  border-right-color: #fafafa;
+  animation: l2 3s infinite linear;
+}
+@keyframes l2 {to{transform: rotate(1turn)}}

@@ -15,7 +15,7 @@ const Attainment = () => {
         ))}
       </div>
       <div className="self-end w-[415px] pt-[14px]">
-      <Button  size="full" variant="basic" text="Переглянути звіти" />
+      <Button  size="full" variant="basic" text="Переглянути звіти" link="/reporting" />
       </div>
         </div>
       </section>

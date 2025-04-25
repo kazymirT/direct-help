@@ -1,8 +1,11 @@
+import ReportingBanner from "@/modules/ReportingBanner/ReportingBanner";
+import ReportingList from "@/modules/ReportingList/ReportingList";
+
 export default function Reporting() {
-    return (
-      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-          <h1>Звітність</h1>
-      </div>
-    );
-  }
-  
+  return (
+    <div className="flex flex-col items-center gap-18 pb-50">
+      <ReportingBanner />
+      <ReportingList />
+    </div>
+  );
+}

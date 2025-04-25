@@ -4,4 +4,5 @@ export interface TextareaProps extends TextareaHTMLAttributes<HTMLTextAreaElemen
   errorMessage?: string;
   requiredMessage?: boolean;
   onFocus?: () => void;
+  size?: 'full' | 'm';
 }

@@ -14,7 +14,7 @@ const Partners = () => {
         </div>
       </section>
       <div className="w-[420px] self-end mr-20">
-        <Button size="full" variant="second" text="Стати партнером" />
+        <Button size="full" variant="second" text="Стати партнером" link="/new-partner" />
       </div>
     </div>
   )

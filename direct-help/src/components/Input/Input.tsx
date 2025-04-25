@@ -2,12 +2,19 @@ import { FC } from "react";
 import { InputProps } from "./types";
 import clsx from "clsx";
 
-const Input: FC<InputProps> = ({ errorMessage, requiredMessage, ...props }) => {
+const Input: FC<InputProps> = ({ errorMessage, sizeInput = 'm', requiredMessage, ...props }) => {
+  
+  const sizeStyles = {
+    s: "max-w-[669px]",
+    m: "max-w-[808px]",
+  };
+
   const inputClassName = clsx(
-    "w-full max-w-[808px] outline-none rounded-md bg-[#f5f1f1] px-[33px] py-[12px] text-[24px] text-[#2f2d2d] leading-[29px] border border-[#838688] transition-all duration-300",
+    "w-full self-end outline-none rounded-md bg-[#f5f1f1] px-[33px] py-[12px] text-[24px] text-[#2f2d2d] leading-[29px] border border-[#838688] transition-all duration-300",
     "focus:border-[#525455] focus:bg-[#eae8e8]",
     "disabled:border-[#c5c8c9] disabled:bg-[#eae8e8]",
     "hover:border-[#525455] hover:bg-[#eae8e8] hover:text-grey-002",
+    sizeStyles[sizeInput],
     {
       ["border-[#d90026] bg-[#fffafa]"]:
         errorMessage,

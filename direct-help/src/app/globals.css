@@ -78,3 +78,17 @@ html {
   width: 100%!important;
   height: auto!important;
 }
+
+.svg-icon .fill-rect {
+  fill: #FDF9F0;
+  transition: fill 0.3s ease;
+  cursor: pointer;
+}
+
+.svg-icon:hover .fill-rect {
+  fill: #F1F0F0;
+}
+
+.svg-icon:active .fill-rect {
+  fill: #9A9893;  
+}

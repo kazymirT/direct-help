@@ -1,20 +1,25 @@
 import Button from "@/components/Button/Button";
+import Slider from "../SliderPartners/Slider";
 import { PARTNERS_DATA } from "./data";
-import Image from "next/image";
+import { EmblaOptionsType } from 'embla-carousel'
+
+const OPTIONS: EmblaOptionsType = { loop: true, align: 'start', duration: 500, skipSnaps: true }
 
 const Partners = () => {
   return (
-    <div className="flex flex-col gap-[65px]">
-      <section className="mt-[72px] pb-[85px] px-20 bg-gradient-partners flex flex-col gap-[49px]">
+    <div className="w-full mt-[72px] flex flex-col items-end gap-[65px]">
+      <div className="w-full bg-gradient-partners flex flex-col items-end pb-[92px]">
+      <section className="w-full max-w-[1280px] m-auto pb-[30px]">
         <h2 className="font-family text-[40px] leading-[47px] text-text2">Наші партнери</h2>
-        <div className="flex gap-[93px] justify-around">
-          {PARTNERS_DATA && PARTNERS_DATA.map(({ alt, id, img }) => (
-            <Image alt={alt} src={img} key={id} width={250} height={200} />
-          ))}
-        </div>
       </section>
-      <div className="w-[420px] self-end mr-20">
+      <div className="w-full max-w-[1364px]">
+        <Slider slides={PARTNERS_DATA} options={OPTIONS}  />
+      </div>
+      </div>
+      <div className="w-full max-w-[1280px] flex justify-end m-auto">
+      <div className="w-[415px]">
         <Button size="full" variant="second" text="Стати партнером" link="/new-partner" />
+      </div>
       </div>
     </div>
   )

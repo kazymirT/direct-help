@@ -1,6 +1,6 @@
 export const HEADER_LINKS = [
-    // { id: 1, name: 'Головна', href: '/' },
-    { id: 2, name: 'Реквізити', href: '/support' },
+    { id: 1, name: 'Головна', href: '/' },
+    // { id: 2, name: 'Реквізити', href: '/support' },
     { id: 3, name: 'Звітність', href: '/reporting' },
     { id: 4, name: 'Про нас', href: '/about' },
   ];

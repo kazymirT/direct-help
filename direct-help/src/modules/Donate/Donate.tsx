@@ -2,7 +2,7 @@ import Button from "@/components/Button/Button"
 
 const Donate = () => {
   return (
-    <section className="relative pt-[198px] pb-[314px] flex justify-center">
+    <section className="relative pt-[198px] pb-[152px] flex items-center flex-col gap-19">
       <div className="relative flex w-full max-w-[1310px] justify-between items-end">
       <div className="z-20 relative w-full max-w-[799px] pl-16 font-family font-normal text-4xl text-text2">
         <h3>Допоможи наблизити перемогу</h3>
@@ -12,12 +12,14 @@ const Donate = () => {
         <div className="absolute bottom-[15px] -left-40 h-1 w-[324px] rotate-90 bg-text2"></div>
         <div className="absolute -bottom-[95px] -left-13 h-1 w-[340px] bg-text2"></div>
       </div>
-      <div className="z-20 w-full max-w-[466px] pb-4">
-        <Button size="full" variant="second" text="Задонатити на паливо" />
-      </div>
       <div className="z-10 absolute top-0 right-0 bg-[#b4a35f] w-[496px] h-[506px] rounded-full blur-[125px]"></div>
       </div>
       <div className="z-10 absolute top-0 left-0 bg-[#3d69d84d] w-[677px] h-[703px] rounded-full blur-[125px]"></div>
+      <div className="w-full max-w-[1280px] flex justify-end">
+      <div className="z-20 w-full max-w-[413px] pb-4">
+        <Button size="full" variant="second" text="Задонатити на паливо" />
+      </div>
+      </div>
     </section>
   )
 }

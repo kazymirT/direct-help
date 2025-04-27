@@ -19,7 +19,7 @@ const Footer = () => {
           </ul>
           <ul className="flex flex-col gap-3">
             <li>
-              <Link href='/payment' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">Реквізити</Link>
+              <Link href='/payment' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">Стати партнером</Link>
             </li>
             <li>
             <Link href='/reporting' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">Звітність</Link>

@@ -1,7 +1,9 @@
+import { getTranslations } from "next-intl/server";
 import Image from "next/image"
 import Link from "next/link"
 
-const Footer = () => {
+const Footer = async () => {
+  const t = await getTranslations('footer');
   return (
     <div className="bg-[#0d1415] pt-3 pb-8 text-[#fff8f3] flex flex-col items-center">
       <div className="w-full max-w-[1280px] flex flex-col gap-9">
@@ -19,18 +21,18 @@ const Footer = () => {
           </ul>
           <ul className="flex flex-col gap-3">
             <li>
-              <Link href='/payment' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">Стати партнером</Link>
+              <Link href='/payment' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">{t('partners')}</Link>
             </li>
             <li>
-            <Link href='/reporting' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">Звітність</Link>
+            <Link href='/reporting' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">{t('reporting')}</Link>
             </li>
           </ul>
           <ul className="flex flex-col gap-3">
             <li>
-              <Link href='/form' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">Форма заявки</Link>
+              <Link href='/form' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">{t('support')}</Link>
             </li>
             <li>
-            <Link href='/about' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">Про нас</Link>
+            <Link href='/about' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">{t('about')}</Link>
             </li>
           </ul>
       </div>

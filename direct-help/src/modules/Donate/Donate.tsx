@@ -1,14 +1,16 @@
 import Button from "@/components/Button/Button"
+import { getTranslations } from "next-intl/server";
 
-const Donate = () => {
+const Donate = async () => {
+  const t = await getTranslations('home.donate');
   return (
     <section className="relative pt-[198px] pb-[152px] flex items-center flex-col gap-19">
       <div className="relative flex w-full max-w-[1310px] justify-between items-end">
       <div className="z-20 relative w-full max-w-[799px] pl-16 font-family font-normal text-4xl text-text2">
-        <h3>Допоможи наблизити перемогу</h3>
-        <p className="leading-[1.2]">Пальне та запчастини — те, без чого не поїде жоден пікап.</p>
-        <p className="leading-[1.15]">Зроби свій внесок у надійність техніки для захисників.</p>
-        <p>Кожен донат — це кілометри до перемоги.</p>
+        <h3>{t('title')}</h3>
+        <p className="leading-[1.2]">{t('description-one')}</p>
+        <p className="leading-[1.15]">{t('description-two')}</p>
+        <p>{t('description-three')}</p>
         <div className="absolute bottom-[15px] -left-40 h-1 w-[324px] rotate-90 bg-text2"></div>
         <div className="absolute -bottom-[95px] -left-13 h-1 w-[340px] bg-text2"></div>
       </div>
@@ -17,7 +19,7 @@ const Donate = () => {
       <div className="z-10 absolute top-0 left-0 bg-[#3d69d84d] w-[677px] h-[703px] rounded-full blur-[125px]"></div>
       <div className="w-full max-w-[1280px] flex justify-end">
       <div className="z-20 w-full max-w-[413px] pb-4">
-        <Button size="full" variant="second" text="Задонатити на паливо" />
+        <Button size="full" variant="second" text={t('button')} />
       </div>
       </div>
     </section>

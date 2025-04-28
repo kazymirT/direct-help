@@ -1,10 +1,10 @@
 export const HEADER_LINKS = [
-    { id: 1, name: 'Головна', href: '/' },
+    { id: 1, name: 'home', href: '/' },
     // { id: 2, name: 'Реквізити', href: '/support' },
-    { id: 3, name: 'Звітність', href: '/reporting' },
-    { id: 4, name: 'Про нас', href: '/about' },
+    { id: 3, name: 'reporting', href: '/reporting' },
+    { id: 4, name: 'about', href: '/about' },
   ];
-export const LANGUAGES_LINKS = [
-    { id: 1, name: 'UA', href: '/ua' },
-    { id: 2, name: 'EN', href: '/en' },
+export const LOCAL_LINKS = [
+    { id: 1, name: 'UA', local: 'uk' },
+    { id: 2, name: 'EN', local: 'en' },
 ]

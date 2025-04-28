@@ -1,9 +1,11 @@
 import Checkbox from "@/components/Checkbox/Checkbox"
+import { getTranslations } from "next-intl/server";
 
-const PersonalForm = () => {
+const PersonalForm = async () => {
+  const t = await getTranslations('form.payment');
   return (
     <div className="w-full max-w-[669px] m-auto pt-[29px]">
-      <Checkbox id="personal" sizeLabel="full" label="Я погоджуюсь з обробкою персональних данних" />
+      <Checkbox id="personal" sizeLabel="full" label={t('personal')} />
     </div>
   )
 }

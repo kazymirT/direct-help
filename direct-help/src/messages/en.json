@@ -1,0 +1,183 @@
+{
+  "rootLayout": {
+    "title": "Direct-help"
+  },
+  "LocaleSwitcher": {
+    "label": "EN",
+    "locale": "{locale, select, uk {UA Ukrainian} en {🇺🇸 English} other {Unknown}}"
+  },
+  "header": {
+    "home": "Homepage",
+    "reporting": "Reporting",
+    "about": "About us"
+  },
+  "footer": {
+    "about": "About us",
+    "reporting": "Reporting",
+    "partners": "Become a partner",
+    "support": "Application form"
+  },
+  "home": {
+    "banner": {
+      "title":  "Pickups for Military of Ukraine help close the need!",
+      "description": "Together we will provide our protectors with reliable transportation.",
+      "buttons": {
+        "request": "Request for help",
+        "support": "Support"
+      }
+    },
+    "partners": {
+      "title": "Our partners",
+      "button": "Become a partner"
+    },
+    "about": {
+      "title": "About the project",
+      "description-one": "Trucks4u is a volunteer project that works for those who protect us. We provide free delivery of pickup trucks and other vehicles to the Armed Forces of Ukraine - where they are needed most.",
+      "description-two": "We are looking for reliable cars, checking their technical condition, processing the documents, and personally delivering them directly to combat units. Our goal is to provide Ukrainian defenders with wheels they can rely on.",
+      "description-three": "This is only possible thanks to people who do not stand aside. All aid is transparent, every hryvnia is directed towards a specific machine for a specific unit. Together, we are approaching victory.",
+      "button": "More details"
+    },
+    "attainment": {
+      "title": "Our achievements",
+      "button": "View reports",
+      "auto": "Auto-delivered to the protectors/defenders",
+      "unit": "The units have already received the equipment.",
+      "delivery": "Car delivery"
+    },
+    "donate": {
+      "title": "Help us get closer to victory",
+      "description-one": "Fuel and spare parts - the things without which no pickup will go.",
+      "description-two": "Make your contribution to the reliability of equipment for defenders.",
+      "description-three": "Every donation is a mile towards victory.",
+      "button": "Donate for fuel"
+    },
+    "quality": {
+      "one": {
+        "title": "Transparency",
+        "description": "We publicly report on income and expenses on the website."
+      },
+      "two": {
+        "title": "Focus",
+        "description": "We respond quickly to requests and meet the needs of individual departments."
+      },
+      "three": {
+        "title": "Charitable mission",
+        "description": "Provide car delivery services"
+      }
+    },
+    "volunteers": {
+      "title": "Our volunteers"
+    },
+    "awards": "Awards and recognition to the fund."
+  },
+  "payment": {
+    "title": "Help repair and deliver vehicles for the Armed Forces of Ukraine. Every hryvnia brings us closer to victory. We are raising funds to repair vehicles for units performing combat missions on the front lines. Your contribution is a step towards the safety and success of our defenders. "
+  },
+  "form" : {
+    "support": {
+      "title": "Request for Car Delivery",
+      "button": "Send",
+      "email": {
+        "label": "Email address *",
+        "support-text": "All communication with you will be conducted through email, so please provide a valid email address and check your spam. The result of your request review will be sent to the indicated email address."
+      },
+      "name": "Applicant's full name",
+      "status": "Status(military personnel, volunteer)",
+      "phone": {
+        "label": "Applicant number *",
+        "placeholder": ""
+      },
+      "auto": "Brand and model of the car",
+      "fuel":  {
+        "label": "Fuel type",
+        "variants": {
+          "one": "Бензин eng",
+          "two": "Дизель eng"
+        }
+      },
+      "transmission":  {
+        "label": "Type of transmission",
+        "variants": {
+          "one": "Бензин eng",
+          "two": "Дизель eng"
+        }
+      },
+      "drive":  {
+      "label": "Drive type",
+      "variants": {
+        "one": "Бензин eng",
+        "two": "Дизель eng"
+      }
+    },
+    "comment": "Comment",
+    "error": {
+      "name": "ERROR",
+      "status": "ERROR",
+      "phone": "ERROR",
+      "auto": "ERROR",
+      "fuel": "ERROR",
+      "transmission": "ERROR",
+      "drive": "ERROR",
+      "comment": "ERROR"
+    }
+    },
+    "success": {
+      "title": "Thank you for your inquiry! You will be contacted by us soon."
+    },
+    "error": {
+      "title": "Oops... something went wrong.",
+      "subtitle": "But we believe: even a small step back is a path towards a great cause.",
+      "button": "Go back"
+    },
+    "partners": {
+      "title": "Become a partner",
+      "description-one": "Join as a partner - let's make changes together!",
+      "description-two": "Partnership is more than just support. It is a joint action for victory and good deeds.",
+      "form": {
+        "personal": {
+          "title": "Company/Person Information",
+          "name": "Name or organization",
+          "person": "Contact person",
+          "email": "Email",
+          "phone": "Telephone",
+          "cite": "Link to website/social media"
+        },
+        "type": {
+          "title": "Type of partnership",
+          "financial": "Financial support",
+          "material": "Material aid/assistance/support.",
+          "media": "Information/Media Support",
+          "volunteering": "Volunteering / services",
+          "other": "Other (specify)"
+        },
+        "comment": "Comment/Message",
+        "document": "Add document/presentation",
+        "personal-data": "I agree to the processing of personal data.",
+        "button": "Become a Partner"
+      }
+    },
+    "payment": {
+      "title": "Support our mission",
+      "subtitle": "Make a contribution - every hryvnia counts.",
+      "payment-button": "Support",
+      "privat": {
+        "title": "It is possible to make a contribution.",
+        "details-one": "Recipient name: BO BF DIRECT AID",
+        "details-two": "Recipient code: 44748259",
+        "details-three": "Recipient account: UA143052990000026008035903939",
+        "details-four": "Bank name: PJSC KB 'PRIVATBANK'",
+        "details-five": "Purpose: donation for Trucks4U project needs",
+        "details": "Recipient name: BO BF DIRECT AID Recipient code: 44748259 Recipient account: UA143052990000026008035903939 Bank name: PJSC KB 'PRIVATBANK' Purpose: donation for Trucks4U project needs"
+      },
+      "cryptocurrency": {
+        "title": "Cryptocurrency"
+      },
+      "donate": {
+        "title": " Donate from Europe USA",
+        "button": "Donate"
+      }, 
+      "personal": "I agree to the processing of personal data",
+      "moneyInfo": "{amount} UAH"
+    }
+  }
+}

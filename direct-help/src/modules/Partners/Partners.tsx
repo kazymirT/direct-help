@@ -13,7 +13,7 @@ const Partners = async () => {
       <section className="w-full max-w-[1280px] m-auto pb-[30px]">
         <h2 className="font-family text-[40px] leading-[47px] text-text2">{t('title')}</h2>
       </section>
-      <div className="w-full max-w-[1364px]">
+      <div className="w-full">
         <Slider slides={PARTNERS_DATA} options={OPTIONS}  />
       </div>
       </div>

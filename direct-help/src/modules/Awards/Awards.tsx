@@ -3,7 +3,7 @@ import { EmblaOptionsType } from 'embla-carousel'
 import { AWARDS_SLIDE } from "./data"
 import { getTranslations } from "next-intl/server"
 
-const OPTIONS: EmblaOptionsType = { loop: true, align: 'start' }
+const OPTIONS: EmblaOptionsType = { loop: true, align: 'start',  }
 
 const Awards = async () => {
   const t = await getTranslations('home');
@@ -12,7 +12,7 @@ const Awards = async () => {
       <div className="w-full max-w-[1280px] m-auto">
       <h2 className="text-text2 font-medium text-[40px] self-start">{t('awards')}</h2>
       </div>
-      <div className="w-full max-w-[1360px]">
+      <div className="w-full">
       <Slider options={OPTIONS} slides={AWARDS_SLIDE} />
       </div>
     </section>

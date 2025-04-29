@@ -3,10 +3,10 @@ import Checkbox from "@/components/Checkbox/Checkbox"
 import FieldBox from "@/components/FieldBox/FieldBox"
 import Input from "@/components/Input/Input"
 import Textarea from "@/components/Textarea/Textarea"
-import { useTranslations } from "next-intl"
+import { getTranslations } from "next-intl/server"
 
-const NewPartner = () => {
-  const t = useTranslations('form.partners');
+const NewPartner = async () => {
+  const t =  await getTranslations('form.partners');
   return (
     <section className="pt-[67px] pb-[162px] flex justify-center w-full text-[#1b1a1a]">
       <div className="px-[110px] rounded-3xl border border-[#7c7c7c] shadow-form-partner pt-[51px] pb-[125px] flex flex-col items-center w-full max-w-[1280px]">

@@ -9,14 +9,17 @@ export default async function Banner() {
 
   const isEN = locale === 'en';
   const isUK = locale === 'uk';
+  const isDE = locale === 'de';
 
   const textCN = clsx('font-third flex flex-col', {
-    ['gap-[32px]']: isEN,
+    ['gap-[44px]']: isEN,
     ['gap-[82px]']: isUK,
+    ['gap-[18px]']: isDE,
   });
   const wrapperCN = clsx('flex flex-col w-full max-w-[1280px] m-auto', {
-    ['gap-[35px]']: isEN,
+    ['gap-[162px]']: isEN,
     ['gap-[179px]']: isUK,
+    ['gap-[80px]']: isDE,
   });
 
   return (
@@ -24,14 +27,21 @@ export default async function Banner() {
       <Header />
       <div className={wrapperCN}>
         <section className={textCN}>
-            {isEN && (<h1 className="text-black-20 text-8xl leading-[1.035] font-third w-full max-w-[650px]">{t('title')}</h1>)}
-            {isUK && 
-            (
+            {isEN && (
+              <h1 className="text-black-20 font-third w-full max-w-[650px]">
+              <p className="text-[64px] inline leading-[1.39] font-medium">{t('title.one')}</p>
+              <p className="inline text-[54px] leading-[2.7] pl-9 font-normal">{t('title.two')}</p>
+            </h1>)}
+            {isUK && (
               <h1 className="text-black-20 font-third flex flex-col gap-11 w-full max-w-[650px]">
               <p className="text-[96px] leading-[1] font-normal">{t('title.one')}</p>
               <p className="text-[54px] leading-[1] font-normal">{t('title.two')}</p>
             </h1>)}
-      
+            {isDE && (
+              <h1 className="text-black-20 font-third flex flex-col gap-0 w-full max-w-[650px]">
+              <p className="text-6xl leading-[1.6] font-medium">{t('title.one')}</p>
+              <p className="text-[54px] leading-[1.4] font-normal">{t('title.two')}</p>
+            </h1>)}
           <p className="font-normal text-4xl text-text2 max-w-[620px] leading-[1.5]">
             {t('description')}
           </p>

@@ -7,9 +7,7 @@ const OPTIONS: EmblaOptionsType = { loop: true }
 
 export interface Slide {
   id: number;
-  name: string;
-  position: string;
-  direction: string;
+  count: string;
   image: string;  
 }
 

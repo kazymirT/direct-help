@@ -7,47 +7,47 @@ export interface Reporting {
 export const REPORTING_DATA: Reporting[] = [
   { 
     id: 1,
-    name: 'Автівка доставлена військовому',
+    name: 'one',
     image: '/reportings/reporting_1.png'
   },
   { 
     id: 2,
-    name: 'Автівка доставлена військовому',
+    name: 'two',
     image: '/reportings/reporting_2.png'
   },
   { 
     id: 3,
-    name: 'Автошини для військових поїхали Новою поштою',
+    name: 'three',
     image: '/reportings/reporting_3.png'
   },
   { 
     id: 4,
-    name: 'Автівка доставлена військовому',
+    name: 'four',
     image: '/reportings/reporting_6.png'
   },
   { 
     id: 5,
-    name: 'Автівка Mazda 5  доставлена військовому',
+    name: 'five',
     image: '/reportings/reporting_5.png'
   },
   { 
     id: 6,
-    name: 'Автівка доставлена військовому',
+    name: 'six',
     image: '/reportings/reporting_4.png'
   },
   { 
     id: 7,
-    name: 'Автівка Volvo доставлена військовому',
+    name: 'seven',
     image: '/reportings/reporting_9.png'
   },
   { 
     id: 8,
-    name: 'Автівка KIA доставлена військовому',
+    name: 'eight',
     image: '/reportings/reporting_8.png'
   },
   { 
     id: 9,
-    name: 'Автівка Reno доставлена військовому',
+    name: 'nine',
     image: '/reportings/reporting_7.png'
   },
 ];

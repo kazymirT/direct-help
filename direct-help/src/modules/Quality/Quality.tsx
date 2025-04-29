@@ -1,11 +1,22 @@
 import Image from "next/image"
 import { QUALITY_DATA } from "./data"
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
+import clsx from "clsx";
 
 const Quality = async () => {
   const t = await getTranslations('home.quality');
+  const locale = await getLocale();
+
+  const isEN = locale === 'en';
+  const isUK = locale === 'uk';
+  const isDE = locale === 'de';
+
+  const wrapperCN = clsx('w-full bg-gradient-quality pt-[75px] flex justify-center', {
+    ['pb-21']: isEN,
+    ['pb-15']: isUK || isDE,
+  });
   return (
-    <div className="w-full bg-gradient-quality pt-[75px] pb-15 flex justify-center">
+    <div className={wrapperCN}>
       <div className="w-full max-w-[1062px] flex justify-between">
       {QUALITY_DATA.map(({ id, image, count }) => (
         <article key={id} className="max-w-[219px] flex flex-col gap-[20px] items-center" >

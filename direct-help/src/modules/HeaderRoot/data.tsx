@@ -7,4 +7,5 @@ export const HEADER_LINKS = [
 export const LANGUAGES_LINKS = [
     { id: 1, name: 'UA', href: '/ua' },
     { id: 2, name: 'EN', href: '/en' },
+    { id: 3, name: 'DE', local: 'de' },
 ]

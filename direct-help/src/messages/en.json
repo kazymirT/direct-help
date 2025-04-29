@@ -2,10 +2,6 @@
   "rootLayout": {
     "title": "Direct-help"
   },
-  "LocaleSwitcher": {
-    "label": "EN",
-    "locale": "{locale, select, uk {UA Ukrainian} en {🇺🇸 English} other {Unknown}}"
-  },
   "header": {
     "home": "Homepage",
     "reporting": "Reporting",
@@ -19,7 +15,10 @@
   },
   "home": {
     "banner": {
-      "title":  "Pickups for Military of Ukraine help close the need!",
+      "title": {
+        "one": "Pickups for Military of Ukraine",
+        "two": "-help close the need!"
+      },
       "description": "Together we will provide our protectors with reliable transportation.",
       "buttons": {
         "request": "Request for help",
@@ -40,9 +39,10 @@
     "attainment": {
       "title": "Our achievements",
       "button": "View reports",
-      "auto": "Auto-delivered to the protectors/defenders",
+      "auto": "Auto-delivered to the protectors/ defenders",
       "unit": "The units have already received the equipment.",
-      "delivery": "Car delivery"
+      "delivery": "Car delivery",
+      "moneyInfo": "{amount} UAH"
     },
     "donate": {
       "title": "Help us get closer to victory",
@@ -66,7 +66,59 @@
       }
     },
     "volunteers": {
-      "title": "Our volunteers"
+      "title": "Our volunteers",
+      "list": {
+        "one": {
+          "name": "Alikperov Ruslan Rakhimovich",
+          "position": "Fund manager",
+          "direction": "Volunteer"
+        },
+        "two": {
+          "name": "Alexei Levitsky",
+          "position": "Responsible for cooperation with partners",
+          "direction": "Volunteer"
+        },
+        "three": {
+          "name": "Iryna Karpenko",
+          "position": "\u200B",
+          "direction": "Volunteer"
+        },
+        "four": {
+          "name": "Oleksandr Tsybulko",
+          "position": "\u200B",
+          "direction": "Volunteer"
+        },
+        "five": {
+          "name": "Kibitkin Taras",
+          "position": "\u200B",
+          "direction": "Volunteer"
+        },
+        "six": {
+          "name": "Petro",
+          "position": "Repair master",
+          "direction": "Volunteer"
+        },
+        "seven": {
+          "name": "Karina Filipenko",
+          "position": "veteran",
+          "direction": "Volunteer"
+        },
+        "eight": {
+          "name": "Andriy Kalmichkov ",
+          "position": "\u200B",
+          "direction": "Volunteer"
+        },
+        "nine": {
+          "name": "Biryukov Vitaliy",
+          "position": "Project manager",
+          "direction": "Volunteer"
+        },
+        "ten": {
+          "name": "Semiroz Dmytro Volodymyrovych",
+          "position": "Marketing and WEB Development Department Marketing Department Specialist",
+          "direction": ""
+        }
+      }
     },
     "awards": "Awards and recognition to the fund."
   },
@@ -178,6 +230,40 @@
       }, 
       "personal": "I agree to the processing of personal data",
       "moneyInfo": "{amount} UAH"
+    }
+  },
+  "reporting": {
+    "title": "Reporting",
+    "subtitle": "Successfully completed projects",
+    "description": "Successfully fulfilled requests for delivery of vehicles from abroad for military personnel.",
+    "list": {
+      "one": {
+        "title": "The car has been delivered to the soldier."
+      },
+      "two": {
+        "title": "The car is delivered to the military."
+      },
+      "three": {
+        "title": "The military tires were sent by Nova Poshta."
+      },
+      "four": {
+        "title": "Car delivered to the military."
+      },
+      "five": {
+        "title": "The Mazda 5 car has been delivered to the military."
+      },
+      "six": {
+        "title": "The car has been delivered to the soldier."
+      },
+      "seven": {
+        "title": "The Volvo car was delivered to the military."
+      },
+      "eight": {
+        "title": "The KIA car has been delivered to the military."
+      },
+      "nine": {
+        "title": "The Reno car has been delivered to the military."
+      }
     }
   }
 }

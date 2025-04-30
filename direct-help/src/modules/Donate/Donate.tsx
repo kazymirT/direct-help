@@ -20,7 +20,7 @@ const Donate = async () => {
       <div className="z-10 absolute top-0 left-0 bg-[#3d69d84d] w-[677px] h-[703px] rounded-full blur-[125px]"></div>
       <div className="w-full max-w-[1280px] flex justify-end">
       <div className="z-20 w-full max-w-[413px] pb-4">
-        <Button size="full" variant="second" text={t('button')} />
+        <Button size="full" variant="second" text={t('button')} link="/donate" />
       </div>
       </div>
     </section>

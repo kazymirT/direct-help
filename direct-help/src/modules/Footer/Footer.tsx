@@ -29,7 +29,7 @@ const Footer = async () => {
           </ul>
           <ul className="flex flex-col gap-3">
             <li>
-              <Link href='/form' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">{t('support')}</Link>
+              <Link href='/support' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">{t('support')}</Link>
             </li>
             <li>
             <Link href='/about' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">{t('about')}</Link>

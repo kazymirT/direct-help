@@ -44,7 +44,7 @@ const About = async () => {
         </section>
         <div className="w-full max-w-[1290px] self-center flex justify-end">
           <div className="w-full max-w-[416px]">
-          <Button size="full" variant="second" text={t('button')} />
+          <Button size="full" variant="second" text={t('button')} link="/about" />
           </div>
         </div>
       </div>

@@ -47,8 +47,8 @@ export default async function Banner() {
           </p>
         </section>
         <div className="w-full max-w-[848px] flex gap-[18px]">
-          <Button size="full" variant="basic" text={t('buttons.support')} link="/support" />
-          <Button size="full" variant="second" text={t('buttons.request')} link="/form" />
+          <Button size="full" variant="basic" text={t('buttons.support')} link="/donate" />
+          <Button size="full" variant="second" text={t('buttons.request')} link="/support" />
         </div>
       </div>
     </div>

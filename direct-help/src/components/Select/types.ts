@@ -7,10 +7,10 @@ export type Option = {
 
 export interface SelectProps
   extends Omit<Props<Option, false>, 'value' | 'options' | 'onChange'> {
-  value: Option['value'];
+  value?: Option['value'];
   options: Option['value'][];
   onChange: (value: Option['value']) => void;
-  error?: boolean;
+  errorMessage?: string;
   helperText?: string;
   style?: 'secondary';
 }

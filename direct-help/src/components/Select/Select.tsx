@@ -26,7 +26,7 @@ const Select = ({
   value,
   options,
   onChange,
-  error,
+  errorMessage,
   helperText,
   ...props
 }: SelectProps) => {
@@ -38,14 +38,13 @@ const Select = ({
   }));
 
   const containerClName = clsx('static p-[9px] text-blue-400 border-1 border-[#838688] bg-[#f5f1f1] rounded-[4px]', {
-    ['border-red-500']: error,
+    ['border-red-500']: errorMessage,
   });
   return (
     <div className='relative w-full max-w-[808px]'>
       <ReactSelect
         isSearchable={false}
         unstyled
-        placeholder=''
         value={selectValue}
         options={selectOptions}
         onChange={(newValue) => newValue && onChange(newValue.value)}
@@ -63,6 +62,7 @@ const Select = ({
         {...props}
       />
       {helperText && <p className='text-xs'>{helperText}</p>}
+      {errorMessage && <p className='text-xs'>{errorMessage}</p>}
     </div>
   );
 };

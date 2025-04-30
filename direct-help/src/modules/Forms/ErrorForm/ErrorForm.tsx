@@ -1,15 +1,15 @@
 import Button from "@/components/Button/Button";
-import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from "next/image";
+import { FC } from "react";
+import { Status } from "../FormActions/FormActions";
+import { useTranslations } from "next-intl";
 
-type Props =  {
-  params: Promise<{locale: string}>;
+export interface ErrorFormProps {
+  onClick: (status: Status) => void;
 }
 
-export default async function Error({ params }: Props) {
-  const { locale } = await params;
-  setRequestLocale(locale);
-  const t = await getTranslations('form.error')
+const ErrorForm: FC<ErrorFormProps> = ({ onClick }) => {
+  const t = useTranslations('form.error')
     return (
       <section className="w-full max-w-[1280px] m-auto pt-15 flex flex-col gap-[65px]">
         <h1 className="text-[#1b1a1a] text-3xl font-medium">
@@ -18,9 +18,10 @@ export default async function Error({ params }: Props) {
         </h1>
         <div className="w-full max-w-[415px] m-auto flex flex-col gap-[116px] pb-[116px]">
           <Image alt="error" src='/error.png' width={415} height={183} />
-          <Button size="full-s" variant="second" text={t('button')} link="/support" />
+          <Button size="full-s" variant="second" text={t('button')} onClick={() => onClick('idle')} />
         </div>
       </section>
     );
-  }
-  
+}
+
+export default ErrorForm;

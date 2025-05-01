@@ -1,5 +1,3 @@
-// app/[locale]/page.tsx
-
 import Banner from "@/modules/Banner/Banner";
 import Partners from "@/modules/Partners/Partners";
 import About from "@/modules/About/About";

@@ -22,8 +22,8 @@ export const CRYPTO_DATA = [
 export const EUROPE_DATA = [
   {
     id: 1,
-    score: 'Zelle/ PayPal: donation@dhelp.org',
-    textToCopy: 'Zelle/ PayPal: donation@dhelp.org'
+    score: 'Zelle/ PayPal: Spende@dhelp.org',
+    textToCopy: 'Zelle/ PayPal: Spende@dhelp.org'
   },
   {
     id: 2,

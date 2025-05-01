@@ -240,16 +240,16 @@
     },
     "payment": {
       "title": "Support our mission",
-      "subtitle": "Make a contribution - every hryvnia counts.",
+      "subtitle": "Make a contribution - every hryvnia is important.",
       "payment-button": "Support",
       "privat": {
         "title": "It is possible to make a contribution.",
-        "details-one": "Recipient name: BO BF DIRECT AID",
-        "details-two": "Recipient code: 44748259",
-        "details-three": "Recipient account: UA143052990000026008035903939",
-        "details-four": "Bank name: PJSC KB 'PRIVATBANK'",
-        "details-five": "Purpose: donation for Trucks4U project needs",
-        "details": "Recipient name: BO BF DIRECT AID Recipient code: 44748259 Recipient account: UA143052990000026008035903939 Bank name: PJSC KB 'PRIVATBANK' Purpose: donation for Trucks4U project needs"
+        "details-one": "Recipient's name: BO BF DIRECT ASSISTANCE",
+        "details-two": "Recipient's code: 44748259",
+        "details-three": "Recipient's account: UA143052990000026008035903939",
+        "details-four": "Bank name: JSC 'PRIVATBANK'",
+        "details-five": "Purpose: donation according to the needs of Trucks4U project",
+        "details": "Recipient's name: BO BF DIRECT ASSISTANCE Recipient's code: 44748259 Recipient's account: UA143052990000026008035903939 Bank name: JSC 'PRIVATBANK' Purpose: donation according to the needs of Trucks4U project"
       },
       "cryptocurrency": {
         "title": "Cryptocurrency"
@@ -259,7 +259,7 @@
         "button": "Donate"
       }, 
       "personal": "I agree to the processing of personal data",
-      "moneyInfo": "{amount} UAH"
+      "moneyInfo": "{amount} ua"
     }
   },
   "reporting": {

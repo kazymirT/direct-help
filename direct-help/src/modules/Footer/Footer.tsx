@@ -5,8 +5,8 @@ import Link from "next/link"
 const Footer = async () => {
   const t = await getTranslations('footer');
   return (
-    <div className="bg-[#0d1415] pt-3 pb-8 text-[#fff8f3] flex flex-col items-center">
-      <div className="w-full max-w-[1280px] flex flex-col gap-9">
+    <div className="bg-[#0d1415] pt-3 pb-[34px] text-[#fff8f3] flex flex-col items-center">
+      <div className="w-full max-w-[1280px] text-xl flex flex-col gap-9">
       <div className="flex justify-between items-center w-full">
         <Link href='/' >
           <Image alt="logo icon" src='/icons/logo_small.svg' width={93} height={92} />

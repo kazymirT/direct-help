@@ -74,8 +74,8 @@
       "title": "Unsere Freiwilligen",
       "list": {
         "one": {
-          "name": "Alikperov Ruslan Rakhimovich",
-          "position": "Fondsmanager",
+          "name": "Ruslan Rahimowitsch Alikperov",
+          "position": "Fondsleiter",
           "direction": "Freiwilliger"
         },
         "two": {
@@ -239,17 +239,17 @@
       }
     },
     "payment": {
-      "title": "Unterstütze unsere Mission",
-      "subtitle": "Tragen Sie bei - jeder Hryvnia zählt.",
+      "title": "Unterstützen Sie unsere Mission.",
+      "subtitle": "Machen Sie eine Spende - jeder Hrywnja ist wichtig.",
       "payment-button": "Unterstützung",
       "privat": {
-        "title": "Es ist möglich, einen Beitrag zu leisten.",
-        "details-one": "Empfängername: BO BF DIRECT AID",
-        "details-two": "Empfängercode: 44748259",
-        "details-three": "EmpfängerKonto: UA143052990000026008035903939",
-        "details-four": "Bankname: PJSC KB 'PRIVATBANK'",
-        "details-five": "Zweck: Spende für Trucks4U Projektbedarf",
-        "details": "Empfängername: BO BF DIRECT AID Empfängercode: 44748259 EmpfängerKonto: UA143052990000026008035903939 Bankname: PJSC KB 'PRIVATBANK' Zweck: Spende für Trucks4U Projektbedarf"
+        "title": "Man kann eine Spende machen.",
+        "details-one": "Übersetzung nicht möglich da die folgenden Texte Nummern oder Symbole sind:",
+        "details-two": "Код отримувача: 44748259",
+        "details-three": "Рахунок отримувача: UA143052990000026008035903939",
+        "details-four": "",
+        "details-five": "",
+        "details": "Übersetzung nicht möglich da die folgenden Texte Nummern oder Symbole sind: Код отримувача: 44748259 Рахунок отримувача: UA143052990000026008035903939"
       },
       "cryptocurrency": {
         "title": "Kryptowährung"

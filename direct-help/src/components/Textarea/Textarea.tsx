@@ -24,7 +24,7 @@ const Textarea: FC<TextareaProps> = ({ errorMessage, size = 'm', ...props }) => 
     <div className={containerCN}>
       <textarea {...props} className={inputClassName} />
       {!!errorMessage && (
-        <span className="absolute -bottom-3 left-3 text-red-error leading-3 text-[10px] font-extralight">
+        <span className="absolute -bottom-3 left-8 text-[#b71010] leading-0 text-xs">
           {errorMessage}
         </span>
         )}

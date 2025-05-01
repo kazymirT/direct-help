@@ -16,19 +16,19 @@ const Input: FC<InputProps> = ({ errorMessage, sizeInput = 'm', requiredMessage,
     "hover:border-[#525455] hover:bg-[#eae8e8] hover:text-grey-002",
     sizeStyles[sizeInput],
     {
-      ["border-[#d90026] bg-[#fffafa]"]:
+      ["border-[#d90026] bg-[#fffafa] hover:border-[#d90026] focus:border-[#d90026] "]:
         errorMessage,
     },
   );
 
   return (
-    <div className="flex flex-col gap-[14px] relative w-full max-w-[808px]">
+    <div className="flex flex-col gap-[6px] relative w-full max-w-[808px]">
       <input {...props} className={inputClassName} />
       {!!requiredMessage && 
-        <p className="text-xs text-[#1b1a1a] w-full max-w-[753px] leading-[1.1]">{requiredMessage}</p>
+        <p className="text-[10px] text-[#1b1a1a] font-light w-full max-w-[753px] leading-[1.1]">{requiredMessage}</p>
       }
       {!!errorMessage && (
-        <span className="absolute -bottom-3 left-3 text-red-error leading-3 text-[10px] font-extralight">
+        <span className="absolute -bottom-3 left-8 text-[#b71010] leading-0 text-xs">
           {errorMessage}
         </span>
         )}

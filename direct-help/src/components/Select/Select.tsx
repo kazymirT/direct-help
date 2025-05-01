@@ -62,7 +62,7 @@ const Select = ({
         {...props}
       />
       {helperText && <p className='text-xs'>{helperText}</p>}
-      {errorMessage && <p className='text-xs'>{errorMessage}</p>}
+      {errorMessage && <p className='absolute -bottom-3 left-8 text-[#b71010] leading-0 text-xs'>{errorMessage}</p>}
     </div>
   );
 };

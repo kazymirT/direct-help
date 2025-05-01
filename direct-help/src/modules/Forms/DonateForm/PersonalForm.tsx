@@ -4,7 +4,7 @@ import { getTranslations } from "next-intl/server";
 const PersonalForm = async () => {
   const t = await getTranslations('form.payment');
   return (
-    <div className="w-full max-w-[669px] m-auto pt-[29px]">
+    <div className="w-full m-auto pt-[55px] pl-2">
       <Checkbox id="personal" sizeLabel="full" label={t('personal')} />
     </div>
   )

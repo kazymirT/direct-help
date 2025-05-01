@@ -4,7 +4,7 @@ export type Variant =
   | "basic"
   | "second";
 
-export type Sizes = "full" | 'full-s';
+export type Sizes = "full" | 'full-s' | 'full-l';
 
 export type IconPosition = "left" | "right" | "center";
 export type TextPosition = "start" | "end" | "center" | "between";

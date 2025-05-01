@@ -7,12 +7,12 @@ import LocaleSwitcher from "@/components/LocaleSwitcher/LocaleSwitcher";
 const HeaderRoot = async () => {
   const t = await getTranslations('header');
     return (
-    <header className="w-full pt-[27px] pb-10 flex justify-center bg-[#79a1d6]">
-      <div className="w-full max-w-[1347px] flex justify-between">
+    <header className="w-full pt-[32px] pb-[47px] flex justify-center bg-[#79a1d6]">
+      <div className="w-full max-w-[1280px] flex justify-between">
       <Link href={'/'}>
         <Image src='/logo.svg' alt="logo" width={139} height={58} />
       </Link>
-      <div className="flex gap-[90px] pt-[38px]">
+      <div className="flex gap-[45px] pt-[23px]">
       <nav>
         <ul className="flex gap-[100px]">
           {HEADER_LINKS.map(({ href, id, name }) => (

@@ -13,6 +13,11 @@
     "partners": "Become a partner",
     "support": "Application form"
   },
+  "not-found": {
+    "title": "No such page found",
+    "button": "Return to home page",
+    "alt": ""
+  },
   "home": {
     "banner": {
       "title": {
@@ -123,7 +128,10 @@
     "awards": "Awards and recognition to the fund."
   },
   "payment": {
-    "title": "Help repair and deliver vehicles for the Armed Forces of Ukraine. Every hryvnia brings us closer to victory. We are raising funds to repair vehicles for units performing combat missions on the front lines. Your contribution is a step towards the safety and success of our defenders. "
+    "title": {
+      "one": "Help repair and deliver vehicles for the Armed Forces of Ukraine.",
+      "two": "Every hryvnia brings us closer to victory. We are raising funds to repair vehicles for units performing combat missions on the front lines. Your contribution is a step towards the safety and success of our defenders."
+    }
   },
   "form" : {
     "support": {
@@ -143,38 +151,40 @@
       "fuel":  {
         "label": "Fuel type",
         "variants": {
-          "one": "Бензин eng",
-          "two": "Дизель eng"
+          "one": "Petrol",
+          "two": "Diesel"
         }
       },
       "transmission":  {
         "label": "Type of transmission",
         "variants": {
-          "one": "Бензин eng",
-          "two": "Дизель eng"
+          "one": "Mechanical",
+          "two": "Automatic"
         }
       },
       "drive":  {
       "label": "Drive type",
       "variants": {
-        "one": "Бензин eng",
-        "two": "Дизель eng"
+        "one": "Повний",
+        "two": "Передній"
       }
     },
     "comment": "Comment",
+    "agree": "I agree to the processing of personal data.",
     "error": {
-      "required": "Це поле є обов'язковим",
-      "min": "мінімальна кількість символів {number}",
-      "max": "максимальна кількість символів {number}",
-      "email": "Веедіть валідну email у форматі example@gmail.com",
+      "required": "This field is required.",
+      "min": "minimum number of characters {number}",
+      "max": "maximum number of characters {number}",
+      "email": "Please enter a valid email address in the format example@gmail.com",
       "name": "ERROR",
       "status": "ERROR",
-      "phone": "Номер містить недопустимі символи",
+      "phone": "The number contains invalid characters.",
       "auto": "ERROR",
       "fuel": "ERROR",
       "transmission": "ERROR",
       "drive": "ERROR",
-      "comment": "ERROR"
+      "comment": "ERROR",
+      "accept": "Ви маєте погодитись EN"
     }
     },
     "success": {
@@ -210,6 +220,22 @@
         "document": "Add document/presentation",
         "personal-data": "I agree to the processing of personal data.",
         "button": "Become a Partner"
+      },
+      "error": {
+        "required": "Це поле є обов'язковим",
+        "min": "мінімальна кількість символів {number}",
+        "max": "максимальна кількість символів {number}",
+        "email": "Веедіть валідну email у форматі example@gmail.com",
+        "name": "Помилка",
+        "status": "Помилка",
+        "phone": "Номер містить недопустимі символи",
+        "auto": "Помилка",
+        "fuel": "Помилка",
+        "transmission": "Помилка",
+        "drive": "Помилка",
+        "comment": "Помилка",
+        "accept": "Ви маєте погодитись",
+        "partnership": "Select at least one option"
       }
     },
     "payment": {

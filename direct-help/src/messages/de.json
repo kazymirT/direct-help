@@ -13,6 +13,11 @@
     "partners": "Partner werden",
     "support": "Antragsformular"
   },
+  "not-found": {
+    "title": "Keine solche Seite gefunden",
+    "button": "Zurück zur Startseite",
+    "alt": ""
+  },
   "home": {
     "banner": {
       "title": {
@@ -123,7 +128,10 @@
     "awards": "Auszeichnungen und Dank an den Fonds"
   },
   "payment": {
-    "title": "Help repair and deliver vehicles for the Armed Forces of Ukraine. Every hryvnia brings us closer to victory. We are raising funds to repair vehicles for units performing combat missions on the front lines. Your contribution is a step towards the safety and success of our defenders. "
+    "title": {
+      "one": "Unterstützen Sie die Reparatur und Lieferung von Fahrzeugen für die Streitkräfte der Ukraine.",
+      "two": "Jeder Hrywnia bringt uns näher an den Sieg. Wir sammeln Gelder, um Fahrzeuge für Einheiten, die kampf- missionen an der Front ausführen, zu reparieren. Ihr Beitrag ist ein Schritt in Richtung Sicherheit und Erfolg unserer Verteidiger."
+    }
   },
   "form" : {
     "support": {
@@ -162,6 +170,7 @@
       }
     },
     "comment": "Kommentar",
+    "agree": "Ich stimme der Verarbeitung persönlicher Daten zu.",
     "error": {
       "required": "Це поле є обов'язковим",
       "min": "мінімальна кількість символів {number}",
@@ -174,7 +183,8 @@
       "fuel": "ERROR DE",
       "transmission": "ERROR DE",
       "drive": "ERROR DE",
-      "comment": "ERROR DE"
+      "comment": "ERROR DE",
+      "accept": "Ви маєте погодитись DE"
     }
     },
     "success": {
@@ -210,6 +220,22 @@
         "document": "Hinzufügen von Dokumenten / Präsentationen",
         "personal-data": "Ich stimme der Verarbeitung persönlicher Daten zu.",
         "button": "Partner werden"
+      },
+      "error": {
+        "required": "Це поле є обов'язковим",
+        "min": "мінімальна кількість символів {number}",
+        "max": "максимальна кількість символів {number}",
+        "email": "Веедіть валідну email у форматі example@gmail.com",
+        "name": "Помилка",
+        "status": "Помилка",
+        "phone": "Номер містить недопустимі символи",
+        "auto": "Помилка",
+        "fuel": "Помилка",
+        "transmission": "Помилка",
+        "drive": "Помилка",
+        "comment": "Помилка",
+        "accept": "Ви маєте погодитись",
+        "partnership": "Виберіть хоча б один варіант De"
       }
     },
     "payment": {

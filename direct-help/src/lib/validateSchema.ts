@@ -65,7 +65,7 @@ export const getPartnersSchema = (t?: T) => {
     fullName: getFullName(t),
     email: getEmail(t),
     phone: getPhone(t),
-    cite: getFullName(t, 5, 50),
+    cite: getFullName(t, 5, 50).optional().or(z.literal('')),
     comment: getFullName(t, 10, 200).optional().or(z.literal('')),
     accept: z.boolean().refine((value) => value === true, {
       message: t?.('error.accept') || 'Потрібно погодитись',

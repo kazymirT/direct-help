@@ -1,7 +1,7 @@
 import type { FC } from "react";
 import { ButtonProps } from "./types";
 import clsx from "clsx";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 const Button: FC<ButtonProps> = ({
   variant,

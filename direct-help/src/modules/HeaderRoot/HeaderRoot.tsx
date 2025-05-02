@@ -1,8 +1,8 @@
-import Link from "next/link";
 import Image from "next/image";
 import { HEADER_LINKS } from "./data";
 import { getTranslations } from "next-intl/server";
 import LocaleSwitcher from "@/components/LocaleSwitcher/LocaleSwitcher";
+import { Link } from "@/i18n/navigation";
 
 const HeaderRoot = async () => {
   const t = await getTranslations('header');

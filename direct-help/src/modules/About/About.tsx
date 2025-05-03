@@ -12,25 +12,26 @@ const About = async () => {
   const isDE = locale === 'de';
 
   const wrapperCN = clsx('w-full max-w-[1280px] flex flex-col items-end', {
-    ['gap-[150px]']: isEN,
-    ['gap-[140px]']: isUK,
-    ['gap-[116px]']: isDE,
+    ['gap-[212px]']: isEN,
+    ['gap-[190px]']: isUK,
+    ['gap-[196px]']: isDE,
   });
-  const descriptionsCN = clsx('w-full max-w-[522px] text-3xl text-text2', {
-    ['pt-3 tracking-[0] leading-[1.15]']: isEN,
-    ['']: isUK,
-    ['leading-[1.172]']: isDE,
+  const descriptionsCN = clsx('w-full max-w-[522px] text-[28px] text-text2', {
+    ['pt-[10px] -tracking-[0.0em] leading-[1.17]']: isEN,
+    ['pt-[34px] leading-[1.2]']: isUK,
+    ['leading-[1.175]']: isDE,
   });
   const containerCN = clsx('w-full flex justify-center', {
-    ['pb-[81px] pt-[99px]']: isEN,
-    ['pb-[94px] pt-[90px]']: isUK || isDE,
+    ['pb-[84px] pt-[105px]']: isEN,
+    ['pb-[94px] pt-[90px]']: isUK,
+    ['pb-[97px] pt-[90px]']: isDE,
   });
 
   return (
     <div className={containerCN}>
       <div className={wrapperCN}>
         <section className="w-full flex flex-col gap-4">
-        <h2 className="font-medium text-[40px] text-text2">{t('title')}</h2>
+        <h2 className="font-medium text-[36px] text-text2">{t('title')}</h2>
         <div className="flex w-full justify-between">
         <div className={descriptionsCN}>
           <p>{t('description-one')}</p>

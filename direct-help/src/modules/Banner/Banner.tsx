@@ -28,17 +28,17 @@ export default async function Banner() {
       <div className={wrapperCN}>
         <section className={textCN}>
             {isEN && (
-              <h1 className="text-black-20 font-third w-full max-w-[650px]">
+              <h1 className="text-[#0d1415] font-third w-full max-w-[650px]">
               <p className="text-[64px] inline leading-[1.39] font-medium">{t('title.one')}</p>
               <p className="inline text-[54px] leading-[2.7] pl-9 font-normal">{t('title.two')}</p>
             </h1>)}
             {isUK && (
-              <h1 className="text-black-20 font-third flex flex-col gap-11 w-full max-w-[650px]">
+              <h1 className="text-[#0d1415] font-third flex flex-col gap-11 w-full max-w-[650px]">
               <p className="text-[96px] leading-[1] font-normal">{t('title.one')}</p>
               <p className="text-[54px] leading-[1] font-normal">{t('title.two')}</p>
             </h1>)}
             {isDE && (
-              <h1 className="text-black-20 font-third flex flex-col gap-0 w-full max-w-[650px]">
+              <h1 className="text-[#0d1415] font-third flex flex-col gap-0 w-full max-w-[650px]">
               <p className="text-6xl leading-[1.6] font-medium">{t('title.one')}</p>
               <p className="text-[54px] leading-[1.4] font-normal">{t('title.two')}</p>
             </h1>)}

@@ -13,7 +13,7 @@ const Slider: FC<SliderProps> = ({ slides, options }) => {
       <div className="embla__viewport overflow-x-visible relative z-10" ref={emblaRef}>
         <div className="embla__container flex ml-0">
           {slides.map(({ id, slide }) => (
-              <Image key={id} src={slide} width={262} height={212} alt={''} className='w-full min-w-[262px] max-w-[262px] h-[212px] embla__slide rounded-2xl mr-[6px] border-[6px] border-[#f8b428]' />
+              <Image key={id} src={slide} width={262} height={212} alt={''} className='w-full min-w-[262px] max-w-[262px] h-[212px] embla__slide rounded-2xl mr-[6px] border-[6px] bg-[#ffffff] border-[#f8b428]' />
           ))}
         </div>
       </div>

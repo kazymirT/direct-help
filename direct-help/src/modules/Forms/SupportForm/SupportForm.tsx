@@ -53,7 +53,7 @@ const SupportForm: FC<SupportFormProps> = ({ setStatus }) => {
   }
   return (
     <section className="flex pt-15 pb-15 flex-col gap-15 relative">
-      <h1 className="font-medium text-[40px] leading-[47px] text-[#1b1a1a]">{t('title')}</h1>
+      <h1 className="font-medium text-[36px] leading-[47px] text-[#2f2d2d]">{t('title')}</h1>
     <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-8 w-full max-w-[1170px]">
       <div className="flex flex-col pb-10 gap-[25px]">
       <FieldBox name="email" placeholder={t('email.label')}>

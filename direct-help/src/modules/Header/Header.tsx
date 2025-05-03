@@ -17,7 +17,7 @@ const Header = async () => {
           <ul className="flex gap-[125px]">
             {HEADER_LINKS.map(({ href, id, name }) => (
               <li key={id}>
-                <Link href={href} className="px-[10px] text-xl font-normal text-[#2f2d2d] leading-1 font-roboto hover:text-[#1c1c1c]">{t(`${name}`)}</Link>
+                <Link href={href} className="px-[10px] text-xl font-normal text-[#2e2c2c] leading-1 font-roboto hover:text-[#1c1c1c]">{t(`${name}`)}</Link>
               </li>
              ))}
           </ul>

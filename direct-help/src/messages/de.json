@@ -105,7 +105,7 @@
         },
         "seven": {
           "name": "Karina Filipenko",
-          "position": "Kriegsveteran",
+          "position": "\u200B",
           "direction": "Freiwilliger"
         },
         "eight": {
@@ -271,13 +271,13 @@
         "title": "Das Auto wurde an den Soldaten geliefert."
       },
       "two": {
-        "title": "Das Auto wird an das Militär geliefert."
+        "title": "Das Auto Volvo XC90 wird an das Militär geliefert."
       },
       "three": {
         "title": "Die Militärreifen wurden von Nova Poshta geschickt."
       },
       "four": {
-        "title": "Auto an die Armee geliefert."
+        "title": "Das Auto Mitsubishi L200 und reifen"
       },
       "five": {
         "title": "Das Auto Mazda 5 wurde an die Streitkräfte geliefert."
@@ -286,13 +286,13 @@
         "title": "Das Auto wurde an den Soldaten ausgeliefert."
       },
       "seven": {
-        "title": "Der Volvo wurde an das Militär ausgeliefert."
+        "title": "Der Nissan Navara wurde an das Militär ausgeliefert."
       },
       "eight": {
         "title": "Der KIA Wagen wurde an das Militär ausgeliefert."
       },
       "nine": {
-        "title": "Das Reno-Auto wurde an das Militär geliefert."
+        "title": "Das Renault-Auto wurde an das Militär geliefert."
       }
     }
   }

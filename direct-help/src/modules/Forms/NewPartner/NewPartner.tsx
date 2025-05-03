@@ -49,18 +49,18 @@ const NewPartner: FC<SupportFormProps> = ({ setStatus }) => {
       }
     }
   return (
-    <section className="relative pt-[67px] pb-[162px] flex justify-center w-full text-[#1b1a1a]">
-      <div className="px-[110px] rounded-3xl border border-[#7c7c7c] shadow-form-partner pt-[51px] pb-[125px] flex flex-col items-center w-full max-w-[1280px]">
-      <div className="self-start flex flex-col gap-[34px]">
-      <h1 className="fond-medium text-5xl">{t('title')}</h1>
-      <div className="text-[32px] w-full max-w-[736px] flex flex-col gap-1">
+    <section className="relative pt-[67px] pb-[175px] flex justify-center w-full text-[#2f2d2d]">
+      <div className="px-[110px] rounded-3xl border border-[#7c7c7c] shadow-form-partner pt-[51px] pb-[150px] flex flex-col items-center w-full max-w-[1280px]">
+      <div className="self-start flex flex-col gap-[20px]">
+      <h1 className="fond-medium text-[36px]">{t('title')}</h1>
+      <div className="text-[28px] w-full max-w-[736px] flex flex-col gap-0">
       <p>{t('description-one')}</p>
       <p className="leading-[1.2]">{t('description-two')}</p>
       </div>
       </div>
-      <form onSubmit={handleSubmit(onSubmit)}  className="pt-[38px] self-start w-full max-w-[1018px] flex flex-col gap-10">
+      <form onSubmit={handleSubmit(onSubmit)}  className="pt-[68px] self-start w-full max-w-[1018px] flex flex-col gap-[42px]">
       <fieldset>
-        <legend className="text-[32px] font-medium">{t('form.personal.title')}</legend>
+        <legend className="text-[30px] ">{t('form.personal.title')}</legend>
         <div className="pt-[18px] flex flex-col gap-[29px]">
         <FieldBox name="organization" placeholder={t('form.personal.name')}>
           <Input 
@@ -105,11 +105,11 @@ const NewPartner: FC<SupportFormProps> = ({ setStatus }) => {
         </div>
       </fieldset>
       <fieldset>
-        <legend className="text-[32px] font-medium">{t('form.type.title')}</legend>
+        <legend className="text-[30px] ">{t('form.type.title')}</legend>
         <CheckboxGroup errors={errors} register={register} trigger={trigger} />
       </fieldset>
       <fieldset>
-        <legend className="text-[32px] font-medium pt-2">{t('form.comment')}</legend>
+        <legend className="text-[30px]  pt-2">{t('form.comment')}</legend>
         <div className="pt-[16px] flex flex-wrap justify-between gap-y-[24px]">
           <Textarea 
             rows={3}
@@ -119,9 +119,8 @@ const NewPartner: FC<SupportFormProps> = ({ setStatus }) => {
           />
         </div>
       </fieldset>
-      <div className="w-full flex justify-between items-center pt-3">
+      <div className="w-full flex justify-between items-center pt-[18px]">
         <div className="flex flex-col gap-[22px] w-full max-w-[372px]">
-        <Checkbox sizeLabel="full" label={t('form.document')} id='document' />
         <Checkbox
           sizeLabel="full"
           label={t('form.personal-data')}

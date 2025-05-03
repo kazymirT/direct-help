@@ -13,4 +13,5 @@ export const PARTNERS_DATA = [
   { id: 12, slide: '/partners/partner_12.jpg', alt: '' },
   { id: 13, slide: '/partners/partner_13.jpg', alt: '' },
   { id: 14, slide: '/partners/partner_14.jpg', alt: '' },
+  { id: 15, slide: '/partners/partner_15.png', alt: '' },
 ];

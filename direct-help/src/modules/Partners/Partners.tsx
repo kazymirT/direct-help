@@ -11,7 +11,7 @@ const Partners = async () => {
     <div className="w-full mt-[72px] flex flex-col items-end gap-[65px]">
       <div className="w-full bg-gradient-partners flex flex-col items-end pb-[92px]">
       <section className="w-full max-w-[1280px] m-auto pb-[30px]">
-        <h2 className="font-family text-[40px] leading-[47px] text-text2">{t('title')}</h2>
+        <h2 className="font-family text-[36px] leading-[47px] text-text2">{t('title')}</h2>
       </section>
       <div className="w-full">
         <Slider slides={PARTNERS_DATA} options={OPTIONS}  />

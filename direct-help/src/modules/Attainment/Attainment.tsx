@@ -19,7 +19,7 @@ const Attainment = async () => {
   return (
     <section className="pt-[37px] pb-[34px] bg-black-30 text-fon font-family flex justify-center">
       <div className="w-full max-w-[1288px] flex flex-col gap-[53px]">
-      <h2 className="font-medium text-[40px] leading-[47px]">{t('title')}</h2>
+      <h2 className="font-medium text-[36px] leading-[47px]">{t('title')}</h2>
       <div className="flex justify-between">
         {ATTAINMENT_DATA.map(({ description, id, title }) => (
           <article key={id} className={cardCN}>

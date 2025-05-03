@@ -9,7 +9,7 @@ const ReportingList = async () => {
 
   const isUK = locale === 'uk';
 
-  const descriptionCN = clsx("text-4xl text-[#1b1a1a] w-full leading-[1.2]", {
+  const descriptionCN = clsx("text-4xl text-[#2f2d2d] w-full leading-[1.2]", {
     ['max-w-[852px]']: isUK,
     ['max-w-[1063px]']: !isUK
   })

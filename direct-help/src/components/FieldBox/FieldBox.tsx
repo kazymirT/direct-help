@@ -10,7 +10,7 @@ export interface FieldBoxProps {
 const FieldBox: FC<FieldBoxProps> = ({ name, placeholder, children }) => {
   return (
     <div className="w-full flex items-center justify-between">
-      <label htmlFor={name} className="w-full max-w-[319px] text-xl text-[#1b1a1a] leading-[23px]">{placeholder}</label>
+      <label htmlFor={name} className="w-full max-w-[319px] text-xl text-[#2f2d2d] leading-[23px]">{placeholder}</label>
       {children}
     </div>
   )

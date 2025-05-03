@@ -29,7 +29,7 @@ const Checkbox: FC<CheckboxProps> = ({ id, label, errorMessage, sizeLabel = 'm',
         {label && (
           <label
             htmlFor={id}
-            className="text-xl text-[#1b1a1a] cursor-pointer"
+            className="text-xl text-[#2f2d2d] cursor-pointer"
           >
             {label}
           </label>

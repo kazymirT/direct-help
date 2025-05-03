@@ -36,9 +36,9 @@
     },
     "about": {
       "title": "About the project",
-      "description-one": "Trucks4u is a volunteer project that works for those who protect us. We provide free delivery of pickup trucks and other vehicles to the Armed Forces of Ukraine - where they are needed most.",
-      "description-two": "We are looking for reliable cars, checking their technical condition, processing the documents, and personally delivering them directly to combat units. Our goal is to provide Ukrainian defenders with wheels they can rely on.",
-      "description-three": "This is only possible thanks to people who do not stand aside. All aid is transparent, every hryvnia is directed towards a specific machine for a specific unit. Together, we are approaching victory.",
+      "description-one": "Trucks4u is a volunteer initiative that supports those who protect us. We provide free delivery of pickup trucks and other vehicles to the Armed Forces of Ukraine—where they are needed most.",
+      "description-two": "We search for reliable vehicles, inspect their technical condition, handle all documentation, and personally deliver them directly to combat units. Our mission is to equip Ukrainian defenders with vehicles they can depend on.",
+      "description-three": "This is only possible thanks to people who refuse to stay on the sidelines. All assistance is fully transparent: every hryvnia goes directly toward a specific vehicle for a specific unit.Together, we are moving closer to victory.",
       "button": "More details"
     },
     "attainment": {
@@ -105,7 +105,7 @@
         },
         "seven": {
           "name": "Karina Filipenko",
-          "position": "veteran",
+          "position": "\u200B",
           "direction": "Volunteer"
         },
         "eight": {
@@ -271,13 +271,13 @@
         "title": "The car has been delivered to the soldier."
       },
       "two": {
-        "title": "The car is delivered to the military."
+        "title": "The car Volvo XC90 is delivered to the military."
       },
       "three": {
         "title": "The military tires were sent by Nova Poshta."
       },
       "four": {
-        "title": "Car delivered to the military."
+        "title": "The Car Mitsubishi L200 and tires."
       },
       "five": {
         "title": "The Mazda 5 car has been delivered to the military."
@@ -286,13 +286,13 @@
         "title": "The car has been delivered to the soldier."
       },
       "seven": {
-        "title": "The Volvo car was delivered to the military."
+        "title": "The Nissan Navara car was delivered to the military."
       },
       "eight": {
         "title": "The KIA car has been delivered to the military."
       },
       "nine": {
-        "title": "The Reno car has been delivered to the military."
+        "title": "The Renault car has been delivered to the military."
       }
     }
   }

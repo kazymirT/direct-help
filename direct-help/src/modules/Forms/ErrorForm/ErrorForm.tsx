@@ -12,7 +12,7 @@ const ErrorForm: FC<ErrorFormProps> = ({ onClick }) => {
   const t = useTranslations('form.error')
     return (
       <section className="w-full max-w-[1280px] m-auto pt-15 flex flex-col gap-[65px]">
-        <h1 className="text-[#1b1a1a] text-3xl font-medium">
+        <h1 className="text-[#1b1a1a] text-[28px] font-medium">
           <p className="leading-[1.1]">{t('title')}</p>
           <p>{t('subtitle')}</p>
         </h1>

@@ -8,9 +8,9 @@ const OPTIONS: EmblaOptionsType = { loop: true, align: 'start',  }
 const Awards = async () => {
   const t = await getTranslations('home');
   return (
-    <section className="w-full m-auto flex gap-[36px] flex-col items-end justify-end pt-[109px] pb-[174px]">
+    <section className="w-full m-auto flex gap-[42px] flex-col items-end justify-end pt-[60px] pb-[174px]">
       <div className="w-full max-w-[1280px] m-auto">
-      <h2 className="text-text2 font-medium text-[40px] self-start">{t('awards')}</h2>
+      <h2 className="text-text2 font-medium text-[36px] self-start pl-1">{t('awards')}</h2>
       </div>
       <div className="w-full">
       <Slider options={OPTIONS} slides={AWARDS_SLIDE} />

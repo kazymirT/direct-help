@@ -38,7 +38,7 @@ html {
 }
 
 .reporting {
-  @apply w-full h-[521px] bg-[url('/reportings/reporting.svg')] bg-size-[100%] bg-no-repeat;
+  @apply w-full h-[clamp(8.438rem,-0.049rem+36.21vw,23.125rem)] lg:h-[clamp(23.125rem,-0.106rem+36.298vw,32.563rem)] bg-[url('/reportings/reporting.svg')] bg-size-[100%] bg-no-repeat;
 }
 
 .wrapper {

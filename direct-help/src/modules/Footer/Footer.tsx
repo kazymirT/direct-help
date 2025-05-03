@@ -7,11 +7,12 @@ const Footer = async () => {
   return (
     <div className="bg-[#0d1415] pt-4 sm:pt-3 pb-[34px] text-[#fff8f3] flex flex-col items-center">
       <div className="wrapper text-base min-lg:text-xl flex flex-col gap-[55px] sm:gap-9">
-      <div className="flex flex-col sm:flex-row justify-between sm:items-center max-md:gap-[6px] w-full">
-        <Link href='/' >
+      <div className="flex flex-col md:flex-row justify-between sm:items-center max-sm:gap-[6px] sm:gap-5 w-full md:gap-25 lg:gap-40">
+        <Link href='/' className="self-start" >
           <Image alt="logo icon" src='/icons/logo_small.svg' width={93} height={92} className="size-15 md:size-20 lg:size-[92px]" />
         </Link>
-          <ul className="flex flex-col gap-[1px] sm:gap-3">
+          <div className="flex justify-between max-sm:pt-2 w-full max-w-[971px] max-sm:flex-wrap gap-5 xs:gap-10 max-sm:max-w-[400px]">
+          <ul className="flex flex-col gap-3 max-sm:w-full">
             <li>
               <a href="tel:+380939556041" className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">+380939556041</a>
             </li>
@@ -19,7 +20,6 @@ const Footer = async () => {
               <a href="tel:+380958418091" className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">+380958418091</a>
             </li>
           </ul>
-          <div className="flex justify-between max-sm:pt-2 gap-12 md:gap-25">
           <ul className="flex flex-col gap-4 md:gap-3">
             <li>
               <Link href='/new-partner' className="text-[#efefef] hover:text-[#b2adad] active:text-[#fefdfd] transition-all duration-300">{t('partners')}</Link>

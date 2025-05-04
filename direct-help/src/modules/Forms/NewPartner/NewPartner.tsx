@@ -29,9 +29,7 @@ const NewPartner: FC<SupportFormProps> = ({ setStatus }) => {
       resolver: zodResolver(getPartnersSchema(t)),
       mode: 'onSubmit',
     });
-    console.log(errors)
     const onSubmit = async (data: PartnersValues) => {
-      console.log('submit')
       if (isValid) {  
         setIsLoading(true);
         try {
@@ -49,19 +47,19 @@ const NewPartner: FC<SupportFormProps> = ({ setStatus }) => {
       }
     }
   return (
-    <section className="relative pt-[67px] pb-[175px] flex justify-center w-full text-[#2f2d2d]">
-      <div className="px-[110px] rounded-3xl border border-[#7c7c7c] shadow-form-partner pt-[51px] pb-[150px] flex flex-col items-center w-full max-w-[1280px]">
+    <section className="wrapper relative pt-0 md:pt-10 lg:pt-13 xl:pt-[67px] pb-0 md:pb-20 lg:pb-30 xl:pb-[175px] flex justify-center w-full text-[#2f2d2d]">
+      <div className="md:px-10 lg:px-15 xl:px-[110px] rounded-3xl min-md:border min-md:border-[#7c7c7c] min-md:shadow-form-partner pt-6 xl:pt-[51px] pb-29 xl:pb-[150px] flex flex-col items-center w-full max-w-[1280px]">
       <div className="self-start flex flex-col gap-[20px]">
-      <h1 className="fond-medium text-[36px]">{t('title')}</h1>
-      <div className="text-[28px] w-full max-w-[736px] flex flex-col gap-0">
-      <p>{t('description-one')}</p>
-      <p className="leading-[1.2]">{t('description-two')}</p>
+      <h1 className="text-[clamp(1.5rem,1.067rem+1.849vw,2.25rem)]">{t('title')}</h1>
+      <div className="text-[clamp(1.25rem,0.961rem+1.233vw,1.75rem)] max-md:pt-1 w-full max-w-[736px] flex flex-col">
+      <p className="max-md:leading-[1.2]">{t('description-one')}</p>
+      <p className="leading-[1.17]">{t('description-two')}</p>
       </div>
       </div>
-      <form onSubmit={handleSubmit(onSubmit)}  className="pt-[68px] self-start w-full max-w-[1018px] flex flex-col gap-[42px]">
+      <form onSubmit={handleSubmit(onSubmit)}  className="pt-5 xl:pt-[68px] self-start w-full max-w-[1018px] flex flex-col gap-[25px] xl:gap-[42px]">
       <fieldset>
-        <legend className="text-[30px] ">{t('form.personal.title')}</legend>
-        <div className="pt-[18px] flex flex-col gap-[29px]">
+        <legend className="text-[clamp(1.25rem,1.03rem+0.939vw,1.875rem)]">{t('form.personal.title')}</legend>
+        <div className="pt-4 xl:pt-[18px] flex flex-col gap-[11px] xl:gap-[29px]">
         <FieldBox name="organization" placeholder={t('form.personal.name')}>
           <Input 
             id="organization"
@@ -105,11 +103,11 @@ const NewPartner: FC<SupportFormProps> = ({ setStatus }) => {
         </div>
       </fieldset>
       <fieldset>
-        <legend className="text-[30px] ">{t('form.type.title')}</legend>
+        <legend className="text-[clamp(1.25rem,1.03rem+0.939vw,1.875rem)]">{t('form.type.title')}</legend>
         <CheckboxGroup errors={errors} register={register} trigger={trigger} />
       </fieldset>
       <fieldset>
-        <legend className="text-[30px]  pt-2">{t('form.comment')}</legend>
+        <legend className="text-[clamp(1.25rem,1.03rem+0.939vw,1.875rem)] pt-2">{t('form.comment')}</legend>
         <div className="pt-[16px] flex flex-wrap justify-between gap-y-[24px]">
           <Textarea 
             rows={3}
@@ -119,7 +117,7 @@ const NewPartner: FC<SupportFormProps> = ({ setStatus }) => {
           />
         </div>
       </fieldset>
-      <div className="w-full flex justify-between items-center pt-[18px]">
+      <div className="w-full flex max-md:flex-col max-md:gap-11 justify-between items-start md:items-center xl:pt-[18px]">
         <div className="flex flex-col gap-[22px] w-full max-w-[372px]">
         <Checkbox
           sizeLabel="full"
@@ -129,7 +127,7 @@ const NewPartner: FC<SupportFormProps> = ({ setStatus }) => {
           errorMessage={errors.accept?.message}
         />
         </div>
-        <div className="w-full max-w-[420px]">
+        <div className="w-full max-w-[330px] xl:max-w-[420px]">
           <Button size="full" variant="second" text={t('form.button')} type="submit" />
         </div>
       </div>

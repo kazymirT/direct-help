@@ -49,8 +49,8 @@ export const CheckboxGroup = ({ register, trigger, errors }: GroupProps) => {
   ];
 
   return (
-    <div className="pt-[27px] relative">
-      <div className="flex flex-wrap justify-between gap-y-[24px]">
+    <div className="pt-[19px] xl:pt-[27px] relative">
+      <div className="flex flex-wrap justify-between max-md:gap-[22px] gap-y-[24px]">
         {options.map((opt) => (
           <PartnershipCheckbox
             key={opt.field}

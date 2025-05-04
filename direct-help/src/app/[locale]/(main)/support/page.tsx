@@ -4,11 +4,9 @@ import FormActions from "@/modules/Forms/FormActions/FormActions";
 
 export default function Support() {
   return (
-    <section className="flex flex-col m-auto w-full max-w-[1280px]">
-        <FormActions form={(setStatus) => (
-          <SupportForm setStatus={setStatus} />
-        )} >
-        </FormActions>
-    </section>
+    <FormActions form={(setStatus) => (
+      <SupportForm setStatus={setStatus} />
+    )} >
+    </FormActions>
   );
 }

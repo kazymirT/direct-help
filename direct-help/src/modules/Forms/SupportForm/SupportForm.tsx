@@ -52,10 +52,10 @@ const SupportForm: FC<SupportFormProps> = ({ setStatus }) => {
     }
   }
   return (
-    <section className="flex pt-15 pb-15 flex-col gap-15 relative">
-      <h1 className="font-medium text-[36px] leading-[47px] text-[#2f2d2d]">{t('title')}</h1>
-    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-8 w-full max-w-[1170px]">
-      <div className="flex flex-col pb-10 gap-[25px]">
+    <section className="flex pt-7 lg:pt-[62px] pb-[27px] lg:pb-15 flex-col gap-5 lg:gap-[63px] relative wrapper m-auto">
+      <h1 className="font-medium text-[clamp(1.5rem,1.236rem+1.127vw,2.25rem)] leading-[1.167] text-[#2f2d2d]">{t('title')}</h1>
+    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-[25px] lg:gap-18 w-full max-w-[1170px]">
+      <div className="flex flex-col gap-3 lg:gap-[25px]">
       <FieldBox name="email" placeholder={t('email.label')}>
         <Input 
           id="email"
@@ -154,7 +154,7 @@ const SupportForm: FC<SupportFormProps> = ({ setStatus }) => {
         />
       </FieldBox>
       </div>
-      <div className='w-full flex justify-between'>
+      <div className='w-full flex max-md:gap-10 max-md:flex-col justify-between'>
         <Checkbox
          label={t('agree')}
          {...register('accept')}

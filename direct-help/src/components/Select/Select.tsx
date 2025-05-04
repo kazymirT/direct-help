@@ -17,7 +17,7 @@ const DropdownIndicator = (props: DropdownIndicatorProps<Option>) => {
 };
 
 const optionClName = (focused: boolean) => {
-  return clsx('cursor-pointer text-[#2F2D2D] p-3 rounded-[4px]', {
+  return clsx('cursor-pointer text-[#2F2D2D] p-1 lg:p-3 rounded-[4px]', {
     ['text-[#0D1617] bg-[#EAE8E8] cursor-pointer']: focused,
   });
 };
@@ -37,7 +37,7 @@ const Select = ({
     label: option,
   }));
 
-  const containerClName = clsx('static p-[9px] text-blue-400 border-1 border-[#838688] bg-[#f5f1f1] rounded-[4px]', {
+  const containerClName = clsx('static p-0 lg:p-[9px] text-blue-400 border-1 border-[#838688] bg-[#f5f1f1] rounded-[4px]', {
     ['border-red-500']: errorMessage,
   });
   return (
@@ -53,7 +53,7 @@ const Select = ({
         components={{ DropdownIndicator, IndicatorSeparator: null }}
         classNames={{
           container: () => containerClName,
-          control: () => 'cursor-pointer text-[24px] pl-[33px] text-[#2f2d2d] leading-[29px] flex gap-[8px]',
+          control: () => 'cursor-pointer text-base lg:text-[24px] pl-3 lg:pl-[33px] text-[#2f2d2d] leading-[18px] lg:leading-[29px] flex gap-[8px]',
           menu: () => 'top-0 w-full p-3 left-0 bg-[#F5F1F1] border-1 rounded-[4px] border-[#838688]',
           indicatorSeparator: () => 'hidden',
           menuList: () => 'flex flex-col gap-3',

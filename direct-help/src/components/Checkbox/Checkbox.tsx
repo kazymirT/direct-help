@@ -4,11 +4,11 @@ import { CheckboxProps } from "./types";
 
 const Checkbox: FC<CheckboxProps> = ({ id, label, errorMessage, sizeLabel = 'm', ...props }) => {
   const labelSize = {
-    m: 'w-[45%]',
+    m: 'w-full md:w-[45%]',
     full: 'w-full',
   }  
   const wrapperCL = clsx("flex relative gap-4 items-center", labelSize[sizeLabel]);
-  const inputClassNames = clsx(`appearance-none cursor-pointer h-[35px] w-[32px] rounded-sm relative border-1 border-[#838688] border-solid bg-[#fff] duration-300 translate-all
+  const inputClassNames = clsx(`appearance-none cursor-pointer h-[25px] w-[25px] lg:h-[35px] lg:w-[32px] rounded-sm relative border-1 border-[#838688] border-solid bg-[#fff] duration-300 translate-all
     hover:bg-[#d9d9d9] hover:checked:bg-[#3d69d8]
     checked:bg-[#3d69d8] checked:before:absolute checked:before:content-[''] checked:before:bg-[url('/icons/checked.svg')] checked:before:bg-no-repeat
     checked:before:top-1/2 checked:before:left-1/2 checked:before:-translate-y-1/2 checked:before:-translate-x-1/2
@@ -29,7 +29,7 @@ const Checkbox: FC<CheckboxProps> = ({ id, label, errorMessage, sizeLabel = 'm',
         {label && (
           <label
             htmlFor={id}
-            className="text-xl text-[#2f2d2d] cursor-pointer"
+            className="text-base md:text-lg lg:text-xl leading-[1.2] text-[#2f2d2d] cursor-pointer"
           >
             {label}
           </label>

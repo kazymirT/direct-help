@@ -9,7 +9,7 @@ const Textarea: FC<TextareaProps> = ({ errorMessage, size = 'm', ...props }) => 
     m: 'max-w-[808px] leading-[27.5px]'
   }
   const inputClassName = clsx(
-    "w-full resize-none outline-none rounded-md bg-[#f5f1f1] px-[33px] py-[10px] text-[24px] text-[#2f2d2d] border border-[#838688] transition-all duration-300",
+    "w-full resize-none outline-none rounded-md bg-[#f5f1f1] h-[71px] lg:h-[126px] xl:h-[160px] px-3 py-1 lg:px-[33px] lg:py-[10px] text-base lg:text-[24px] text-[#2f2d2d] border border-[#838688] transition-all duration-300",
     "focus:border-[#525455] focus:bg-[#eae8e8]",
     "disabled:border-[#c5c8c9] disabled:bg-[#eae8e8]",
     "hover:border-[#525455] hover:bg-[#eae8e8] hover:text-grey-002",

@@ -16,7 +16,7 @@ const FormActions: FC<FormActionsProps> = ({ form }) => {
   const handleChangeStatus = (newStatus: Status) => setStatus(newStatus);
 
   return (
-    <section>
+    <>
       {
         status === 'idle' && form(handleChangeStatus)
       }
@@ -26,7 +26,7 @@ const FormActions: FC<FormActionsProps> = ({ form }) => {
       {
         status === 'error' && <ErrorForm onClick={handleChangeStatus} />
       }
-    </section>
+    </>
   )
 }
 

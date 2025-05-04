@@ -79,10 +79,8 @@ html {
 }
 
 .loader {
-  width: 127px;
   aspect-ratio: 1;
   border-radius: 50%;
-  border: 15px solid black;
   border-right-color: #fafafa;
   animation: l2 3s infinite linear;
 }

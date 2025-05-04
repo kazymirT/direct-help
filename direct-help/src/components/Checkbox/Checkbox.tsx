@@ -12,7 +12,7 @@ const Checkbox: FC<CheckboxProps> = ({ id, label, errorMessage, sizeLabel = 'm',
     hover:bg-[#d9d9d9] hover:checked:bg-[#3d69d8]
     checked:bg-[#3d69d8] checked:before:absolute checked:before:content-[''] checked:before:bg-[url('/icons/checked.svg')] checked:before:bg-no-repeat
     checked:before:top-1/2 checked:before:left-1/2 checked:before:-translate-y-1/2 checked:before:-translate-x-1/2
-    checked:before:bg-cover checked:before:w-[23px] checked:before:h-[16px]`, {
+    checked:before:bg-cover checked:before:w-[18px] checked:before:h-[12px] lg:checked:before:w-[23px] lg:checked:before:h-[16px]`, {
     ['border-[#8E0E0E]']: errorMessage,
     });
       

@@ -6,12 +6,12 @@ import clsx from 'clsx';
 import Image from 'next/image';
 
 const DropdownIndicator = (props: DropdownIndicatorProps<Option>) => {
-  const clName = clsx('cursor-pointer rotate-0 transition-all duration-300 mr-2', {
+  const clName = clsx('cursor-pointer lg:w-3 lg:h-5 rotate-0 transition-all duration-300 mr-2', {
     ['rotate-90']: props.selectProps.menuIsOpen,
   });
   return (
     <div className='inline-flex'>
-      <Image src='/icons/select_arrow.svg' alt="" width={12} height={20} className={clName} />
+      <Image src='/icons/select_arrow.svg' alt="" width={10} height={16} className={clName} />
     </div>
   );
 };

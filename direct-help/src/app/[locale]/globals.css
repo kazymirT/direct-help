@@ -23,6 +23,7 @@
   --breakpoint-2xl: 1440px;
 }
 
+
 body {
   font-family: Roboto, sans-serif;
   scrollbar-width: none;
@@ -50,6 +51,17 @@ html {
 }
 .bg-gradient-quality {
   background: linear-gradient(32deg, #ffb00f 0%, #d5a034 24.09%, #cfb276 55.95%, #5785fa 100%);
+}
+
+.reporting-section {
+  @apply grid
+   grid-cols-[repeat(auto-fill,minmax(156px,1fr))]
+   xs:grid-cols-[repeat(auto-fill,minmax(210px,1fr))]
+   md:grid-cols-[repeat(auto-fill,minmax(279px,1fr))]
+   justify-items-center
+   gap-x-4 gap-y-[13px]
+   lg:gap-x-5 lg:gap-y-[64px]
+   lg:grid-cols-3
 }
 
 .embla {

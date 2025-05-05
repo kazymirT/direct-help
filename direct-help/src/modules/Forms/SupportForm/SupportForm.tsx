@@ -32,9 +32,7 @@ const SupportForm: FC<SupportFormProps> = ({ setStatus }) => {
     resolver: zodResolver(getSupportSchema(t)),
     mode: 'onSubmit',
   });
-  console.log(errors)
   const onSubmit = async (data: SupportValues) => {
-    console.log('submit')
     if (isValid) {  
       setIsLoading(true);
       try {

@@ -20,9 +20,10 @@ const Button: FC<ButtonProps> = ({
   };
 
   const sizeStyles = {
-    full: "w-full p-[3px] lg:p-[19px]",
+    full: "w-full p-[10px] lg:p-[19px]",
+    'full-xs': "w-full max-md:text-lg p-1 md:p-[10px] lg:p-[5.5px]",
     'full-s': "w-full p-[10px] lg:p-[14px]",
-    'full-l': "w-full p-[30px]",
+    'full-l': "w-full max-md:text-lg p-1 sm:p-2 md:p-4 lg:p-[21px] xl:p-[30px]",
   };
 
   const buttonClasses = clsx(

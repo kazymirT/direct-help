@@ -46,10 +46,16 @@ html {
 .wrapper {
   @apply w-full max-w-[1440px] m-auto px-[22px] sm:max-lg:px-[clamp(1.25rem,0.167rem+4.622vw,3.125rem)] min-lg:px-[clamp(3.125rem,-1.49rem+7.212vw,5rem)];
 }
-
-.bg-gradient-partners {
-  background: linear-gradient(90deg, rgba(204, 225, 251, 0.8) 0%, rgba(61, 105, 216, 0.8) 63.94%, rgba(34, 132, 255, 0.8) 100%);
+.wrapperAbout {
+  @apply w-full max-w-[1440px] max-md:px-[22px] m-auto sm:max-lg:px-[clamp(1.25rem,0.167rem+4.622vw,3.125rem)] min-lg:pl-[clamp(3.125rem,-1.49rem+7.212vw,5rem)] xl:pr-[clamp(4.25rem,2.404rem+2.885vw,5rem)];
 }
+
+@media (min-width: 768px) {
+  .bg-gradient-partners {
+    background: linear-gradient(90deg, rgba(204, 225, 251, 0.8) 0%, rgba(61, 105, 216, 0.8) 63.94%, rgba(34, 132, 255, 0.8) 100%);
+  }
+}
+
 .bg-gradient-quality {
   background: linear-gradient(32deg, #ffb00f 0%, #d5a034 24.09%, #cfb276 55.95%, #5785fa 100%);
 }

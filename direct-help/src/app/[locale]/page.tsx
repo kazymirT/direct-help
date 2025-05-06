@@ -24,9 +24,9 @@ export default async function HomePage({ params }: Props) {
       <About />
       <Attainment />
       <Donate />
-      {/* <Quality /> */}
-      {/* <Volunteers /> */}
-      {/* <Awards /> */}
+      <Quality />
+      <Volunteers />
+      <Awards />
     </div>
   );
 }

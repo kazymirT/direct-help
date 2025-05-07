@@ -7,7 +7,7 @@ const Slide: FC<SlidesData> = ({ one, two }) => {
   const t = useTranslations('home.volunteers.list');
 
   return (
-    <section className="embla__slide transform translate-z-0 flex-none relative text-black-20 w-full flex pt-[clamp(0.75rem,-0.261rem+4.314vw,2.5rem)] lg:pt-10 pb-5 justify-between md:pl-[clamp(0rem,-11.25rem+23.438vw,3.75rem)] lg:pl-[clamp(3.75rem,-9.481rem+20.673vw,9.125rem)] pr-0">
+    <section className="ml-6 embla__slide transform translate-z-0 flex-none relative text-black-20 w-full flex pt-[clamp(0.75rem,-0.261rem+4.314vw,2.5rem)] lg:pt-10 pb-5 justify-between md:pl-[clamp(0rem,-11.25rem+23.438vw,3.75rem)] lg:pl-[clamp(3.75rem,-9.481rem+20.673vw,9.125rem)] pr-0">
       <article className="max-lg:pl-5 pt-[clamp(1.5rem,0.055rem+6.163vw,4rem)] lg:pt-[clamp(4rem,-0.923rem+7.692vw,6rem)] flex flex-col gap-2.5 lg:gap-[clamp(1.5rem,-0.346rem+2.885vw,2.25rem)] z-20">
         <Image alt={t(`${one.count}.name`)} src={one.image} width={86} height={124} className="aspect-[0.7] min-w-[clamp(5.375rem,-1.125rem+27.735vw,16.625rem)] lg:min-w-[clamp(16.625rem,4.317rem+19.231vw,21.625rem)]" />
         <div>

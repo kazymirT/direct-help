@@ -13,18 +13,18 @@ const About = async () => {
 
   const wrapperCN = clsx('wrapperAbout flex flex-col items-end', {
     ['gap-14 md:gap-25 lg:gap-[140px] xl:gap-[212px]']: isEN,
-    ['gap-14 md:gap-25 lg:gap-[146px] xl:gap-[190px]']: isUK,
+    ['gap-14 md:gap-25 lg:gap-[146px] xl:gap-[180px]']: isUK,
     ['gap-14 md:gap-25 lg:gap-[140px] xl:gap-[196px]']: isDE,
   });
-  const descriptionsCN = clsx('w-full max-sm:max-w-[clamp(18.063rem,-7.675rem+109.811vw,36.25rem)] max-[850px]:max-w-9/10 min-[850px]:max-w-[40%] lg:max-w-[clamp(26.688rem,12.072rem+22.837vw,32.625rem)] text-[clamp(1rem,0.819rem+0.77vw,1.313rem)] lg:text-[clamp(1.313rem,0.236rem+1.683vw,1.75rem)] text-text2', {
+  const descriptionsCN = clsx('w-full max-sm:max-w-full max-[850px]:max-w-9/10 min-[850px]:max-w-[40%] lg:max-w-[clamp(26.688rem,12.072rem+22.837vw,32.625rem)] text-[clamp(1rem,0.819rem+0.77vw,1.313rem)] lg:text-[clamp(1.313rem,0.236rem+1.683vw,1.75rem)] text-text2', {
     ['pt-[10px] -tracking-[0.0em] leading-[1.17]']: isEN,
     ['lg:pt-0 xl:pt-[34px] leading-[1.2]']: isUK,
     ['leading-[1.175]']: isDE,
   });
   const containerCN = clsx('w-full flex justify-center', {
-    ['pb-12.5 md:pb-15 lg:pb-[84px] pt-4 xl:pt-[105px]']: isEN,
-    ['pb-12.5 md:pb-15 lg:pb-[94px] pt-4 xl:pt-[90px]']: isUK,
-    ['pb-12.5 md:pb-15 lg:pb-[97px] pt-4 xl:pt-[90px]']: isDE,
+    ['pb-8.5 sm:pb-12.5 md:pb-15 lg:pb-[84px] pt-4 xl:pt-[105px]']: isEN,
+    ['pb-8.5 sm:pb-12.5 md:pb-15 lg:pb-[94px] pt-4 xl:pt-[90px]']: isUK,
+    ['pb-8.5 sm:pb-12.5 md:pb-15 lg:pb-[97px] pt-4 xl:pt-[90px]']: isDE,
   });
 
   return (
@@ -32,7 +32,7 @@ const About = async () => {
       <div className={wrapperCN}>
         <section className=" w-full flex flex-col gap-1.5 lg:gap-2 xl:gap-4">
         <h2 className="font-medium text-[clamp(1.5rem,1.236rem+1.127vw,2.25rem)] text-text2">{t('title')}</h2>
-        <div className="flex w-full flex-col min-[850px]:flex-row justify-between gap-10 min-[850px]:gap-15 xl:gap-20">
+        <div className="flex w-full flex-col min-[850px]:flex-row justify-between gap-15   xl:gap-20">
         <div className={descriptionsCN}>
           <p>{t('description-one')}</p>
           <p className="leading-[1.15]">{t('description-two')}</p>

@@ -10,7 +10,7 @@ const Partners = async () => {
   return (
     <div className="w-full lg:mt-[72px] flex flex-col items-end md:gap-5 lg:gap-10 xl:gap-[65px]">
       <div className="w-full bg-gradient-partners flex flex-col items-end pb-5 xs:pb-7 sm:pb-9 md:pb-[92px]">
-      <section className="wrapper m-auto pb-3 sm:pt-4 md:pt-5 lg:pt-0 lg:pb-[30px]">
+      <section className="wrapper m-auto pb-2 sm:pt-4 md:pt-5 lg:pt-0 lg:pb-[30px]">
         <h2 className="font-family text-[clamp(1.563rem,1.32rem+1.033vw,2.25rem)] leading-[2] lg:leading-[1.3] text-text2">{t('title')}</h2>
       </section>
       <div className="w-full">

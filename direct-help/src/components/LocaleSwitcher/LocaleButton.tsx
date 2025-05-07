@@ -27,7 +27,7 @@ const LocaleButton: FC<LocaleSwitcherProps> = ({ local, name}) => {
       );
     });
   }
-  const buttonCN = clsx('text-[10px] xs:text-[clamp(0.625rem,0.184rem+1.471vw,1.125rem)] uppercase cursor-pointer leading-1 disabled:cursor-auto', {
+  const buttonCN = clsx('text-[clamp(0.75rem,0.533rem+0.924vw,1.125rem)] uppercase cursor-pointer leading-1 disabled:cursor-auto', {
     ['text-[#2E2C2C]']: locale !== local,
     ['text-[#1B1A1A]']: locale === local,
   })

@@ -8,7 +8,6 @@ import Volunteers from "@/modules/Volunteers/Volunteers";
 import Awards from "@/modules/Awards/Awards";
 import { setRequestLocale } from "next-intl/server";
 import BannerAction from "@/modules/BannerAction/BannerAction";
-import Video from "@/components/Video/Video";
 
 type Props =  {
   params: Promise<{locale: string}>;
@@ -20,14 +19,14 @@ export default async function HomePage({ params }: Props) {
   return (
     <div className="flex flex-col">
       <Banner />
-      {/* <BannerAction />
+      <BannerAction />
       <Partners />
       <About />
       <Attainment />
       <Donate />
       <Quality />
       <Volunteers />
-      <Awards /> */}
+      <Awards />
     </div>
   );
 }

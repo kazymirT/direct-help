@@ -2,6 +2,7 @@ import Button from "@/components/Button/Button";
 import Header from "../Header/Header";
 import { getLocale, getTranslations } from "next-intl/server";
 import clsx from "clsx";
+import Video from "@/components/Video/Video";
 
 export default async function Banner() {
   const t = await getTranslations('home.banner');
@@ -20,7 +21,7 @@ export default async function Banner() {
     ['max-w-[180px] xs:max-w-[250px] sm:max-w-[300px] md:max-w-[350px] lg:max-w-[clamp(27.5rem,-0.192rem+43.269vw,38.75rem)]']: isEN || isDE,
     ['max-w-[200px] xs:max-w-[255px] sm:max-w-[300px] md:max-w-[350px] lg:max-w-[clamp(27.5rem,-0.192rem+43.269vw,38.75rem)]']: isUK,
   });
-  const wrapperCN = clsx('flex flex-col w-full max-w-[1280px] m-auto', {
+  const wrapperCN = clsx('relative flex flex-col w-full max-w-[1280px] m-auto', {
     ['pt-1 xs:pt-6 sm:pt-10 lg:pt-0 md:gap-[clamp(3.75rem,0rem+7.813vw,5rem)] lg:gap-[clamp(5rem,-7.615rem+19.712vw,10.125rem)]']: isEN,
     ['pt-4 xs:pt-6 sm:pt-10 lg:pt-0 md:gap-[clamp(3.75rem,-8.438rem+25.391vw,7.813rem)] lg:gap-[clamp(7.813rem,-0.495rem+12.981vw,11.188rem)]']: isUK,
     ['md:gap-9 lg:gap-[clamp(2.5rem,-3.654rem+9.615vw,5rem)]']: isDE,
@@ -55,6 +56,7 @@ export default async function Banner() {
           <Button size="full" variant="basic" text={t('buttons.support')} link="/donate" />
           <Button size="full" variant="second" text={t('buttons.request')} link="/support" />
         </div>
+        <Video />
       </div>
     </div>
     </div>

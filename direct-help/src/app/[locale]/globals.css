@@ -47,7 +47,7 @@ html {
   @apply w-full max-w-[1440px] m-auto px-1 min-[350px]:px-2.5 min-[375px]:px-[22px] sm:max-lg:px-[clamp(1.25rem,0.167rem+4.622vw,3.125rem)] min-lg:px-[clamp(3.125rem,-1.49rem+7.212vw,5rem)];
 }
 .wrapperAbout {
-  @apply w-full max-w-[1440px] max-md:px-[22px] m-auto sm:max-lg:px-[clamp(1.25rem,0.167rem+4.622vw,3.125rem)] min-lg:pl-[clamp(3.125rem,-1.49rem+7.212vw,5rem)] xl:pr-[clamp(4.25rem,2.404rem+2.885vw,5rem)];
+  @apply w-full max-w-[1440px] m-auto xs:px-5.5 sm:max-lg:px-[clamp(1.25rem,0.167rem+4.622vw,3.125rem)] min-lg:pl-[clamp(3.125rem,-1.49rem+7.212vw,5rem)] xl:pr-[clamp(4.25rem,2.404rem+2.885vw,5rem)];
 }
 
 @media (min-width: 768px) {
@@ -104,8 +104,10 @@ html {
   cursor: pointer;
 }
 
-.svg-icon:hover .fill-rect {
-  fill: #F1F0F0;
+@media (min-width: 768px) {
+  .svg-icon:hover .fill-rect {
+    fill: #F1F0F0;
+  }
 }
 
 .svg-icon:active .fill-rect {

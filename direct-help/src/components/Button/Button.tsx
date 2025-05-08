@@ -12,11 +12,11 @@ const Button: FC<ButtonProps> = ({
   link,
   ...props
 }) => {
-  const baseStyles = `transition-all duration-300 hover:cursor-pointer`;
+  const baseStyles = `transition-all duration-300 md:hover:cursor-pointer`;
 
   const variantStyles = {
-   basic: "bg-[#f8b428] text-text2 rounded-4xl shadow-button-basic leading-[28px] hover:bg-[#3d69d8] hover:text-[#efefef] active:bg-[#1842aa] active:text-[#efefef] disabled:bg-[#acb0b4] disabled:text-[#efefef] disabled:cursor-auto",
-   second: "bg-[#3d69d8] text-white rounded-4xl shadow-button-second hover:bg-[#f8b428] hover:text-[#2f2d2d] active:bg-[#de9809] active:text-[#2f2d2d] disabled:bg-[#acb0b4] disabled:text-[#efefef] disabled:cursor-auto",
+   basic: "bg-[#f8b428] text-text2 rounded-4xl shadow-button-basic leading-[28px] md:hover:bg-[#3d69d8] md:hover:text-[#efefef] active:bg-[#1842aa] active:text-[#efefef] disabled:bg-[#acb0b4] disabled:text-[#efefef] disabled:cursor-auto",
+   second: "bg-[#3d69d8] text-white rounded-4xl shadow-button-second md:hover:bg-[#f8b428] md:hover:text-[#2f2d2d] active:bg-[#de9809] active:text-[#2f2d2d] disabled:bg-[#acb0b4] disabled:text-[#efefef] disabled:cursor-auto",
   };
 
   const sizeStyles = {

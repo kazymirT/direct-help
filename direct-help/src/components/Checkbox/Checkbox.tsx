@@ -9,7 +9,7 @@ const Checkbox: FC<CheckboxProps> = ({ id, label, errorMessage, sizeLabel = 'm',
   }  
   const wrapperCL = clsx("flex relative gap-4 items-center", labelSize[sizeLabel]);
   const inputClassNames = clsx(`appearance-none cursor-pointer h-[25px] w-[25px] lg:h-[35px] lg:w-[32px] rounded-sm relative border-1 border-[#838688] border-solid bg-[#fff] duration-300 translate-all
-    hover:bg-[#d9d9d9] hover:checked:bg-[#3d69d8]
+    md:hover:bg-[#d9d9d9] md:hover:checked:bg-[#3d69d8]
     checked:bg-[#3d69d8] checked:before:absolute checked:before:content-[''] checked:before:bg-[url('/icons/checked.svg')] checked:before:bg-no-repeat
     checked:before:top-1/2 checked:before:left-1/2 checked:before:-translate-y-1/2 checked:before:-translate-x-1/2
     checked:before:bg-cover checked:before:w-[18px] checked:before:h-[12px] lg:checked:before:w-[23px] lg:checked:before:h-[16px]`, {

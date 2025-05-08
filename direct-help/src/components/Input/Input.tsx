@@ -13,10 +13,10 @@ const Input: FC<InputProps> = ({ errorMessage, sizeInput = 'm', requiredMessage,
     "w-full self-end outline-none rounded-md bg-[#f5f1f1] px-3 md:px-6 lg:px-8 py-[3px] lg:py-3 text-base md:text-lg lg:text-[24px] text-[#2f2d2d] leading-[29px] border border-[#838688] transition-all duration-300",
     "focus:border-[#525455] focus:bg-[#eae8e8]",
     "disabled:border-[#c5c8c9] disabled:bg-[#eae8e8]",
-    "hover:border-[#525455] hover:bg-[#eae8e8] hover:text-grey-002",
+    "md:hover:border-[#525455] md:hover:bg-[#eae8e8] md:hover:text-grey-002",
     sizeStyles[sizeInput],
     {
-      ["border-[#d90026] bg-[#fffafa] hover:border-[#d90026] focus:border-[#d90026] "]:
+      ["border-[#d90026] bg-[#fffafa] md:hover:border-[#d90026] focus:border-[#d90026] "]:
         errorMessage,
     },
   );

@@ -4,7 +4,7 @@ import { getTranslations } from "next-intl/server";
 const BannerAction = async () => {
   const t = await getTranslations('home.banner');
   return (
-    <div className="min-md:hidden w-full max-w-[327px] xs:max-w-[400px] sm:max-w-[600px] m-auto flex flex-col sm:flex-row gap-4 py-6.5">
+    <div className="min-md:hidden w-full max-w-[327px] xs:max-w-[400px] sm:max-w-[600px] m-auto flex flex-col sm:flex-row gap-3.5 pt-9 pb-6">
       <Button size="full" variant="basic" text={t('buttons.support')} link="/donate" />
       <Button size="full" variant="second" text={t('buttons.request')} link="/support" />
     </div>

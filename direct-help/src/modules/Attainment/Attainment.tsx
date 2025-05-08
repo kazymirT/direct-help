@@ -12,8 +12,8 @@ const Attainment = async () => {
   const isDE = locale === 'de';
 
   const cardCN = clsx('pt-8 sm:pt-5 lg:pt-6 xl:pt-7.5 w-full xs:w-2/3 sm:w-1/3 rounded-[9px] md:rounded-md lg:rounded-xl flex flex-col items-center gap-1.5 md:gap-4 xl:gap-6 border-[3px] lg:border-[4px] border-[#f8b428]', {
-    ['pb-8 sm:pb-[22px] px-3 sm:px-1 md:px-2 lg:px-8']: isEN || isDE,
-    ['pb-8 sm:pb-5 md:pb-4 lg:pb-2 xl:pb-7 px-2 md:px-3' ]: isUK,
+    ['pb-9 sm:pb-[22px] px-3 sm:px-1 md:px-2 lg:px-8']: isEN || isDE,
+    ['pb-9 sm:pb-5 md:pb-4 lg:pb-2 xl:pb-7 px-2 md:px-3' ]: isUK,
   });
 
   return (

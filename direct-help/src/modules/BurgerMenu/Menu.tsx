@@ -19,20 +19,20 @@ const Menu: FC<MenuProps> = ({ closeMenu, isOpen, menuRef }) => {
     })
   return (
     <div ref={menuRef} className={menuCN}>
-      <header className="w-full relative pt-[7px] pb-[11px] xs:pt-3 xs:pb-3 sm:pt-4 sm:pb-4 md:pt-5 md:pb-5 lg:pt-[26px] lg:pb-[26px]  min-xl:pt-[32px] min-xl:pb-[47px] flex justify-center bg-[#79a1d6]">
+      <header className="w-full relative pt-[9px] pb-[9px] xs:pt-3 xs:pb-3 sm:pt-4 sm:pb-4 md:pt-5 md:pb-5 lg:pt-[26px] lg:pb-[26px]  min-xl:pt-[32px] min-xl:pb-[47px] flex justify-center bg-[#79a1d6]">
         <div className="wrapper flex justify-between max-lg:items-center">
           <button onClick={closeMenu} className="relative">
             <Image src='/icons/cancel.svg' alt="menu open icon" width={24} height={17} />
           </button>
           <Link href={'/'} className="max-lg:absolute max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:top-1/2 max-lg:-translate-y-1/2">
-            <Image src='/logo.svg' alt="logo" width={50} height={21} className="xs:w-[clamp(3.125rem,-1.783rem+16.36vw,8.688rem)] xs:h-[clamp(1.313rem,-0.728rem+6.801vw,3.625rem)] min-2xl:w-[139px] min-2xl:h" />
+            <Image src='/logo.svg' alt="logo" width={71} height={30} className="w-[clamp(4.438rem,3.426rem+4.314vw,6.188rem)] lg:w-[clamp(6.188rem,0.034rem+9.615vw,8.688rem)] aspect-[2.37] min-2xl:w-[139px]" />
           </Link>
           <div className="flex gap-[45px] lg:pt-[15px] xl:pt-[23px]">
             <LocaleSwitcher />
           </div>
         </div>
       </header>
-      <nav className="p-6 flex flex-col gap-4">
+      <nav className="p-6 flex flex-col gap-4 overflow-y-auto max-h-[calc(100dvh-50px)]">
         <Link className="text-xl text-[#2F2D2D] py-1 px-2" onClick={closeMenu} href='/'>{t('home')}</Link>
         <Link className="text-xl text-[#2F2D2D] py-1 px-2" onClick={closeMenu} href='/reporting'>{t('reporting')}</Link>
         <Link className="text-xl text-[#2F2D2D] py-1 px-2" onClick={closeMenu} href='/about'>{t('about')}</Link>

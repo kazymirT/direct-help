@@ -24,9 +24,9 @@ export default function BurgerMenu() {
   }, [isOpen]);
   
   return (
-    <div className="relative z-50 min-lg:hidden">
+    <div className="relative z-50 min-lg:hidden flex items-center justify-center">
       <button onClick={openMenu} className="relative">
-        <Image src='/burger.svg' alt="menu open icon" width={24} height={17} />
+        <Image src='/burger.svg' alt="menu open icon" width={24} height={24} />
       </button>
       <Menu closeMenu={closeMenu} isOpen={isOpen} menuRef={menuRef} />
       {isOpen && (

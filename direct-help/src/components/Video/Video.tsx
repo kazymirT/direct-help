@@ -12,7 +12,7 @@ const Video = () => {
      `);
   return (
     <video width="141" height="141" autoPlay playsInline loop muted preload="auto" className={videoCN}>
-      <source src="/logo.mp4" type="video/mp4" />
+      <source src="/logo_1.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   )

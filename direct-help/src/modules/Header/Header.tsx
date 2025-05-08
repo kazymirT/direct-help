@@ -9,7 +9,7 @@ const Header = async () => {
   const t = await getTranslations('header');
 
   return (
-    <header className="w-full z-100 relative pt-[9px] pb-[9px] xs:pt-3 xs:pb-3 sm:pt-4 sm:pb-4 md:pt-5 md:pb-5 lg:pt-[26px] lg:pb-[48px] min-xl:pt-[32px] min-xl:pb-8 flex justify-center">
+    <header className="w-full z-100 relative pt-[9px] pb-[9px] xs:pt-3 xs:pb-3 sm:pt-4 sm:pb-4 md:pt-5 md:pb-5 lg:pt-[26px] min-xl:pt-[32px] min-xl:pb-8 flex justify-center">
           <div className="m-auto w-full flex justify-between max-lg:items-center">
           <BurgerMenu/>
           <Link href={'/'} className="max-lg:absolute max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:top-1/2 max-lg:-translate-y-1/2">

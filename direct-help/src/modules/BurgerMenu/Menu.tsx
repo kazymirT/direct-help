@@ -13,7 +13,7 @@ export interface MenuProps {
 
 const Menu: FC<MenuProps> = ({ closeMenu, isOpen, menuRef }) => {
   const t = useTranslations('burger');
-    const menuCN = clsx('fixed top-0 right-0 h-fit w-full bg-[#FDF9F0] pb-25 z-40 transition-transform duration-300 ease-in-out', {
+    const menuCN = clsx('fixed top-0 right-0 h-dvh w-full bg-[#FDF9F0] pb-25 z-40 transition-transform duration-300 ease-in-out', {
       ['translate-y-0']: isOpen,
       ['-translate-y-full']: !isOpen
     })

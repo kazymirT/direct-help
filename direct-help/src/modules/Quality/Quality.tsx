@@ -11,14 +11,14 @@ const Quality = async () => {
   const isUK = locale === 'uk';
   const isDE = locale === 'de';
 
-  const wrapperCN = clsx('w-full bg-gradient-quality pt-2 md:pt-8 lg:pt-13.5 xl:pt-[75px] flex justify-center', {
+  const wrapperCN = clsx('w-full bg-gradient-quality pt-2 sm:pt-8 lg:pt-13.5 xl:pt-[75px] flex justify-center', {
     ['pb-12 lg:pb-15 xl:pb-21']: isEN,
     ['pb-12 lg:pb-10.5 xl:pb-15']: isUK || isDE,
   });
   return (
     <div className={wrapperCN}>
       <div className="wrapper flex justify-center">
-        <div className="w-full max-w-[1062px] flex md:justify-between flex-col md:flex-row max-md:gap-6 max-md:items-center">
+        <div className="w-full max-w-[1062px] flex md:justify-between flex-col sm:flex-row max-md:gap-6 max-sm:items-center">
           {QUALITY_DATA.map(({ id, image, count }) => (
             <article key={id} className="w-full md:max-w-[219px] flex flex-col gap-1 xs:gap-3 sm:gap-4 md:gap-[20px] items-center" >
               <Image src={image} width={36} height={36} alt={`icon for ${t(`${count}.title`)}`} className="w-[clamp(2.25rem,1.534rem+3.053vw,3rem)]" />

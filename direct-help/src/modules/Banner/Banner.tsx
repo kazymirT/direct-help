@@ -52,7 +52,7 @@ export default async function Banner() {
             {t('description')}
           </p>
         </section>
-        <div className="max-md:hidden w-full md:max-w-[500px] lg:max-w-[clamp(37.75rem,0.212rem+58.654vw,53rem)] flex gap-[18px]">
+        <div className="relative z-100 max-md:hidden w-full md:max-w-[500px] lg:max-w-[clamp(37.75rem,0.212rem+58.654vw,53rem)] flex gap-[18px]">
           <Button size="full" variant="basic" text={t('buttons.support')} link="/donate" />
           <Button size="full" variant="second" text={t('buttons.request')} link="/support" />
         </div>

@@ -36,7 +36,7 @@ html {
 
 
 .banner {
-  @apply xl:pb-[43px] bg-position-[center_center] md:bg-center bg-size-[100vw_clamp(12.938rem,-0.316rem+56.549vw,35.875rem)] lg:bg-size-[100vw_clamp(35.875rem,2.952rem+51.442vw,49.25rem)] xl:bg-size-[100vw_clamp(49.25rem,0.125rem+54.583vw,65.625rem)] bg-no-repeat w-full h-[clamp(12.938rem,-0.316rem+56.549vw,35.875rem)] xl:h-[clamp(35.875rem,2.952rem+51.442vw,49.25rem)] min-[1440px]:h-[clamp(49.25rem,0.125rem+54.583vw,65.625rem)] bg-[url('/logo-2.png')] ;
+  @apply xl:pb-[43px] bg-position-[center_center] md:bg-center bg-size-[100vw_clamp(12.938rem,-0.316rem+56.549vw,35.875rem)] lg:bg-size-[100vw_clamp(35.875rem,2.952rem+51.442vw,49.25rem)] 2xl:bg-size-[100vw_clamp(49.25rem,0.125rem+54.583vw,65.625rem)] bg-no-repeat w-full h-[clamp(12.938rem,-0.316rem+56.549vw,35.875rem)] lg:h-[clamp(35.875rem,2.952rem+51.442vw,49.25rem)] min-[1440px]:h-[clamp(49.25rem,0.125rem+54.583vw,65.625rem)] bg-[url('/logo-2.png')] ;
 }
 
 .reporting {

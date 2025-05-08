@@ -2,6 +2,13 @@
   "rootLayout": {
     "title": "Direct-help"
   },
+  "burger": {
+    "home": "Homepage",
+    "reporting": "Reporting",
+    "about": "About us",
+    "support": "Support",
+    "partners": "Become a partner"
+  },
   "header": {
     "home": "Homepage",
     "reporting": "Reporting",

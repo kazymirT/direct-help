@@ -13,18 +13,18 @@ export default async function Banner() {
   const isDE = locale === 'de';
 
   const textCN = clsx('flex flex-col', {
-    ['gap-[clamp(1.375rem,-2.01rem+5.288vw,2.75rem)]']: isEN,
-    ['gap-[clamp(2.875rem,-2.663rem+8.654vw,5.125rem)]']: isUK,
-    ['gap-4.5 xs-max-md:gap-12']: isDE,
+    ['gap-[clamp(1.375rem,-2.01rem+5.288vw,2.75rem)] min-[1500px]:pt-8 min-[1600px]:pt-10 min-[1700px]:pt-20 min-[1800px]:pt-30 min-[1900px]:pt-35']: isEN,
+    ['gap-[clamp(2.875rem,-2.663rem+8.654vw,5.125rem)] min-[1500px]:pt-8 min-[1600px]:pt-10 min-[1700px]:pt-20 min-[1800px]:pt-30 min-[1900px]:pt-35']: isUK,
+    ['gap-4.5 xs-max-md:gap-12 min-[1500px]:pt-8 min-[1600px]:pt-10 min-[1700px]:pt-20 min-[1800px]:pt-30 min-[1900px]:pt-35']: isDE,
   });
   const descriptionCN = clsx('font-third text-[clamp(0.875rem,0.297rem+2.465vw,1.875rem)] lg:text-[clamp(1.875rem,0.952rem+1.442vw,2.25rem)] text-text2  leading-[1.25] xl:leading-[1.5]', {
     ['max-w-[180px] xs:max-w-[250px] sm:max-w-[300px] md:max-w-[350px] lg:max-w-[clamp(27.5rem,-0.192rem+43.269vw,38.75rem)]']: isEN || isDE,
     ['max-w-[200px] xs:max-w-[255px] sm:max-w-[300px] md:max-w-[350px] lg:max-w-[clamp(27.5rem,-0.192rem+43.269vw,38.75rem)]']: isUK,
   });
   const wrapperCN = clsx('relative flex flex-col w-full max-w-[1280px] m-auto', {
-    ['pt-1 xs:pt-6 sm:pt-10 lg:pt-0 md:gap-[clamp(3.75rem,0rem+7.813vw,5rem)] lg:gap-[clamp(5rem,-7.615rem+19.712vw,10.125rem)]']: isEN,
-    ['pt-4 xs:pt-6 sm:pt-10 lg:pt-0 md:gap-[clamp(3.75rem,-8.438rem+25.391vw,7.813rem)] lg:gap-[clamp(7.813rem,-0.495rem+12.981vw,11.188rem)]']: isUK,
-    ['md:gap-9 lg:gap-[clamp(2.5rem,-3.654rem+9.615vw,5rem)]']: isDE,
+    ['pt-1 xs:pt-6 sm:pt-10 xl:pt-0 md:gap-[clamp(3.75rem,0rem+7.813vw,5rem)] lg:gap-[clamp(5rem,-7.615rem+19.712vw,10.125rem)]']: isEN,
+    ['pt-4 xs:pt-6 sm:pt-10 xl:pt-0 md:gap-[clamp(3.75rem,-8.438rem+25.391vw,7.813rem)] lg:gap-[clamp(7.813rem,-0.495rem+12.981vw,11.188rem)] min-[1600px]:gap-50']: isUK,
+    ['md:gap-9 lg:gap-[clamp(2.5rem,-3.654rem+9.615vw,5rem)] lg:pt-5 xl:pt-0']: isDE,
   });
 
   return (

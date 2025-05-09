@@ -1,26 +1,7 @@
-'use client'
-import { useEffect, useRef } from "react";
 import clsx from "clsx";
 
 const Video = () => {
-  const videoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
-
-    const playVideo = async () => {
-      try {
-        await video.play();
-        console.log("Video is playing");
-      } catch (err) {
-        console.warn("Autoplay failed:", err);
-      }
-    };
-
-    playVideo();
-  });
-
+  
   const videoCN = clsx(`rounded-full absolute aspect-[1] 
     w-[clamp(8.813rem,-1.083rem+42.219vw,25.938rem)] top-0 
     right-6
@@ -33,7 +14,9 @@ const Video = () => {
 
   return (
     <video
-      ref={videoRef}
+      muted
+      autoPlay
+      loop
       playsInline
       controls={false}
       className={videoCN}

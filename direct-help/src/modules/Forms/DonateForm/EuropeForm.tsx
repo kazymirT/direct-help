@@ -13,6 +13,12 @@ const EuropeForm = async () => {
         <Button size="full-xs" variant="second" text={t('button')} />
       </div>
       </div>
+      <section className="w-full max-w-[655px]">
+        <h3 className="text-text text-xl lg:text-[22px] xl:text-2xl">{t('subtitle')}</h3>
+        <p className="text-[10px] md:text-sm xl:text-base">{t.rich('description', {
+          strong: (chunks) => <span className="text-xs md:text-base xl:text-xl">{chunks}</span> 
+        })}</p>
+      </section>
       <section className="flex flex-col gap-2 lg:gap-4 xl:gap-[22px]">
         {EUROPE_DATA.map(({ id, ...props }) => (
           <Cryptocurrency key={id} {...props} />

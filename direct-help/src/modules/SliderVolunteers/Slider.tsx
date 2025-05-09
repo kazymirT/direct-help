@@ -23,7 +23,7 @@ const Slider: FC<SliderProps> = ({ slides, options }) => {
             <Slide key={index.one.id} {...index} />
           ))}
         </div>
-        <div className="max-md:hidden w-full absolute top-[47%] left-0 -translate-y-1/2">
+        <div className="max-lg:hidden w-full absolute top-[47%] left-0 -translate-y-1/2">
           <div className="flex justify-between">
             <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
             <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />

@@ -57,11 +57,11 @@ export const PrevButton: React.FC<PropType> = (props) => {
 
   return (
     <button
-      className="embla__button embla__button--prev size-15 bg-[#e4e6e9] rounded-full flex justify-center items-center md:hover:bg-[#d9dadd] active:bg-[#c8cad2] disabled:bg-[#f8faff] transition-all duration-300 md:hover:cursor-pointer"
+      className="embla__button embla__button--prev size-10 xl:size-15 bg-[#e4e6e9] rounded-full flex justify-center items-center md:hover:bg-[#d9dadd] active:bg-[#c8cad2] disabled:bg-[#f8faff] transition-all duration-300 md:hover:cursor-pointer"
       type="button"
       {...restProps}
     >
-      <Image alt='prev slide' src='/icons/slider-arrow.svg' width={28} height={24} />
+      <Image alt='prev slide' src='/icons/slider-arrow.svg' width={22} height={18} className='xl:w-[28px] xl:h-[24px]' />
       {children}
     </button>
   )
@@ -72,11 +72,11 @@ export const NextButton: React.FC<PropType> = (props) => {
 
   return (
     <button
-      className="embla__button embla__button--next size-15 bg-[#e4e6e9] rounded-full flex justify-center items-center md:hover:bg-[#d9dadd] active:bg-[#c8cad2] disabled:bg-[#f8faff] transition-all duration-300 md:hover:cursor-pointer"
+      className="embla__button embla__button--next lg:size-10 xl:size-15 bg-[#e4e6e9] rounded-full flex justify-center items-center md:hover:bg-[#d9dadd] active:bg-[#c8cad2] disabled:bg-[#f8faff] transition-all duration-300 md:hover:cursor-pointer"
       type="button"
       {...restProps}
     >
-      <Image alt='prev slide' src='/icons/slider-arrow.svg' width={28} height={24} className='rotate-180' />
+      <Image alt='prev slide' src='/icons/slider-arrow.svg' width={22} height={18} className='rotate-180 xl:w-[28px] xl:h-[24px]' />
       {children}
     </button>
   )

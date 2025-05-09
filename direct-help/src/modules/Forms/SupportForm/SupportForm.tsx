@@ -53,7 +53,7 @@ const SupportForm: FC<SupportFormProps> = ({ setStatus }) => {
     <section className="flex pt-7 lg:pt-[62px] pb-[27px] lg:pb-15 flex-col gap-5 lg:gap-[63px] relative wrapper m-auto">
       <h1 className="font-medium text-[clamp(1.5rem,1.236rem+1.127vw,2.25rem)] leading-[1.167] text-[#2f2d2d]">{t('title')}</h1>
     <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-[25px] lg:gap-18 w-full max-w-[1170px]">
-      <div className="flex flex-col gap-3 lg:gap-[25px]">
+      <div className="flex flex-col gap-3 md:gap-5 lg:gap-[25px]">
       <FieldBox name="email" placeholder={t('email.label')}>
         <Input 
           id="email"
@@ -103,7 +103,7 @@ const SupportForm: FC<SupportFormProps> = ({ setStatus }) => {
             value={field.value}
             onChange={(newValue) => field.onChange(newValue)}
             errorMessage={fieldState.error?.message}
-            placeholder={t('fuel.label')}
+            placeholder=''
           />
         )}
       />
@@ -120,7 +120,7 @@ const SupportForm: FC<SupportFormProps> = ({ setStatus }) => {
             value={field.value}
             onChange={(newValue) => field.onChange(newValue)}
             errorMessage={fieldState.error?.message}
-            placeholder={t('transmission.label')}
+            placeholder=''
             />
         )}
       />
@@ -137,7 +137,7 @@ const SupportForm: FC<SupportFormProps> = ({ setStatus }) => {
             value={field.value}
             onChange={(newValue) => field.onChange(newValue)}
             errorMessage={fieldState.error?.message}
-            placeholder={t('drive.label')}
+            placeholder=''
             />
         )}
       />

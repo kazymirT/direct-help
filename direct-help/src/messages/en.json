@@ -151,7 +151,7 @@
       "name": "Applicant's full name",
       "status": "Status(military personnel, volunteer)",
       "phone": {
-        "label": "Applicant number *",
+        "label": "Applicant phone  number *",
         "placeholder": ""
       },
       "auto": "Brand and model of the car",
@@ -172,26 +172,27 @@
       "drive":  {
       "label": "Drive type",
       "variants": {
-        "one": "Повний",
-        "two": "Передній"
+        "one": "All-wheel drive / AWD",
+        "two": "Front-wheel drive"
       }
     },
     "comment": "Comment",
     "agree": "I agree to the processing of personal data.",
     "error": {
       "required": "This field is required.",
-      "min": "minimum number of characters {number}",
-      "max": "maximum number of characters {number}",
-      "email": "Please enter a valid email address in the format example@gmail.com",
-      "name": "ERROR",
-      "status": "ERROR",
-      "phone": "The number contains invalid characters.",
-      "auto": "ERROR",
-      "fuel": "ERROR",
-      "transmission": "ERROR",
-      "drive": "ERROR",
-      "comment": "ERROR",
-      "accept": "Ви маєте погодитись EN"
+      "min": "Minimum length is {number} characters.",
+      "max": "Maximum length is {number} characters.",
+      "email": "Please enter a valid email address like example@gmail.com.",
+      "name": "Please enter a valid name.",
+      "status": "Please enter a valid status.",
+      "phone": "Phone number contains invalid characters.",
+      "auto": "Please select a car model.",
+      "fuel": "Please select a fuel type.",
+      "transmission": "Please select a transmission type.",
+      "drive": "Please select a drive type.",
+      "comment": "Please enter a comment.",
+      "accept": "You must agree to the processing of your personal data.",
+      "partnership": "Select at least one option"
     }
     },
     "success": {
@@ -229,19 +230,19 @@
         "button": "Become a Partner"
       },
       "error": {
-        "required": "Це поле є обов'язковим",
-        "min": "мінімальна кількість символів {number}",
-        "max": "максимальна кількість символів {number}",
-        "email": "Веедіть валідну email у форматі example@gmail.com",
-        "name": "Помилка",
-        "status": "Помилка",
-        "phone": "Номер містить недопустимі символи",
-        "auto": "Помилка",
-        "fuel": "Помилка",
-        "transmission": "Помилка",
-        "drive": "Помилка",
-        "comment": "Помилка",
-        "accept": "Ви маєте погодитись",
+        "required": "This field is required.",
+        "min": "Minimum length is {number} characters.",
+        "max": "Maximum length is {number} characters.",
+        "email": "Please enter a valid email address like example@gmail.com.",
+        "name": "Please enter a valid name.",
+        "status": "Please enter a valid status.",
+        "phone": "Phone number contains invalid characters.",
+        "auto": "Please select a car model.",
+        "fuel": "Please select a fuel type.",
+        "transmission": "Please select a transmission type.",
+        "drive": "Please select a drive type.",
+        "comment": "Please enter a comment.",
+        "accept": "You must agree to the processing of your personal data.",
         "partnership": "Select at least one option"
       }
     },
@@ -263,7 +264,9 @@
       },
       "donate": {
         "title": " Donate from Europe USA",
-        "button": "Donate"
+        "button": "Donate",
+        "subtitle": "Attention!",
+        "description": "In the “Payment Purpose” field, be sure to indicate: <strong>”Charity”</strong> Any other wording may result in an automatic refund. If you have any questions, please call: +1 (661) 974-5777 (Viber, WhatsApp)"
       }, 
       "personal": "I agree to the processing of personal data",
       "moneyInfo": "{amount} ua"

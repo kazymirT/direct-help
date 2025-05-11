@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { FC } from "react"
-import { SlidesData } from "../Volunteers/Volunteers";
+import { SlidesData } from "../../Home/Volunteers/Volunteers";
 import { useTranslations } from "next-intl";
 
 const Slide: FC<SlidesData> = ({ one, two }) => {

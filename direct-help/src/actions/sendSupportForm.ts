@@ -9,7 +9,7 @@ export async function sendSupportForm(formData: SupportValues) {
     await transporter.sendMail({
       from: process.env.EMAIL_SEND_FROM,
       to: process.env.EMAIL_SEND_TO,
-      subject: "Нова форма",
+      subject: "Нова запит на допомогу",
       text: JSON.stringify(formData, null, 2),
       html: generateSupportEmail(formData),
     });

@@ -1,5 +1,5 @@
 import { Link } from "@/i18n/navigation";
-import { Reporting } from "@/modules/ReportingList/data"
+import { Reporting } from "@/modules/Reporting/ReportingList/data"
 import { getTranslations } from "next-intl/server";
 import Image from "next/image"
 import { FC } from "react"

@@ -1,4 +1,4 @@
-import Slider from "../SliderAwards/Slider"
+import Slider from "../../Sliders/SliderAwards/Slider"
 import { EmblaOptionsType } from 'embla-carousel'
 import { AWARDS_SLIDE } from "./data"
 import { getTranslations } from "next-intl/server"

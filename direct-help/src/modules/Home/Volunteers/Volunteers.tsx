@@ -1,5 +1,5 @@
 import { EmblaOptionsType } from 'embla-carousel'
-import Slider from '../SliderVolunteers/Slider';
+import Slider from '../../Sliders/SliderVolunteers/Slider';
 import { SLIDES_DATA } from './data';
 import { getTranslations } from 'next-intl/server';
 

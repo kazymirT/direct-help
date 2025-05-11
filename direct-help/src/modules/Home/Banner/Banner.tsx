@@ -1,5 +1,5 @@
 import Button from "@/components/Button/Button";
-import Header from "../Header/Header";
+import Header from "../../Header/Header";
 import { getLocale, getTranslations } from "next-intl/server";
 import clsx from "clsx";
 import Video from "@/components/Video/Video";

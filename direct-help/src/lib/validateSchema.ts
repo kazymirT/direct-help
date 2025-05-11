@@ -43,6 +43,7 @@ export const getPhone = (t?: T, min = 7, max = 15) => {
       { message: t?.('error.phone') || "Номер містить недопустимі символи" }
     );
 };
+
 export const getSupportSchema = (t?: T) => {
   return z.object({
     email: getEmail(t),
@@ -86,6 +87,5 @@ export const getPartnersSchema = (t?: T) => {
       ),
   });
 };
-
 
 export type PartnersValues = z.infer<ReturnType<typeof getPartnersSchema>>;

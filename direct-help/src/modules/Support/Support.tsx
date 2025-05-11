@@ -1,14 +1,14 @@
 "use client"
+import SupportForm from "@/modules/Forms/SupportForm/SupportForm";
 import FormActions from "@/modules/Forms/FormActions/FormActions";
-import NewPartner from "../Forms/NewPartner/NewPartner";
 
-const Partners = () => {
+const Support = () => {
   return (
     <FormActions form={(setStatus) => (
-      <NewPartner setStatus={setStatus} />
+      <SupportForm setStatus={setStatus} />
     )} >
     </FormActions>
   );
 }
 
-export default Partners;
+export default Support

@@ -1,12 +1,18 @@
-"use client"
-import SupportForm from "@/modules/Forms/SupportForm/SupportForm";
-import FormActions from "@/modules/Forms/FormActions/FormActions";
+import Support from "@/modules/Support/Support";
+import { getTranslations } from "next-intl/server";
 
-export default function Support() {
+export async function generateMetadata({params}: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'metadata.support' });
+
+  return {
+    title: t('title'),
+    description: t('description')
+  }
+};
+
+export default function SupportPage() {
   return (
-    <FormActions form={(setStatus) => (
-      <SupportForm setStatus={setStatus} />
-    )} >
-    </FormActions>
+    <Support />
   );
 }

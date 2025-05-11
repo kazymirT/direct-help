@@ -1,5 +1,16 @@
-import ReportingBanner from "@/modules/ReportingBanner/ReportingBanner";
-import ReportingList from "@/modules/ReportingList/ReportingList";
+import ReportingBanner from "@/modules/Reporting/ReportingBanner/ReportingBanner";
+import ReportingList from "@/modules/Reporting/ReportingList/ReportingList";
+import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata({params}: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'metadata.reporting' });
+
+  return {
+    title: t('title'),
+    description: t('description')
+  }
+};
 
 export default function Reporting() {
   return (

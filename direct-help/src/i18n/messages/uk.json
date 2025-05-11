@@ -1,6 +1,29 @@
 {
-  "rootLayout": {
-    "title": "Головна сторінка"
+  "metadata": {
+    "home": {
+      "title": "Головна сторінка",
+      "description": ""
+    },
+    "about": {
+      "title": "Про нас",
+      "description": ""
+    },
+    "reporting": {
+      "title": "Звітність",
+      "description": ""
+    },
+    "support": {
+      "title": "Запит на допомогу",
+      "description": ""
+    },
+    "donate": {
+      "title": "Донати",
+      "description": ""
+    },
+    "partners": {
+      "title": "Стати партнером",
+      "description": ""
+    }
   },
   "burger": {
     "home": "Головна",

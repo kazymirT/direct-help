@@ -1,6 +1,29 @@
 {
-  "rootLayout": {
-    "title": "Direct-help de"
+  "metadata": {
+    "home": {
+      "title": "Direct-help",
+      "description": ""
+    },
+    "about": {
+      "title": "Über uns",
+      "description": ""
+    },
+    "reporting": {
+      "title": "Berichterstattung",
+      "description": ""
+    },
+    "support": {
+      "title": "Unterstützen",
+      "description": ""
+    },
+    "donate": {
+      "title": "Unterstützen Sie unsere Mission",
+      "description": ""
+    },
+    "partners": {
+      "title": "Partner werden",
+      "description": ""
+    }
   },
   "burger": {
     "home": "Hauptseite",

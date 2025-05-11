@@ -1,5 +1,5 @@
 import { Modal } from "@/components/Modal/Modal";
-import { videos } from "@/modules/ReportingList/data";
+import { videos } from "@/modules/Reporting/ReportingList/data";
 
 type Props = {
   params: { slug: keyof typeof videos };

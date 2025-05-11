@@ -1,11 +1,17 @@
 import DonateForm from "@/modules/Forms/DonateForm/DonateForm";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
-type Props =  {
-  params: Promise<{locale: string}>;
-}
+export async function generateMetadata({params}: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'metadata.donate' });
 
-export default async function Donate({ params }: Props) {
+  return {
+    title: t('title'),
+    description: t('description')
+  }
+};
+
+export default async function Donate({ params }: PageProps) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('payment')

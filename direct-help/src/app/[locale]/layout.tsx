@@ -19,22 +19,20 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
 }
 
-export async function generateMetadata({params}: Omit<Props, "children">) {
+export async function generateMetadata({params}: PageProps) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'rootLayout' });
+  const t = await getTranslations({ locale, namespace: 'metadata.home' });
 
   return {
-    title: t('title')
+    title: t('title'),
+    description: t('description')
   }
 };
-type Props =  {
-  children: React.ReactNode;
-  params: Promise<{locale: string}>;
-}
+
 export default async function LocaleLayout({
   children,
   params
-}: Props) {
+}: LayoutProps) {
   const { locale } = await params;
   setRequestLocale(locale);
   const messages = await getMessages();

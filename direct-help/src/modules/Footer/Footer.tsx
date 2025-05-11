@@ -50,11 +50,6 @@ const Footer = async () => {
               <Image alt="Link to facebook" src='/icons/facebook.svg' width={16} height={16} className="md:size-6" />
             </a>
           </li>
-          <li>
-            <a href="" className="flex justify-center items-center size-[26px] md:size-10 rounded-full border-2 border-[#acb0b4] md:hover:border-[#fefefe] transition-all duration-300">
-              <Image alt="Link to telegram " src='/icons/telegram.svg' width={16} height={16} className="md:size-6" />
-            </a>
-          </li>
         </ul>
       </nav>
       </div>
@@ -62,4 +57,4 @@ const Footer = async () => {
   )
 }
 
-export default Footer
+export default Footer;

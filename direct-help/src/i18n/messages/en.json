@@ -299,6 +299,7 @@
     "title": "Reporting",
     "subtitle": "Successfully completed projects",
     "description": "Successfully fulfilled requests for delivery of vehicles from abroad for military personnel.",
+    "button": "Details",
     "list": {
       "one": {
         "title": "The car has been delivered to the soldier."

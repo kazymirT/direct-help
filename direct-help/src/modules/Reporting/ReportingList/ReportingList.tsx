@@ -1,11 +1,18 @@
-import { getLocale, getTranslations } from "next-intl/server"
-import { REPORTING_DATA } from "./data"
+"use client"
+import { REPORTING_DATA, videos } from "./data"
 import ReportingCard from "@/components/ReportingCard/ReportingCard"
 import clsx from "clsx";
+import { useLocale, useTranslations } from "next-intl";
+import { useState } from "react";
+import Modals from "../Modals/Modals";
 
-const ReportingList = async () => {
-  const t = await getTranslations('reporting');
-  const locale = await getLocale();
+const ReportingList = () => {
+  const [videoId, setVideoId] = useState<null | keyof typeof videos>(null);
+  const t = useTranslations('reporting');
+  const locale = useLocale();
+
+  const handleCloseModal = () => setVideoId(null);
+  const handleOpenModal = (videoId: keyof typeof videos) => setVideoId(videoId);
 
   const isUK = locale === 'uk';
 
@@ -17,10 +24,13 @@ const ReportingList = async () => {
     <section className="wrapper flex flex-col gap-2 xs:gap-[10px] sm:gap-3 md:gap-[15px] lg:gap-17">
       <h2 className={descriptionCN}>{t('description')}</h2>
       <div className="reporting-section">
-        {REPORTING_DATA.map((data) => (
-          <ReportingCard key={data.id} {...data}  />        
+        {REPORTING_DATA.map(({ id, image, name, video }) => (
+          <ReportingCard key={id} onClick={handleOpenModal} image={image} video={video} name={t(`list.${name}.title`)} button={t('button')}  />        
         ))}
       </div>
+      {videoId && (
+        <Modals onClose={handleCloseModal} videoId={videoId} />
+      )}
     </section>
   )
 }

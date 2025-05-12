@@ -298,6 +298,7 @@
     "title": "Berichterstattung",
     "subtitle": "Erfolgreich abgeschlossene Projekte",
     "description": "Erfolgreich erfüllte Anfragen für die Lieferung von Fahrzeugen aus dem Ausland für Militärpersonal.",
+    "button": "Einzelheiten",
     "list": {
       "one": {
         "title": "Das Auto wurde an den Soldaten geliefert."

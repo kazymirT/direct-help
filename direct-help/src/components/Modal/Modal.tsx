@@ -1,32 +1,23 @@
-'use client';
+import { ReactNode } from "react";
 
-import { useRouter } from 'next/navigation';
-import { MouseEvent, ReactNode } from 'react';
+type ModalProps = {
+  children: ReactNode;
+  onClose: () => void;
+};
 
-export function Modal({ children }: { children: ReactNode }) {
-  const router = useRouter();
-
-  const handleBackdropClick = () => {
-    router.push('/reporting', { scroll: false });
-  };
-
-  const stopPropagation = (e: MouseEvent) => {
-    e.stopPropagation();
-  };
-
+export function Modal({ children, onClose }: ModalProps) {
   return (
     <div
-      className="fixed inset-0 flex items-center justify-center z-50 bg-[#D9D7D7]/50"
-      onClick={handleBackdropClick}
+      className="fixed inset-0 bg-[#fdf9f0]/50 flex items-center justify-center z-50"
+      onClick={onClose}
     >
       <div
-        className="bg-white p-6 rounded-xl shadow-lg relative"
-        onClick={stopPropagation}
+        className="rounded-md max-w-lg w-fit relative border-2 border-[#7c7c7c]"
+        onClick={(e) => e.stopPropagation()}
       >
         <button
-          aria-label="Close modal"
-          className="absolute top-2 right-2 text-gray-600 hover:text-black cursor-pointer"
-          onClick={handleBackdropClick}
+          className="absolute top-3 right-3 text-[#786F6F] md:hover:text-[#181717] md:hover:cursor-pointer"
+          onClick={onClose}
         >
           ✕
         </button>

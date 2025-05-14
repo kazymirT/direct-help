@@ -277,6 +277,11 @@
       "title": "Support our mission",
       "subtitle": "Make a contribution - every hryvnia is important.",
       "payment-button": "Support",
+      "name": "Help us get closer to victory",
+      "description": "Fuel and spare parts - he things without which no pickup will go. Make your contribution to the reliability of equipment for defenders. Every donation is a mile towards victory.",
+      "error": {
+        "min": "The minimum amount is 50 UAH"
+      },
       "privat": {
         "title": "It is possible to make a contribution.",
         "details-one": "Recipient's name: BO BF DIRECT ASSISTANCE",

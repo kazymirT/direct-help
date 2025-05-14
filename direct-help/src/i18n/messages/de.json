@@ -276,6 +276,11 @@
       "title": "Unterstützen Sie unsere Mission.",
       "subtitle": "Machen Sie eine Spende - jeder Hrywnja ist wichtig.",
       "payment-button": "Unterstützung",
+      "name": "Hilf uns, dem Sieg näher zu kommen",
+      "description": "Kraftstoff und Ersatzteile - das sind die Dinge, ohne die kein Pickup fahren kann. Trage deinen Teil zuverlässiger Technik für Verteidiger bei. Jede Spende ist ein Schritt in Richtung Sieg.",
+      "error": {
+        "min": "Der Mindestbetrag beträgt 50 UAH"
+      },
       "privat": {
         "title": "Man kann eine Spende machen.",
         "details-one": "Übersetzung nicht möglich da die folgenden Texte Nummern oder Symbole sind:",

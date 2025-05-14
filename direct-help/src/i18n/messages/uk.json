@@ -20,6 +20,10 @@
       "title": "Донати",
       "description": ""
     },
+    "donate-success": {
+      "title": "Успішний донат",
+      "description": ""
+    },
     "partners": {
       "title": "Стати партнером",
       "description": ""
@@ -328,5 +332,9 @@
         "title": "Автівка Renault доставлена військовому"
       }
     }
+  },
+  "donate-success": {
+    "title": "Дякуємо за вашу підтримку!",
+    "subtitle": "Ваш платіж успішно оброблено."
   }
 }

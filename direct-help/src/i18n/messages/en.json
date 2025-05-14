@@ -20,6 +20,10 @@
       "title": "Support our mission",
       "description": ""
     },
+    "donate-success": {
+      "title": "Успішний донат",
+      "description": ""
+    },
     "partners": {
       "title": "Become a partner",
       "description": ""
@@ -329,5 +333,9 @@
         "title": "The Renault car has been delivered to the military."
       }
     }
+  },
+  "donate-success": {
+    "title": "Thank you for your support!",
+    "subtitle": "Your payment has been successfully processed."
   }
 }

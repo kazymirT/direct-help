@@ -20,6 +20,10 @@
       "title": "Unterstützen Sie unsere Mission",
       "description": ""
     },
+    "donate-success": {
+      "title": "Успішний донат",
+      "description": ""
+    },
     "partners": {
       "title": "Partner werden",
       "description": ""
@@ -328,5 +332,9 @@
         "title": "Das Renault-Auto wurde an das Militär geliefert."
       }
     }
+  },
+  "donate-success": {
+    "title": "Vielen Dank für Ihre Unterstützung!",
+    "subtitle": "Ihre Zahlung wurde erfolgreich verarbeitet."
   }
 }

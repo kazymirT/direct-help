@@ -12,12 +12,12 @@ const Modals: FC<ModalsProps> = ({ onClose, videoId }) => {
   if (!id) return null;
   return (
     <Modal onClose={onClose}>
-      <div className="h-[80dvh] max-w-[80vw] aspect-[0.563] rounded-md">
+      <div className="h-[80dvh] lg:h-[90dvh] max-w-[80vw] aspect-[0.763] rounded-md">
         <iframe
-          src={`https://www.youtube.com/embed/${id}?rel=0&modestbranding=1&controls=0&modestbranding=1&fs=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=${id}`}
+          src={`https://www.youtube.com/embed/${id}?rel=0&modestbranding=1&controls=1&modestbranding=1&fs=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=${id}`}
           allow="autoplay"
           allowFullScreen
-          className="h-[80dvh] max-w-[80vw] aspect-[0.563] rounded-md"
+          className="h-[80dvh] lg:h-[90dvh] max-w-[80vw] aspect-[0.763] rounded-md"
         />
       </div>
     </Modal>

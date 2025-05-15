@@ -4,7 +4,7 @@ import ReportingCard from "@/components/ReportingCard/ReportingCard"
 import clsx from "clsx";
 import { useLocale, useTranslations } from "next-intl";
 import { useState } from "react";
-import Modals from "../Modals/Modals";
+import ReportingModal from "../ReportingModal/ReportingModal";
 
 const ReportingList = () => {
   const [videoId, setVideoId] = useState<null | keyof typeof videos>(null);
@@ -29,7 +29,7 @@ const ReportingList = () => {
         ))}
       </div>
       {videoId && (
-        <Modals onClose={handleCloseModal} videoId={videoId} />
+        <ReportingModal onClose={handleCloseModal} videoId={videoId} />
       )}
     </section>
   )

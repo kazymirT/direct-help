@@ -34,11 +34,19 @@ html {
 }
 
 .banner {
-  @apply xl:pb-[43px] bg-position-[center_center] md:bg-center bg-size-[100vw_clamp(12.938rem,-0.316rem+56.549vw,35.875rem)] lg:bg-size-[100vw_clamp(35.875rem,2.952rem+51.442vw,49.25rem)] 2xl:bg-size-[100vw_clamp(49.25rem,0.125rem+54.583vw,65.625rem)]! bg-no-repeat w-full h-[clamp(12.938rem,-0.316rem+56.549vw,35.875rem)] lg:h-[clamp(35.875rem,2.952rem+51.442vw,49.25rem)] 2xl:h-[clamp(49.25rem,0.125rem+54.583vw,65.625rem)]! bg-[url('/logo-2.png')];
-}
-
-.reporting {
-  @apply w-full h-[clamp(8.438rem,-0.049rem+36.21vw,23.125rem)] lg:h-[clamp(23.125rem,-0.106rem+36.298vw,32.563rem)] bg-[url('/reportings/reporting.svg')] bg-size-[100%] bg-no-repeat;
+  @apply
+  w-full max-w-[1920px] m-auto bg-[url('/logo-2.png')] bg-no-repeat bg-center 
+  h-[clamp(11.063rem,0.153rem+54.545vw,12.938rem)] /*1.81 207*/
+  bg-size-[100vw_clamp(11.063rem,0.153rem+54.545vw,12.938rem)]
+  /*177 320px*/
+  min-[375px]:h-[clamp(12.938rem,-0.316rem+56.549vw,35.875rem)] /*1.81*/
+  min-[375px]:bg-size-[100vw_clamp(12.938rem,-0.316rem+56.549vw,35.875rem)]
+  lg:bg-size-[100vw_clamp(35.875rem,2.952rem+51.442vw,49.25rem)]
+  lg:h-[clamp(35.875rem,2.952rem+51.442vw,49.25rem)] 
+  xl:pb-[43px]
+  2xl:bg-size-[100vw_clamp(49.25rem,0.125rem+54.583vw,65.625rem)]! 
+  2xl:h-[clamp(49.25rem,0.125rem+54.583vw,65.625rem)]! 
+  min-[1920px]:bg-size-[100%_1050px]! 
 }
 
 .wrapper {
@@ -56,6 +64,10 @@ html {
 
 .bg-gradient-quality {
   background: linear-gradient(32deg, #ffb00f 0%, #d5a034 24.09%, #cfb276 55.95%, #5785fa 100%);
+}
+
+.reporting {
+  @apply w-full max-w-[1920px] h-[clamp(6.25rem,-6.477rem+63.636vw,8.438rem)] min-[375px]:h-[clamp(8.438rem,-0.049rem+36.21vw,23.125rem)] lg:h-[clamp(23.125rem,-0.106rem+36.298vw,32.563rem)] bg-[url('/reportings/reporting.svg')] bg-size-[100%] bg-no-repeat;
 }
 
 .reporting-section {
@@ -110,4 +122,23 @@ html {
 
 .svg-icon:active .fill-rect {
   fill: #9A9893;  
+}
+
+.video {
+  @apply 
+  rounded-full absolute aspect-[1]
+  w-[clamp(6.875rem,-4.398rem+56.364vw,8.813rem)] right-10 top-0
+  min-[350px]:right-8
+  min-[375px]:w-[clamp(8.813rem,-1.083rem+42.219vw,25.938rem)] min-[375px]:right-[clamp(1.375rem,-0.857rem+9.524vw,2rem)]
+  xs:top-[clamp(0.125rem,-1.75rem+6.25vw,0.75rem)] xs:right-[clamp(2rem,-0.813rem+9.375vw,2.938rem)]
+  sm:top-[clamp(0.25rem,-2.25rem+6.25vw,0.75rem)] sm:right-[clamp(2.25rem,0.375rem+4.688vw,2.625rem)]
+  md:top-[clamp(0rem,-3rem+6.25vw,1rem)] md:right-[clamp(2.625rem,0.375rem+4.688vw,3.375rem)]
+  lg:w-[clamp(25.938rem,0.091rem+40.385vw,36.438rem)] lg:right-[clamp(2.875rem,0.721rem+3.365vw,3.75rem)] lg:-top-[7px]
+  xl:-top-5
+  2xl:w-[clamp(36.375rem,14.25rem+24.583vw,43.75rem)]! 2xl:-top-[clamp(0.75rem,10.568rem+-10.909vw,0rem)]! 2xl:right-15!
+  min-[1500px]:top-0! min-[1500px]:right-10!
+  min-[1600px]:top-2! min-[1600px]:right-0!
+  min-[1700px]:top-5! min-[1700px]:-right-5!
+  min-[1800px]:top-8! min-[1800px]:-right-15!
+  min-[1920px]:top-14! min-[1920px]:-right-20!
 }

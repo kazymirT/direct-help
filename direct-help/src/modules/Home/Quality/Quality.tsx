@@ -11,7 +11,7 @@ const Quality = async () => {
   const isUK = locale === 'uk';
   const isDE = locale === 'de';
 
-  const wrapperCN = clsx('w-full bg-gradient-quality pt-2 sm:pt-8 lg:pt-13.5 xl:pt-[75px] flex justify-center', {
+  const wrapperCN = clsx('w-full m-auto max-w-[1920px] bg-gradient-quality pt-2 sm:pt-8 lg:pt-13.5 xl:pt-[75px] flex justify-center', {
     ['pb-12 lg:pb-15 xl:pb-21']: isEN,
     ['pb-12 lg:pb-10.5 xl:pb-15']: isUK || isDE,
   });

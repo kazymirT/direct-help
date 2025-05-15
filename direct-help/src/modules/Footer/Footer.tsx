@@ -5,7 +5,7 @@ import Image from "next/image"
 const Footer = async () => {
   const t = await getTranslations('footer');
   return (
-    <div className="bg-[#0d1415] pt-4 sm:pt-3 pb-[34px] text-[#fff8f3] flex flex-col items-center">
+    <div className="bg-[#0d1415] w-full max-w-[1920px] m-auto pt-4 sm:pt-3 pb-[34px] text-[#fff8f3] flex flex-col items-center">
       <div className="wrapper text-base min-lg:text-xl flex flex-col gap-[55px] sm:gap-9">
       <div className="flex flex-col md:flex-row justify-between sm:items-center max-sm:gap-[6px] sm:gap-5 w-full md:gap-25 lg:gap-40">
         <Link href='/' className="self-start" >

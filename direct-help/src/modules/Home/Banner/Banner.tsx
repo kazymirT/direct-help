@@ -13,13 +13,13 @@ export default async function Banner() {
   const isDE = locale === 'de';
 
   const textCN = clsx('flex flex-col', {
-    ['gap-[clamp(1.375rem,-2.01rem+5.288vw,2.75rem)] min-[1500px]:pt-8 min-[1600px]:pt-10 min-[1700px]:pt-20 min-[1800px]:pt-30 min-[1900px]:pt-35']: isEN,
-    ['gap-[clamp(2.875rem,-2.663rem+8.654vw,5.125rem)] min-[1500px]:pt-8 min-[1600px]:pt-10 min-[1700px]:pt-20 min-[1800px]:pt-30 min-[1900px]:pt-35']: isUK,
-    ['gap-4.5 xs-max-md:gap-12 min-[1500px]:pt-8 min-[1600px]:pt-10 min-[1700px]:pt-20 min-[1800px]:pt-30 min-[1900px]:pt-35']: isDE,
+    ['gap-2 min-[375px]:gap-[clamp(1.375rem,-2.01rem+5.288vw,2.75rem)] min-[1500px]:pt-8 min-[1600px]:pt-10 min-[1700px]:pt-20 min-[1800px]:pt-30 min-[1900px]:pt-35']: isEN,
+    ['gap-4 min-[375px]:gap-[clamp(2.875rem,-2.663rem+8.654vw,5.125rem)] min-[1500px]:pt-8 min-[1600px]:pt-10 min-[1700px]:pt-20 min-[1800px]:pt-30 min-[1900px]:pt-35']: isUK,
+    ['gap-2 min-[375px]:gap-4.5 xs-max-md:gap-12 min-[1500px]:pt-8 min-[1600px]:pt-10 min-[1700px]:pt-20 min-[1800px]:pt-30 min-[1900px]:pt-35']: isDE,
   });
-  const descriptionCN = clsx('font-third text-[clamp(0.875rem,0.297rem+2.465vw,1.875rem)] lg:text-[clamp(1.875rem,0.952rem+1.442vw,2.25rem)] text-text2  leading-[1.25] xl:leading-[1.5]', {
+  const descriptionCN = clsx('font-third text-xs min-[375px]:text-[clamp(0.875rem,0.297rem+2.465vw,1.875rem)] lg:text-[clamp(1.875rem,0.952rem+1.442vw,2.25rem)] text-text2 leading-[1.25] xl:leading-[1.5]', {
     ['max-w-[180px] xs:max-w-[250px] sm:max-w-[300px] md:max-w-[350px] lg:max-w-[clamp(27.5rem,-0.192rem+43.269vw,38.75rem)]']: isEN || isDE,
-    ['max-w-[200px] xs:max-w-[255px] sm:max-w-[300px] md:max-w-[350px] lg:max-w-[clamp(27.5rem,-0.192rem+43.269vw,38.75rem)]']: isUK,
+    ['max-w-[180px] min-[375px]:max-w-[200px] xs:max-w-[255px] sm:max-w-[300px] md:max-w-[350px] lg:max-w-[clamp(27.5rem,-0.192rem+43.269vw,38.75rem)]']: isUK,
   });
   const wrapperCN = clsx('relative flex flex-col w-full max-w-[1280px] m-auto', {
     ['pt-1 xs:pt-6 sm:pt-10 xl:pt-0 md:gap-[clamp(3.75rem,0rem+7.813vw,5rem)] lg:gap-[clamp(5rem,-7.615rem+19.712vw,10.125rem)]']: isEN,
@@ -34,9 +34,9 @@ export default async function Banner() {
       <div className={wrapperCN}>
         <section className={textCN}>
             {isEN && (
-              <h1 className="text-[#0d1415] font-third w-full max-w-[clamp(10.625rem,-0.706rem+48.346vw,22.5rem)] md:max-w-[clamp(22.5rem,-13.125rem+74.219vw,34.375rem)] lg:max-w-[650px]">
-              <p className="text-[clamp(1.375rem,0.219rem+4.931vw,3.375rem)] lg:text-[clamp(3.375rem,1.837rem+2.404vw,4rem)] inline leading-[1.39] font-medium">{t('title.one')}</p>
-              <p className="inline text-[clamp(1rem,0.278rem+3.082vw,2.25rem)] lg:text-[clamp(2.25rem,-0.519rem+4.327vw,3.375rem)] min-lg:leading-[2.7] pl-1 lg:pl-3 xl:pl-9 font-normal">{t('title.two')}</p>
+              <h1 className="text-[#0d1415] font-third w-full max-w-[160px] min-[375px]:max-w-[clamp(10.625rem,-0.706rem+48.346vw,22.5rem)] md:max-w-[clamp(22.5rem,-13.125rem+74.219vw,34.375rem)] lg:max-w-[650px]">
+              <p className="text-xl min-[375px]:text-[clamp(1.375rem,0.219rem+4.931vw,3.375rem)] lg:text-[clamp(3.375rem,1.837rem+2.404vw,4rem)] inline leading-[1.39] font-medium">{t('title.one')}</p>
+              <p className="inline text-[15px] min-[375px]:text-[clamp(1rem,0.278rem+3.082vw,2.25rem)] lg:text-[clamp(2.25rem,-0.519rem+4.327vw,3.375rem)] min-lg:leading-[2.7] pl-1 lg:pl-3 xl:pl-9 font-normal">{t('title.two')}</p>
             </h1>)}
             {isUK && (
               <h1 className="text-[#0d1415] font-third flex flex-col gap-4 xl:gap-11 w-full max-w-[650px]">
@@ -52,7 +52,7 @@ export default async function Banner() {
             {t('description')}
           </p>
         </section>
-        <div className="relative z-100 max-md:hidden w-full md:max-w-[500px] lg:max-w-[clamp(37.75rem,0.212rem+58.654vw,53rem)] flex gap-[18px]">
+        <div className="relative z-10 max-md:hidden w-full md:max-w-[500px] lg:max-w-[clamp(37.75rem,0.212rem+58.654vw,53rem)] flex gap-[18px]">
           <Button size="full" variant="basic" text={t('buttons.support')} link="/donate" />
           <Button size="full" variant="second" text={t('buttons.request')} link="/support" />
         </div>

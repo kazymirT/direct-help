@@ -17,7 +17,7 @@ const Attainment = async () => {
   });
 
   return (
-    <section className="pt-5 lg:pt-7 xl:pt-[37px] pb-11 md:pb-[34px] bg-black-30 text-fon font-family flex justify-center">
+    <section className="w-full max-w-[1920px] m-auto pt-5 lg:pt-7 xl:pt-[37px] pb-11 md:pb-[34px] bg-black-30 text-fon font-family flex justify-center">
       <div className="wrapper flex flex-col gap-6.5 sm:gap-6 md:gap-8 xl:gap-[49px]">
       <h2 className="md:font-medium text-[clamp(1.5rem,1.356rem+0.616vw,1.75rem)] lg:text-[clamp(1.75rem,0.519rem+1.923vw,2.25rem)] leading-[1.25]">{t('title')}</h2>
       <div className="flex flex-col max-sm:items-center sm:flex-row gap-3 sm:gap-1.5 md:gap-2.5 lg:gap-3.5">

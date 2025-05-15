@@ -4,5 +4,3 @@ type LayoutProps =  {
 }
 
 type PageProps = Omit<LayoutProps, 'children'>;
-
-

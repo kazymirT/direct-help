@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
             product_data: {
               name,
               description,
-              images: [`https://direct-help-git-develop-kazymirts-projects.vercel.app/direct-help.png`],
+              images: [`${origin}/direct-help.png`],
             }
           },
           quantity: 1,

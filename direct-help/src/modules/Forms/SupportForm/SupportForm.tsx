@@ -11,7 +11,6 @@ import { useTranslations } from "next-intl"
 import { Status } from "../FormActions/FormActions"
 import { getSupportSchema, SupportValues } from '@/lib/validateSchema';
 import { useForm, Controller } from 'react-hook-form';
-import { sendSupportForm } from '@/actions/sendSupportForm';
 import Checkbox from '@/components/Checkbox/Checkbox';
 
 export interface SupportFormProps {
@@ -25,7 +24,7 @@ const SupportForm: FC<SupportFormProps> = ({ setStatus }) => {
     register,
     handleSubmit,
     control,
-    formState: { isValid, errors },
+    formState: { errors },
   } = useForm<SupportValues>({
     defaultValues: {
     },
@@ -33,20 +32,23 @@ const SupportForm: FC<SupportFormProps> = ({ setStatus }) => {
     mode: 'onSubmit',
   });
   const onSubmit = async (data: SupportValues) => {
-    if (isValid) {  
-      setIsLoading(true);
-      try {
-        const result = await sendSupportForm(data);
-        if (result.success) {
-          setStatus('success');
-        } else {
-          setStatus('error');
-        }
-      } 
-      catch (error) {
-        console.log(error);
-        setStatus('error');
+    setIsLoading(true);
+    try {
+      const response = await fetch("/api/support_form", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    });
+    const result = await response.json();
+    if (result.success) {
+      setStatus('success');
+    } else {
+      setStatus('error');
       }
+    } 
+    catch (error) {
+      console.log(error);
+      setStatus('error');
     }
   }
   return (

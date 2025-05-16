@@ -11,7 +11,6 @@ import { useForm } from "react-hook-form"
 import { getPartnersSchema, PartnersValues } from "@/lib/validateSchema"
 import { zodResolver } from "@hookform/resolvers/zod"
 import Loading from "../Loading/Loading"
-import { sendPartnersForm } from "@/actions/sendPartnersForm"
 import { CheckboxGroup } from "./CheckboxGroup/CheckboxGroup"
 
 const NewPartner: FC<SupportFormProps> = ({ setStatus }) => {
@@ -22,7 +21,7 @@ const NewPartner: FC<SupportFormProps> = ({ setStatus }) => {
       register,
       handleSubmit,
       trigger,
-      formState: { isValid, errors },
+      formState: { errors },
     } = useForm<PartnersValues>({
       defaultValues: {
       },
@@ -30,20 +29,23 @@ const NewPartner: FC<SupportFormProps> = ({ setStatus }) => {
       mode: 'onSubmit',
     });
     const onSubmit = async (data: PartnersValues) => {
-      if (isValid) {  
-        setIsLoading(true);
-        try {
-          const result = await sendPartnersForm(data);
-          if (result.success) {
-            setStatus('success');
-          } else {
-            setStatus('error');
-          }
-        } 
-        catch (error) {
-          console.log(error);
+      setIsLoading(true);
+      try {
+        const response = await fetch("/api/partners_form", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        });
+        const result = await response.json();
+        if (result.success) {
+          setStatus('success');
+        } else {
           setStatus('error');
         }
+      } 
+      catch (error) {
+        console.log(error);
+        setStatus('error');
       }
     }
   return (

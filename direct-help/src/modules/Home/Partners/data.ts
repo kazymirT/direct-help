@@ -1,0 +1,17 @@
+export const PARTNERS_DATA = [
+  { id: 1, slide: '/partners/partner_1.png', alt: '' },
+  { id: 2, slide: '/partners/partner_2.png', alt: '' },
+  { id: 3, slide: '/partners/partner_3.png', alt: '' },
+  { id: 4, slide: '/partners/partner_4.png', alt: '' },
+  { id: 5, slide: '/partners/partner_5.jpg', alt: '' },
+  { id: 6, slide: '/partners/partner_6.jpg', alt: '' },
+  { id: 7, slide: '/partners/partner_7.jpg', alt: '' },
+  { id: 8, slide: '/partners/partner_8.jpg', alt: '' },
+  { id: 9, slide: '/partners/partner_9.jpg', alt: '' },
+  { id: 10, slide: '/partners/partner_10.jpg', alt: '' },
+  { id: 11, slide: '/partners/partner_11.jpg', alt: '' },
+  { id: 12, slide: '/partners/partner_12.jpg', alt: '' },
+  { id: 13, slide: '/partners/partner_13.jpg', alt: '' },
+  { id: 14, slide: '/partners/partner_14.jpg', alt: '' },
+  { id: 15, slide: '/partners/partner_15.png', alt: '' },
+];

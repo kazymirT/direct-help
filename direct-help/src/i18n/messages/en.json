@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Direct-help",
+      "description": ""
+    },
+    "about": {
+      "title": "About us",
+      "description": ""
+    },
+    "reporting": {
+      "title": "Reporting",
+      "description": ""
+    },
+    "support": {
+      "title": "Request for help",
+      "description": ""
+    },
+    "donate": {
+      "title": "Support our mission",
+      "description": ""
+    },
+    "donate-success": {
+      "title": "Успішний донат",
+      "description": ""
+    },
+    "partners": {
+      "title": "Become a partner",
+      "description": ""
+    }
+  },
+  "burger": {
+    "home": "Homepage",
+    "reporting": "Reporting",
+    "about": "About us",
+    "support": "Support",
+    "partners": "Become a partner"
+  },
+  "header": {
+    "home": "Homepage",
+    "reporting": "Reporting",
+    "about": "About us"
+  },
+  "footer": {
+    "about": "About us",
+    "reporting": "Reporting",
+    "partners": "Become a partner",
+    "support": "Application form"
+  },
+  "not-found": {
+    "title": "No such page found",
+    "button": "Return to home page",
+    "alt": ""
+  },
+  "home": {
+    "banner": {
+      "title": {
+        "one": "Pickups for Military of Ukraine",
+        "two": "-help close the need!"
+      },
+      "description": "Together we will provide our protectors with reliable transportation.",
+      "buttons": {
+        "request": "Request for help",
+        "support": "Support"
+      }
+    },
+    "partners": {
+      "title": "Our partners",
+      "button": "Become a partner"
+    },
+    "about": {
+      "title": "About the project",
+      "description-one": "Trucks4u is a volunteer initiative that supports those who protect us. We provide free delivery of pickup trucks and other vehicles to the Armed Forces of Ukraine—where they are needed most.",
+      "description-two": "We search for reliable vehicles, inspect their technical condition, handle all documentation, and personally deliver them directly to combat units. Our mission is to equip Ukrainian defenders with vehicles they can depend on.",
+      "description-three": "This is only possible thanks to people who refuse to stay on the sidelines. All assistance is fully transparent: every hryvnia goes directly toward a specific vehicle for a specific unit.Together, we are moving closer to victory.",
+      "button": "More details"
+    },
+    "attainment": {
+      "title": "Our achievements",
+      "button": "View reports",
+      "auto": "Auto-delivered to the protectors/ defenders",
+      "unit": "The units have already received the equipment.",
+      "delivery": "Car delivery",
+      "moneyInfo": "{amount} UAH"
+    },
+    "donate": {
+      "title": "Help us get closer to victory",
+      "description-one": "Fuel and spare parts - the things without which no pickup will go.",
+      "description-two": "Make your contribution to the reliability of equipment for defenders.",
+      "description-three": "Every donation is a mile towards victory.",
+      "button": "Donate for fuel"
+    },
+    "quality": {
+      "one": {
+        "title": "Transparency",
+        "description": "We publicly report on income and expenses on the website."
+      },
+      "two": {
+        "title": "Focus",
+        "description": "We respond quickly to requests and meet the needs of individual departments."
+      },
+      "three": {
+        "title": "Charitable mission",
+        "description": "Provide car delivery services"
+      }
+    },
+    "volunteers": {
+      "title": "Our volunteers",
+      "list": {
+        "one": {
+          "name": "Alikperov Ruslan Rakhimovich",
+          "position": "Fund manager",
+          "direction": "Volunteer"
+        },
+        "two": {
+          "name": "Alexei Levitsky",
+          "position": "Responsible for cooperation with partners",
+          "direction": "Volunteer"
+        },
+        "three": {
+          "name": "Iryna Karpenko",
+          "position": "\u200B",
+          "direction": "Volunteer"
+        },
+        "four": {
+          "name": "Oleksandr Tsybulko",
+          "position": "\u200B",
+          "direction": "Volunteer"
+        },
+        "five": {
+          "name": "Kibitkin Taras",
+          "position": "\u200B",
+          "direction": "Volunteer"
+        },
+        "six": {
+          "name": "Petro",
+          "position": "Repair master",
+          "direction": "Volunteer"
+        },
+        "seven": {
+          "name": "Karina Filipenko",
+          "position": "\u200B",
+          "direction": "Volunteer"
+        },
+        "eight": {
+          "name": "Andriy Kalmichkov ",
+          "position": "\u200B",
+          "direction": "Volunteer"
+        },
+        "nine": {
+          "name": "Biryukov Vitaliy",
+          "position": "Project manager",
+          "direction": "Volunteer"
+        },
+        "ten": {
+          "name": "Semiroz Dmytro",
+          "position": "Marketing and WEB Development Department Marketing Department Specialist",
+          "direction": ""
+        }
+      }
+    },
+    "awards": "Awards and recognition to the fund."
+  },
+  "payment": {
+    "title": {
+      "one": "Help repair and deliver vehicles for the Armed Forces of Ukraine.",
+      "two": "Every hryvnia brings us closer to victory. We are raising funds to repair vehicles for units performing combat missions on the front lines. Your contribution is a step towards the safety and success of our defenders."
+    }
+  },
+  "form" : {
+    "support": {
+      "title": "Request for Car Delivery",
+      "button": "Send",
+      "email": {
+        "label": "Email address *",
+        "support-text": "All communication with you will be conducted through email, so please provide a valid email address and check your spam. The result of your request review will be sent to the indicated email address."
+      },
+      "name": "Applicant's full name",
+      "status": "Status(military personnel, volunteer)",
+      "phone": {
+        "label": "Applicant phone  number *",
+        "placeholder": ""
+      },
+      "auto": "Brand and model of the car",
+      "fuel":  {
+        "label": "Fuel type",
+        "variants": {
+          "one": "Petrol",
+          "two": "Diesel"
+        }
+      },
+      "transmission":  {
+        "label": "Type of transmission",
+        "variants": {
+          "one": "Mechanical",
+          "two": "Automatic"
+        }
+      },
+      "drive":  {
+      "label": "Drive type",
+      "variants": {
+        "one": "All-wheel drive / AWD",
+        "two": "Front-wheel drive"
+      }
+    },
+    "comment": "Comment",
+    "agree": "I agree to the processing of personal data.",
+    "error": {
+      "required": "This field is required.",
+      "min": "Minimum length is {number} characters.",
+      "max": "Maximum length is {number} characters.",
+      "email": "Please enter a valid email address like example@gmail.com.",
+      "name": "Please enter a valid name.",
+      "status": "Please enter a valid status.",
+      "phone": "Phone number contains invalid characters.",
+      "auto": "Please select a car model.",
+      "fuel": "Please select a fuel type.",
+      "transmission": "Please select a transmission type.",
+      "drive": "Please select a drive type.",
+      "comment": "Please enter a comment.",
+      "accept": "You must agree to the processing of your personal data.",
+      "partnership": "Select at least one option"
+    }
+    },
+    "success": {
+      "title": "Thank you for your inquiry! You will be contacted by us soon."
+    },
+    "error": {
+      "title": "Oops... something went wrong.",
+      "subtitle": "But we believe: even a small step back is a path towards a great cause.",
+      "button": "Go back"
+    },
+    "partners": {
+      "title": "Become a partner",
+      "description-one": "Join as a partner - let's make changes together!",
+      "description-two": "Partnership is more than just support. It is a joint action for victory and good deeds.",
+      "form": {
+        "personal": {
+          "title": "Company/Person Information",
+          "name": "Name or organization",
+          "person": "Contact person",
+          "email": "Email",
+          "phone": "Telephone",
+          "cite": "Link to website/social media"
+        },
+        "type": {
+          "title": "Type of partnership",
+          "financial": "Financial support",
+          "material": "Material aid/assistance/support.",
+          "media": "Information/Media Support",
+          "volunteering": "Volunteering / services",
+          "other": "Other (specify)"
+        },
+        "comment": "Comment/Message",
+        "document": "Add document/presentation",
+        "personal-data": "I agree to the processing of personal data.",
+        "button": "Become a Partner"
+      },
+      "error": {
+        "required": "This field is required.",
+        "min": "Minimum length is {number} characters.",
+        "max": "Maximum length is {number} characters.",
+        "email": "Please enter a valid email address like example@gmail.com.",
+        "name": "Please enter a valid name.",
+        "status": "Please enter a valid status.",
+        "phone": "Phone number contains invalid characters.",
+        "auto": "Please select a car model.",
+        "fuel": "Please select a fuel type.",
+        "transmission": "Please select a transmission type.",
+        "drive": "Please select a drive type.",
+        "comment": "Please enter a comment.",
+        "accept": "You must agree to the processing of your personal data.",
+        "partnership": "Select at least one option"
+      }
+    },
+    "payment": {
+      "title": "Support our mission",
+      "subtitle": "Make a contribution - every hryvnia is important.",
+      "payment-button": "Support",
+      "name": "Help us get closer to victory",
+      "description": "Fuel and spare parts - he things without which no pickup will go. Make your contribution to the reliability of equipment for defenders. Every donation is a mile towards victory.",
+      "error": {
+        "min": "The minimum amount is 50 UAH"
+      },
+      "privat": {
+        "title": "It is possible to make a contribution.",
+        "details-one": "Recipient's name: BO BF DIRECT ASSISTANCE",
+        "details-two": "Recipient's code: 44748259",
+        "details-three": "Recipient's account: UA143052990000026008035903939",
+        "details-four": "Bank name: JSC 'PRIVATBANK'",
+        "details-five": "Purpose: donation according to the needs of Trucks4U project",
+        "details": "Recipient's name: BO BF DIRECT ASSISTANCE Recipient's code: 44748259 Recipient's account: UA143052990000026008035903939 Bank name: JSC 'PRIVATBANK' Purpose: donation according to the needs of Trucks4U project"
+      },
+      "cryptocurrency": {
+        "title": "Cryptocurrency"
+      },
+      "donate": {
+        "title": " Donate from Europe USA",
+        "button": "Donate",
+        "subtitle": "Attention!",
+        "description": "In the “Payment Purpose” field, be sure to indicate: <strong>”Charity”</strong> Any other wording may result in an automatic refund. If you have any questions, please call: +1 (661) 974-5777 (Viber, WhatsApp)"
+      }, 
+      "moneyInfo": "{amount} ua"
+    }
+  },
+  "reporting": {
+    "title": "Reporting",
+    "subtitle": "Successfully completed projects",
+    "description": "Successfully fulfilled requests for delivery of vehicles from abroad for military personnel.",
+    "button": "Details",
+    "list": {
+      "one": {
+        "title": "The car has been delivered to the soldier."
+      },
+      "two": {
+        "title": "The car Volvo XC90 is delivered to the military."
+      },
+      "three": {
+        "title": "The military tires were sent by Nova Poshta."
+      },
+      "four": {
+        "title": "The Car Mitsubishi L200 and tires."
+      },
+      "five": {
+        "title": "The Mazda 5 car has been delivered to the military."
+      },
+      "six": {
+        "title": "The car has been delivered to the soldier."
+      },
+      "seven": {
+        "title": "The Nissan Navara car was delivered to the military."
+      },
+      "eight": {
+        "title": "The KIA car has been delivered to the military."
+      },
+      "nine": {
+        "title": "The Renault car has been delivered to the military."
+      }
+    }
+  },
+  "donate-success": {
+    "title": "Thank you for your support!",
+    "subtitle": "Your payment has been successfully processed."
+  }
+}

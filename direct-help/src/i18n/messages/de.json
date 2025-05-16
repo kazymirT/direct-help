@@ -1,0 +1,344 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Direct-help",
+      "description": ""
+    },
+    "about": {
+      "title": "Über uns",
+      "description": ""
+    },
+    "reporting": {
+      "title": "Berichterstattung",
+      "description": ""
+    },
+    "support": {
+      "title": "Unterstützen",
+      "description": ""
+    },
+    "donate": {
+      "title": "Unterstützen Sie unsere Mission",
+      "description": ""
+    },
+    "donate-success": {
+      "title": "Успішний донат",
+      "description": ""
+    },
+    "partners": {
+      "title": "Partner werden",
+      "description": ""
+    }
+  },
+  "burger": {
+    "home": "Hauptseite",
+    "reporting": "Berichterstattung",
+    "about": "Über uns",
+    "support": "Hilfeanfrage",
+    "partners": "Partner werden"
+  },
+  "header": {
+    "home": "Hauptseite",
+    "reporting": "Berichterstattung",
+    "about": "Über uns"
+  },
+  "footer": {
+    "about": "Über uns",
+    "reporting": "Berichterstattung",
+    "partners": "Partner werden",
+    "support": "Antragsformular"
+  },
+  "not-found": {
+    "title": "Keine solche Seite gefunden",
+    "button": "Zurück zur Startseite",
+    "alt": ""
+  },
+  "home": {
+    "banner": {
+      "title": {
+        "one": "Pickup-Trucks für die Streitkräfte der Ukraine –",
+        "two": "Helfen Sie mit, den Bedarf zu decken!"
+      },
+      "description": " Zusammen werden wir den Verteidigern zuverlässigen Transport gewährleisten.",
+      "buttons": {
+        "request": "Unterstützen",
+        "support": "Hilfeanfrage"
+      }
+    },
+    "partners": {
+      "title": "Unsere Partner",
+      "button": "Partner werden"
+    },
+    "about": {
+      "title": "Über das Projekt",
+      "description-one": "Trucks4u ist ein ehrenamtliches Projekt, das für diejenigen arbeitet, die uns beschützen. Wir liefern kostenlos Pick-up-Trucks und andere Fahrzeuge an die Streitkräfte - an Orte, wo sie am meisten gebraucht werden.",
+      "description-two": "Wir suchen zuverlässige Autos, überprüfen ihren technischen Zustand, bearbeiten die Dokumente und liefern sie persönlich direkt an die Kampfeinheiten. Unser Ziel ist es, den ukrainischen Verteidigern Räder zur Verfügung zu stellen, auf die sie sich verlassen können.",
+      "description-three": "Dies ist nur durch die Menschen möglich, die nicht abseits stehen. Jede Hilfe ist transparent, jeder Hrywna richtet sich an ein bestimmtes Fahrzeug für eine bestimmte Einheit. Zusammen bringen wir den Sieg näher.",
+      "button": "Mehr lesen"
+    },
+    "attainment": {
+      "title": "Unsere Leistungen",
+      "button": "Berichte anzeigen",
+      "auto": "Automatisierte Lieferungen an Verteidiger",
+      "unit": "Die Einheiten haben bereits die Ausrüstung erhalten.",
+      "delivery": "Autolieferung",
+      "moneyInfo": "{amount} грн"
+    },
+    "donate": {
+      "title": "Hilf uns, dem Sieg näher zu kommen",
+      "description-one": "Kraftstoff und Ersatzteile - das sind die Dinge, ohne die kein Pickup fahren kann.",
+      "description-two": "Trage deinen Teil zuverlässiger Technik für Verteidiger bei.",
+      "description-three": "Jede Spende ist ein Schritt in Richtung Sieg.",
+      "button": "Für Kraftstoff spenden"
+    },
+    "quality": {
+      "one": {
+        "title": "Transparenz",
+        "description": "Wir berichten öffentlich über die Einnahmen und Ausgaben auf der Website."
+      },
+      "two": {
+        "title": "Fokus",
+        "description": "Wir reagieren ziemlich schnell auf Anfragen und erfüllen die Bedürfnisse einzelner Abteilungen."
+      },
+      "three": {
+        "title": "Wohltätige Mission",
+        "description": "Die Bedürfnisse in der Autozustellung bereitstellen"
+      }
+    },
+    "volunteers": {
+      "title": "Unsere Freiwilligen",
+      "list": {
+        "one": {
+          "name": "Ruslan Rahimowitsch Alikperov",
+          "position": "Fondsleiter",
+          "direction": "Freiwilliger"
+        },
+        "two": {
+          "name": "Alexej Lewitzky",
+          "position": "Verantwortlich für die Zusammenarbeit mit Partnern",
+          "direction": "Freiwilliger"
+        },
+        "three": {
+          "name": "Iryna Karpenko",
+          "position": "\u200B",
+          "direction": "Freiwilliger"
+        },
+        "four": {
+          "name": "Oleksandr Tsybulko",
+          "position": "\u200B",
+          "direction": "Freiwilliger"
+        },
+        "five": {
+          "name": "Kibitkin Taras",
+          "position": "\u200B",
+          "direction": "Freiwilliger"
+        },
+        "six": {
+          "name": "Petro",
+          "position": "Reparaturmeister",
+          "direction": "Freiwilliger"
+        },
+        "seven": {
+          "name": "Karina Filipenko",
+          "position": "\u200B",
+          "direction": "Freiwilliger"
+        },
+        "eight": {
+          "name": "Andriy Kalmichkov",
+          "position": "\u200B",
+          "direction": "Freiwilliger"
+        },
+        "nine": {
+          "name": "Biryukov Vitaliy",
+          "position": "Projektmanager",
+          "direction": "Freiwilliger"
+        },
+        "ten": {
+          "name": "Dmytro Volodymyrovych",
+          "position": "Marketing- und WEB-Entwicklungsabteilung Marketing-Abteilung-Spezialist",
+          "direction": ""
+        }
+      }
+    },
+    "awards": "Auszeichnungen und Dank an den Fonds"
+  },
+  "payment": {
+    "title": {
+      "one": "Unterstützen Sie die Reparatur und Lieferung von Fahrzeugen für die Streitkräfte der Ukraine.",
+      "two": "Jeder Hrywnia bringt uns näher an den Sieg. Wir sammeln Gelder, um Fahrzeuge für Einheiten, die kampf- missionen an der Front ausführen, zu reparieren. Ihr Beitrag ist ein Schritt in Richtung Sicherheit und Erfolg unserer Verteidiger."
+    }
+  },
+  "form" : {
+    "support": {
+      "title": "Anfrage für Autolieferung",
+      "button": "Senden",
+      "email": {
+        "label": "E-Mail-Adresse *",
+        "support-text": "Alle Kommunikation mit Ihnen wird per E-Mail durchgeführt, daher geben Sie bitte eine gültige E-Mail-Adresse an und überprüfen Sie Ihren Spam-Ordner. Das Ergebnis Ihrer Anfrage-Überprüfung wird an die angegebene E-Mail-Adresse gesendet."
+      },
+      "name": "Bewerber's vollständiger Name",
+      "status": "Status (Angehöriger der Streitkräfte, Freiwilliger)",
+      "phone": {
+        "label": "Telefonnummer",
+        "placeholder": ""
+      },
+      "auto": "Marke und Modell des Autos",
+      "fuel":  {
+        "label": "Kraftstoffart",
+        "variants": {
+          "one": "Diesel",
+          "two": "Benzin"
+        }
+      },
+      "transmission":  {
+        "label": "Art der Übertragung",
+        "variants": {
+          "one": "Manuell",
+          "two": "Automatik"
+        }
+      },
+      "drive":  {
+      "label": "Antriebsart",
+      "variants": {
+        "one": "Frontantrieb",
+        "two": "Allradantrieb"
+      }
+    },
+    "comment": "Kommentar",
+    "agree": "Ich stimme der Verarbeitung persönlicher Daten zu.",
+    "error": {
+      "required": "Dieses Feld ist erforderlich.",
+      "min": "Die Mindestanzahl an Zeichen beträgt {number}.",
+      "max": "Die maximale Zeichenanzahl beträgt {number}.",
+      "email": "Bitte eine gültige E-Mail-Adresse eingeben, z. B. example@gmail.com.",
+      "name": "Bitte einen gültigen Namen eingeben.",
+      "status": "Bitte einen Status auswählen.",
+      "phone": "Die Telefonnummer enthält ungültige Zeichen.",
+      "auto": "Bitte ein Fahrzeugmodell auswählen.",
+      "fuel": "Bitte eine Kraftstoffart auswählen.",
+      "transmission": "Bitte einen Getriebetyp auswählen.",
+      "drive": "Bitte einen Antriebstyp auswählen.",
+      "comment": "Bitte einen Kommentar eingeben.",
+      "accept": "Sie müssen der Verarbeitung Ihrer personenbezogenen Daten zustimmen."
+    }
+    },
+    "success": {
+      "title": "Vielen Dank für Ihre Anfrage! Wir werden uns in Kürze bei Ihnen melden."
+    },
+    "error": {
+      "title": "Oops... etwas ist schiefgelaufen.",
+      "subtitle": "Aber wir glauben: selbst ein kleiner Schritt zurück ist ein Weg zu einer großen Sache.",
+      "button": "Zurückkehren"
+    },
+    "partners": {
+      "title": "Partner werden",
+      "description-one": "Machen Sie mit als Partner - wir verändern gemeinsam!",
+      "description-two": "Partnerschaft bedeutet mehr als Unterstützung. Es ist eine gemeinsame Handlung für den Sieg und gute Sache.",
+      "form": {
+        "personal": {
+          "title": "Information über das Unternehmen/die Person",
+          "name": "Name oder Organisation",
+          "person": "Ansprechpartner",
+          "email": "E-Mail",
+          "phone": "Telefon",
+          "cite": "Link zur Website / sozialen Medien"
+        },
+        "type": {
+          "title": "Partnerschaftstyp",
+          "financial": "Finanzielle Unterstützung",
+          "material": "Materielle Unterstützung",
+          "media": "Informationelle/Medienunterstützung ",
+          "volunteering": "Freiwilligendienst / Dienstleistungen",
+          "other": "Anderes (angeben)"
+        },
+        "comment": "Kommentar/Nachricht",
+        "document": "Hinzufügen von Dokumenten / Präsentationen",
+        "personal-data": "Ich stimme der Verarbeitung persönlicher Daten zu.",
+        "button": "Partner werden"
+      },
+      "error": {
+        "required": "Dieses Feld ist erforderlich.",
+        "min": "Die Mindestanzahl an Zeichen beträgt {number}.",
+        "max": "Die maximale Zeichenanzahl beträgt {number}.",
+        "email": "Bitte eine gültige E-Mail-Adresse eingeben, z. B. example@gmail.com.",
+        "name": "Bitte einen gültigen Namen eingeben.",
+        "status": "Bitte einen Status auswählen.",
+        "phone": "Die Telefonnummer enthält ungültige Zeichen.",
+        "auto": "Bitte ein Fahrzeugmodell auswählen.",
+        "fuel": "Bitte eine Kraftstoffart auswählen.",
+        "transmission": "Bitte einen Getriebetyp auswählen.",
+        "drive": "Bitte einen Antriebstyp auswählen.",
+        "comment": "Bitte einen Kommentar eingeben.",
+        "accept": "Sie müssen der Verarbeitung Ihrer personenbezogenen Daten zustimmen.",
+        "partnership": "Wählen Sie mindestens eine Option aus."
+      }
+    },
+    "payment": {
+      "title": "Unterstützen Sie unsere Mission.",
+      "subtitle": "Machen Sie eine Spende - jeder Hrywnja ist wichtig.",
+      "payment-button": "Unterstützung",
+      "name": "Hilf uns, dem Sieg näher zu kommen",
+      "description": "Kraftstoff und Ersatzteile - das sind die Dinge, ohne die kein Pickup fahren kann. Trage deinen Teil zuverlässiger Technik für Verteidiger bei. Jede Spende ist ein Schritt in Richtung Sieg.",
+      "error": {
+        "min": "Der Mindestbetrag beträgt 50 UAH"
+      },
+      "privat": {
+        "title": "Man kann eine Spende machen.",
+        "details-one": "Übersetzung nicht möglich da die folgenden Texte Nummern oder Symbole sind:",
+        "details-two": "Код отримувача: 44748259",
+        "details-three": "Рахунок отримувача: UA143052990000026008035903939",
+        "details-four": "",
+        "details-five": "",
+        "details": "Übersetzung nicht möglich da die folgenden Texte Nummern oder Symbole sind: Код отримувача: 44748259 Рахунок отримувача: UA143052990000026008035903939"
+      },
+      "cryptocurrency": {
+        "title": "Kryptowährung"
+      },
+      "donate": {
+        "title": "Spenden aus Europa USA",
+        "button": "Spenden",
+        "subtitle": "WARNUNG!",
+        "description": "Geben Sie im Feld „Zahlungszweck“ unbedingt <strong>„Wohltätigkeitsorganisation“</strong> an. Jede andere Formulierung kann zu einer automatischen Rückerstattung führen. Bei Fragen rufen Sie bitte an: +1 (661) 974-5777 (Viber, WhatsApp)"
+      }, 
+      "moneyInfo": "{amount} UAH"
+    }
+  },
+  "reporting": {
+    "title": "Berichterstattung",
+    "subtitle": "Erfolgreich abgeschlossene Projekte",
+    "description": "Erfolgreich erfüllte Anfragen für die Lieferung von Fahrzeugen aus dem Ausland für Militärpersonal.",
+    "button": "Einzelheiten",
+    "list": {
+      "one": {
+        "title": "Das Auto wurde an den Soldaten geliefert."
+      },
+      "two": {
+        "title": "Das Auto Volvo XC90 wird an das Militär geliefert."
+      },
+      "three": {
+        "title": "Die Militärreifen wurden von Nova Poshta geschickt."
+      },
+      "four": {
+        "title": "Das Auto Mitsubishi L200 und reifen"
+      },
+      "five": {
+        "title": "Das Auto Mazda 5 wurde an die Streitkräfte geliefert."
+      },
+      "six": {
+        "title": "Das Auto wurde an den Soldaten ausgeliefert."
+      },
+      "seven": {
+        "title": "Der Nissan Navara wurde an das Militär ausgeliefert."
+      },
+      "eight": {
+        "title": "Der KIA Wagen wurde an das Militär ausgeliefert."
+      },
+      "nine": {
+        "title": "Das Renault-Auto wurde an das Militär geliefert."
+      }
+    }
+  },
+  "donate-success": {
+    "title": "Vielen Dank für Ihre Unterstützung!",
+    "subtitle": "Ihre Zahlung wurde erfolgreich verarbeitet."
+  }
+}

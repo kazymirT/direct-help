@@ -2,7 +2,6 @@ import CryptoForm from "./CryptoForm"
 import EuropeForm from "./EuropeForm"
 import PayForm from "./PayForm"
 import PrivatForm from "./PrivatForm"
-import PersonalForm from "./PersonalForm"
 import { getTranslations } from "next-intl/server"
 
 const DonateForm = async () => {
@@ -15,7 +14,6 @@ const DonateForm = async () => {
       <PrivatForm/>
       <CryptoForm />
       <EuropeForm />
-      <PersonalForm />
     </section>
   )
 }

@@ -299,7 +299,6 @@
         "subtitle": "WARNUNG!",
         "description": "Geben Sie im Feld „Zahlungszweck“ unbedingt <strong>„Wohltätigkeitsorganisation“</strong> an. Jede andere Formulierung kann zu einer automatischen Rückerstattung führen. Bei Fragen rufen Sie bitte an: +1 (661) 974-5777 (Viber, WhatsApp)"
       }, 
-      "personal": "Ich stimme der Verarbeitung personenbezogener Daten zu.",
       "moneyInfo": "{amount} UAH"
     }
   },

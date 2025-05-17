@@ -35,13 +35,12 @@ export async function POST(req: NextRequest) {
     });
 
     return NextResponse.json({ url: session.url });
-
   } catch (err) {
-  const error = err as { message?: string; statusCode?: number };
+    const error = err as { message?: string; statusCode?: number };
 
-  return NextResponse.json(
-    { error: error.message || 'Помилка при створенні сесії' },
-    { status: error.statusCode || 500 }
-  );
-}
-}
+    return NextResponse.json(
+      { error: error.message || 'Помилка при створенні сесії' },
+      { status: error.statusCode || 500 }
+    );
+  }
+};

@@ -10,20 +10,23 @@ export async function POST(req: NextRequest) {
 
     const parsed = schema.safeParse(body);
     if (!parsed.success) {
-      return NextResponse.json({ success: false, error: 'Validation error' }, { status: 400 });
+      return NextResponse.json(
+        { success: false, error: 'Validation error' },
+        { status: 400 }
+      );
     }
 
     await transporter.sendMail({
       from: process.env.EMAIL_SEND_FROM,
       to: process.env.EMAIL_SEND_TO,
-      subject: "Нова запит на допомогу",
+      subject: 'Нова запит на допомогу',
       text: JSON.stringify(parsed.data, null, 2),
       html: generateSupportEmail(parsed.data),
     });
 
     return NextResponse.json({ success: true }, { status: 200 });
   } catch (err) {
-    console.error("Send error", err);
+    console.error('Send error', err);
     return NextResponse.json({ success: false }, { status: 500 });
   }
 }

@@ -28,7 +28,14 @@ const PartnershipCheckbox = ({
     trigger(name);
   };
 
-  return <Checkbox {...register(fullName)} onChange={handleChange} label={label} id={field} />;
+  return (
+    <Checkbox
+      {...register(fullName)}
+      onChange={handleChange}
+      label={label}
+      id={field}
+    />
+  );
 };
 
 interface GroupProps {
@@ -40,7 +47,10 @@ interface GroupProps {
 export const CheckboxGroup = ({ register, trigger, errors }: GroupProps) => {
   const t = useTranslations('form.partners.form');
 
-  const options: { field: keyof PartnersValues['partnership']; label: string }[] = [
+  const options: {
+    field: keyof PartnersValues['partnership'];
+    label: string;
+  }[] = [
     { field: 'donation', label: t('type.financial') },
     { field: 'material', label: t('type.material') },
     { field: 'media', label: t('type.media') },
@@ -49,8 +59,8 @@ export const CheckboxGroup = ({ register, trigger, errors }: GroupProps) => {
   ];
 
   return (
-    <div className="pt-[19px] xl:pt-[27px] relative">
-      <div className="flex flex-wrap justify-between max-md:gap-[22px] gap-y-[24px]">
+    <div className="relative pt-[19px] xl:pt-[27px]">
+      <div className="flex flex-wrap justify-between gap-y-[24px] max-md:gap-[22px]">
         {options.map((opt) => (
           <PartnershipCheckbox
             key={opt.field}
@@ -63,7 +73,9 @@ export const CheckboxGroup = ({ register, trigger, errors }: GroupProps) => {
         ))}
       </div>
       {errors.partnership?.message && (
-        <p className="text-[#b71010] text-xs absolute -bottom-6 left-0">{errors.partnership.message}</p>
+        <p className="absolute -bottom-6 left-0 text-xs text-[#b71010]">
+          {errors.partnership.message}
+        </p>
       )}
     </div>
   );

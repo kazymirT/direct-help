@@ -1,14 +1,17 @@
-import { NextRequest, NextResponse } from 'next/server'
-import { headers } from 'next/headers'
+import { NextRequest, NextResponse } from 'next/server';
+import { headers } from 'next/headers';
 
-import { stripe } from '../../../lib/stripe'
+import { stripe } from '../../../lib/stripe';
 
 export async function POST(req: NextRequest) {
   try {
     const { amount, name, description } = await req.json();
 
     if (!amount || amount < 5000) {
-      return NextResponse.json({ error: 'Мінімальна сума — 50 грн' }, { status: 400 });
+      return NextResponse.json(
+        { error: 'Мінімальна сума — 50 грн' },
+        { status: 400 }
+      );
     }
 
     const headersList = headers();
@@ -24,7 +27,7 @@ export async function POST(req: NextRequest) {
               name,
               description,
               images: [`${origin}/direct-help.png`],
-            }
+            },
           },
           quantity: 1,
         },
@@ -43,4 +46,4 @@ export async function POST(req: NextRequest) {
       { status: error.statusCode || 500 }
     );
   }
-};
+}

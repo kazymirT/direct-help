@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
 
 type ModalProps = {
   children: ReactNode;
@@ -8,15 +8,15 @@ type ModalProps = {
 export function Modal({ children, onClose }: ModalProps) {
   return (
     <div
-      className="fixed inset-0 w-full h-[100dvh] bg-black/50 backdrop-blur-sm flex items-center justify-center z-50"
+      className="fixed inset-0 z-50 flex h-[100dvh] w-full items-center justify-center bg-black/50 backdrop-blur-sm"
       onClick={onClose}
     >
       <div
-        className="h-[80dvh] lg:h-[90dvh] max-w-[80vw] aspect-[0.763] relative flex justify-center items-center rounded-xl"
+        className="relative flex aspect-[0.763] h-[80dvh] max-w-[80vw] items-center justify-center rounded-xl lg:h-[90dvh]"
         onClick={(e) => e.stopPropagation()}
       >
         <button
-          className="absolute top-5 right-7 text-[#786F6F] md:hover:text-white md:hover:cursor-pointer"
+          className="absolute top-5 right-7 text-[#786F6F] md:hover:cursor-pointer md:hover:text-white"
           onClick={onClose}
         >
           ✕

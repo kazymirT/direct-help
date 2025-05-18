@@ -167,7 +167,7 @@
       "two": "Every hryvnia brings us closer to victory. We are raising funds to repair vehicles for units performing combat missions on the front lines. Your contribution is a step towards the safety and success of our defenders."
     }
   },
-  "form" : {
+  "form": {
     "support": {
       "title": "Request for Car Delivery",
       "button": "Send",
@@ -182,45 +182,45 @@
         "placeholder": ""
       },
       "auto": "Brand and model of the car",
-      "fuel":  {
+      "fuel": {
         "label": "Fuel type",
         "variants": {
           "one": "Petrol",
           "two": "Diesel"
         }
       },
-      "transmission":  {
+      "transmission": {
         "label": "Type of transmission",
         "variants": {
           "one": "Mechanical",
           "two": "Automatic"
         }
       },
-      "drive":  {
-      "label": "Drive type",
-      "variants": {
-        "one": "All-wheel drive / AWD",
-        "two": "Front-wheel drive"
+      "drive": {
+        "label": "Drive type",
+        "variants": {
+          "one": "All-wheel drive / AWD",
+          "two": "Front-wheel drive"
+        }
+      },
+      "comment": "Comment",
+      "agree": "I agree to the processing of personal data.",
+      "error": {
+        "required": "This field is required.",
+        "min": "Minimum length is {number} characters.",
+        "max": "Maximum length is {number} characters.",
+        "email": "Please enter a valid email address like example@gmail.com.",
+        "name": "Please enter a valid name.",
+        "status": "Please enter a valid status.",
+        "phone": "Phone number contains invalid characters.",
+        "auto": "Please select a car model.",
+        "fuel": "Please select a fuel type.",
+        "transmission": "Please select a transmission type.",
+        "drive": "Please select a drive type.",
+        "comment": "Please enter a comment.",
+        "accept": "You must agree to the processing of your personal data.",
+        "partnership": "Select at least one option"
       }
-    },
-    "comment": "Comment",
-    "agree": "I agree to the processing of personal data.",
-    "error": {
-      "required": "This field is required.",
-      "min": "Minimum length is {number} characters.",
-      "max": "Maximum length is {number} characters.",
-      "email": "Please enter a valid email address like example@gmail.com.",
-      "name": "Please enter a valid name.",
-      "status": "Please enter a valid status.",
-      "phone": "Phone number contains invalid characters.",
-      "auto": "Please select a car model.",
-      "fuel": "Please select a fuel type.",
-      "transmission": "Please select a transmission type.",
-      "drive": "Please select a drive type.",
-      "comment": "Please enter a comment.",
-      "accept": "You must agree to the processing of your personal data.",
-      "partnership": "Select at least one option"
-    }
     },
     "success": {
       "title": "Thank you for your inquiry! You will be contacted by us soon."
@@ -299,7 +299,7 @@
         "button": "Donate",
         "subtitle": "Attention!",
         "description": "In the “Payment Purpose” field, be sure to indicate: <strong>”Charity”</strong> Any other wording may result in an automatic refund. If you have any questions, please call: +1 (661) 974-5777 (Viber, WhatsApp)"
-      }, 
+      },
       "moneyInfo": "{amount} ua"
     }
   },

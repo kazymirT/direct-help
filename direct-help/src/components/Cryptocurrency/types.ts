@@ -1,4 +1,4 @@
-import { ClipboardButtonProps } from "../ClipboardButton/ClipboardButton";
+import { ClipboardButtonProps } from '../ClipboardButton/ClipboardButton';
 
 export interface CryptocurrencyProps extends ClipboardButtonProps {
   title?: string;

@@ -1,6 +1,7 @@
-import { TextareaHTMLAttributes } from "react";
+import { TextareaHTMLAttributes } from 'react';
 
-export interface TextareaProps extends TextareaHTMLAttributes<HTMLTextAreaElement> {
+export interface TextareaProps
+  extends TextareaHTMLAttributes<HTMLTextAreaElement> {
   errorMessage?: string;
   requiredMessage?: boolean;
   onFocus?: () => void;

@@ -167,7 +167,7 @@
       "two": "Jeder Hrywnia bringt uns näher an den Sieg. Wir sammeln Gelder, um Fahrzeuge für Einheiten, die kampf- missionen an der Front ausführen, zu reparieren. Ihr Beitrag ist ein Schritt in Richtung Sicherheit und Erfolg unserer Verteidiger."
     }
   },
-  "form" : {
+  "form": {
     "support": {
       "title": "Anfrage für Autolieferung",
       "button": "Senden",
@@ -182,44 +182,44 @@
         "placeholder": ""
       },
       "auto": "Marke und Modell des Autos",
-      "fuel":  {
+      "fuel": {
         "label": "Kraftstoffart",
         "variants": {
           "one": "Diesel",
           "two": "Benzin"
         }
       },
-      "transmission":  {
+      "transmission": {
         "label": "Art der Übertragung",
         "variants": {
           "one": "Manuell",
           "two": "Automatik"
         }
       },
-      "drive":  {
-      "label": "Antriebsart",
-      "variants": {
-        "one": "Frontantrieb",
-        "two": "Allradantrieb"
+      "drive": {
+        "label": "Antriebsart",
+        "variants": {
+          "one": "Frontantrieb",
+          "two": "Allradantrieb"
+        }
+      },
+      "comment": "Kommentar",
+      "agree": "Ich stimme der Verarbeitung persönlicher Daten zu.",
+      "error": {
+        "required": "Dieses Feld ist erforderlich.",
+        "min": "Die Mindestanzahl an Zeichen beträgt {number}.",
+        "max": "Die maximale Zeichenanzahl beträgt {number}.",
+        "email": "Bitte eine gültige E-Mail-Adresse eingeben, z. B. example@gmail.com.",
+        "name": "Bitte einen gültigen Namen eingeben.",
+        "status": "Bitte einen Status auswählen.",
+        "phone": "Die Telefonnummer enthält ungültige Zeichen.",
+        "auto": "Bitte ein Fahrzeugmodell auswählen.",
+        "fuel": "Bitte eine Kraftstoffart auswählen.",
+        "transmission": "Bitte einen Getriebetyp auswählen.",
+        "drive": "Bitte einen Antriebstyp auswählen.",
+        "comment": "Bitte einen Kommentar eingeben.",
+        "accept": "Sie müssen der Verarbeitung Ihrer personenbezogenen Daten zustimmen."
       }
-    },
-    "comment": "Kommentar",
-    "agree": "Ich stimme der Verarbeitung persönlicher Daten zu.",
-    "error": {
-      "required": "Dieses Feld ist erforderlich.",
-      "min": "Die Mindestanzahl an Zeichen beträgt {number}.",
-      "max": "Die maximale Zeichenanzahl beträgt {number}.",
-      "email": "Bitte eine gültige E-Mail-Adresse eingeben, z. B. example@gmail.com.",
-      "name": "Bitte einen gültigen Namen eingeben.",
-      "status": "Bitte einen Status auswählen.",
-      "phone": "Die Telefonnummer enthält ungültige Zeichen.",
-      "auto": "Bitte ein Fahrzeugmodell auswählen.",
-      "fuel": "Bitte eine Kraftstoffart auswählen.",
-      "transmission": "Bitte einen Getriebetyp auswählen.",
-      "drive": "Bitte einen Antriebstyp auswählen.",
-      "comment": "Bitte einen Kommentar eingeben.",
-      "accept": "Sie müssen der Verarbeitung Ihrer personenbezogenen Daten zustimmen."
-    }
     },
     "success": {
       "title": "Vielen Dank für Ihre Anfrage! Wir werden uns in Kürze bei Ihnen melden."
@@ -298,7 +298,7 @@
         "button": "Spenden",
         "subtitle": "WARNUNG!",
         "description": "Geben Sie im Feld „Zahlungszweck“ unbedingt <strong>„Wohltätigkeitsorganisation“</strong> an. Jede andere Formulierung kann zu einer automatischen Rückerstattung führen. Bei Fragen rufen Sie bitte an: +1 (661) 974-5777 (Viber, WhatsApp)"
-      }, 
+      },
       "moneyInfo": "{amount} UAH"
     }
   },

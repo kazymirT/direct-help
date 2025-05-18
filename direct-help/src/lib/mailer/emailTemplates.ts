@@ -1,4 +1,4 @@
-import { PartnersValues, SupportValues } from "@/lib/validateSchema";
+import { PartnersValues, SupportValues } from '@/lib/validateSchema';
 
 export const generateSupportEmail = (data: SupportValues) => `
   <h2>Заявка на підтримку</h2>
@@ -25,7 +25,7 @@ export const generatePartnersEmail = (data: PartnersValues) => {
     other && `Інше`,
   ]
     .filter(Boolean)
-    .map(type => `<p>Тип партнерства: ${type}</p>`)
+    .map((type) => `<p>Тип партнерства: ${type}</p>`)
     .join('');
 
   return `
